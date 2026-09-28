@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>F*CK SMALL TALKS — The card game that skips the boring part</title>
+<meta name="description" content="Nobody cares what you do for a living. Tell me your biggest fear. A card game that gets you from “hi” to real talk in minutes."/>
+<meta property="og:title" content="F*CK SMALL TALKS"/>
+<meta property="og:description" content="Nobody cares what you do for a living. Tell me your biggest fear."/>
+<meta property="og:image" content="img/group6.jpg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@500;600&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --paper:#F4F1EA;--paper2:#E6E1D7;--ink:#161412;--orange:#EB5A1E;--orange-dk:#C8420C;
+  --muted:#4A453E;--line:#D9D3C7;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--paper);color:var(--ink);font-family:'Space Grotesk',sans-serif;font-size:18px;line-height:1.55;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:var(--ink)}a:hover{color:var(--orange-dk)}
+.wrap{max-width:1440px;margin:0 auto;padding:0 64px}
+.display{font-family:Anton,'Arial Narrow',sans-serif;font-weight:400;text-transform:uppercase;line-height:.9}
+.serif{font-family:'Instrument Serif',serif;font-style:italic;text-transform:none}
+.kicker{font-size:14px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--orange-dk)}
+.o{color:var(--orange)}.odk{color:var(--orange-dk)}
+section{padding:110px 0}
+h2.display{font-size:clamp(56px,8vw,120px)}
+.grid12{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px}
+.btn{display:inline-block;text-decoration:none;font-family:Anton,sans-serif;text-transform:uppercase;letter-spacing:.02em;font-size:24px;padding:18px 32px;border:2px solid var(--ink);cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translate(-2px,-2px)}
+.btn-o{background:var(--orange);color:var(--ink);box-shadow:6px 6px 0 var(--ink)}
+.btn-o:hover{color:var(--ink);box-shadow:8px 8px 0 var(--ink)}
+.btn-k{background:var(--ink);color:var(--paper);box-shadow:6px 6px 0 var(--orange)}
+.btn-k:hover{color:var(--paper)}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:40;background:rgba(244,241,234,.94);backdrop-filter:blur(8px);border-bottom:2px solid var(--ink)}
+nav .wrap{height:80px;display:flex;align-items:center;justify-content:space-between}
+.logo{text-decoration:none;font-family:Anton,sans-serif;font-size:28px;display:flex;align-items:baseline;gap:8px}
+.logo .star{color:var(--orange)}
+.logo .tag{background:var(--orange);padding:0 8px}
+.navlinks{display:flex;align-items:center;gap:36px;font-size:15px;font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.navlinks a{text-decoration:none}
+.navlinks .mb{display:none}
+.navlinks .cta{background:var(--ink);color:var(--paper);padding:13px 20px;box-shadow:4px 4px 0 var(--orange)}
+
+/* INTRO */
+.intro{position:fixed;inset:0;background:var(--ink);z-index:100;overflow:hidden;perspective:1400px;animation:curtain .9s cubic-bezier(.7,0,.2,1) 2.6s forwards}
+@keyframes curtain{to{transform:translateY(-105%);visibility:hidden}}
+.intro-txt{position:absolute;left:16px;right:16px;top:12vh;text-align:center;font-family:Anton,sans-serif;font-size:clamp(34px,5vw,64px);text-transform:uppercase;color:var(--paper);opacity:0;animation:fadeup .6s ease 1.1s forwards}
+@keyframes fadeup{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.deal{position:absolute;left:50%;top:50%;width:min(300px,42vw);aspect-ratio:533/900;margin:-12% 0 0 calc(min(300px,42vw)/-2);border-radius:22px;background:url(img/cardback.jpg) center/cover;box-shadow:0 30px 60px rgba(0,0,0,.45);opacity:0;animation:drop .7s cubic-bezier(.2,.9,.25,1.15) forwards,fan .8s cubic-bezier(.6,0,.2,1) 1.5s forwards}
+.d1{animation-delay:.05s,1.5s;--fx:-160%;--fr:-24deg}.d2{animation-delay:.2s,1.5s;--fx:-80%;--fr:-12deg}.d3{animation-delay:.35s,1.5s;--fx:0%;--fr:0deg}.d4{animation-delay:.5s,1.5s;--fx:80%;--fr:12deg}.d5{animation-delay:.65s,1.5s;--fx:160%;--fr:24deg}
+@keyframes drop{0%{opacity:0;transform:translate3d(0,-900px,400px) rotateX(70deg) rotateZ(-30deg)}100%{opacity:1;transform:none}}
+@keyframes fan{to{opacity:1;transform:translate3d(var(--fx),40px,0) rotateZ(var(--fr))}}
+
+/* HERO */
+#top{padding:72px 0 64px}
+.hero{align-items:end}
+.hero-l{grid-column:span 7;display:flex;flex-direction:column;gap:40px}
+.eyebrow{display:flex;align-items:center;gap:12px;font-size:14px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.eyebrow::before{content:'';width:40px;height:2px;background:var(--ink)}
+h1.display{font-size:clamp(64px,11.5vw,168px);line-height:.86}
+h1 .strike{font-size:.9em;color:#8A8378;text-decoration:line-through;text-decoration-color:var(--orange);text-decoration-thickness:.06em}
+.hero-row{display:flex;gap:48px;align-items:flex-end;flex-wrap:wrap}
+.hero-row p{max-width:420px;font-size:22px;line-height:1.45}
+.hero-ctas{display:flex;flex-direction:column;gap:14px;text-align:center}
+.hero-ctas small{font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.hero-r{grid-column:span 5;position:relative;height:720px}
+.arch{position:absolute;inset:40px 0 40px 40px;background:var(--orange);border-radius:300px 300px 24px 24px}
+.stage{position:absolute;left:130px;top:110px;width:340px;height:520px;perspective:1600px}
+.spin{position:relative;width:100%;height:100%;transform-style:preserve-3d;animation:spin360 9s cubic-bezier(.45,.05,.55,.95) infinite}
+.spin:hover{animation-play-state:paused}
+@keyframes spin360{0%{transform:rotateX(8deg) rotateY(0)}50%{transform:rotateX(-6deg) rotateY(180deg)}100%{transform:rotateX(8deg) rotateY(360deg)}}
+.side{position:absolute;inset:0;border-radius:26px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 40px 80px rgba(22,20,18,.35)}
+.side.back{background:url(img/cardback.jpg) center/cover}
+.side.face{transform:rotateY(180deg);background:#FCE9E8;color:#8E1B22;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:70px 36px 36px;text-align:center;font-family:Fredoka,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.side.face .q{font-size:30px;line-height:1.25}
+.side.face .cat{position:absolute;bottom:32px;left:0;right:0;font-size:14px;letter-spacing:.14em}
+.orbit{position:absolute;width:250px;height:382px;border-radius:20px;box-shadow:0 24px 50px rgba(22,20,18,.3);animation:orbit 12s ease-in-out infinite}
+.orbit.a{left:70px;top:190px;--r:-14deg;background:url(img/cardback.jpg) center/cover}
+.orbit.b{left:300px;top:230px;--r:12deg;animation-delay:-6s;background:#D4EAF6;color:#175A74;display:flex;align-items:center;justify-content:center;padding:30px;text-align:center;font-family:Fredoka,sans-serif;font-weight:600;font-size:22px;line-height:1.25;text-transform:uppercase;letter-spacing:.04em}
+@keyframes orbit{0%,100%{transform:translateY(0) rotate(var(--r))}50%{transform:translateY(-26px) rotate(calc(var(--r) + 6deg))}}
+.bubble{position:absolute;left:0;top:120px;background:var(--ink);color:var(--paper);padding:16px 22px;border-radius:22px 22px 22px 4px;font-size:20px;font-weight:500;transform:rotate(-5deg)}
+.bubble2{position:absolute;right:-8px;top:600px;background:var(--paper);border:2px solid var(--ink);padding:14px 22px;border-radius:22px 22px 4px 22px;font-size:30px;transform:rotate(4deg)}
+.sticker{position:absolute;right:24px;top:16px;width:150px;height:150px;border-radius:75px;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(12deg)}
+.sticker s{font-size:18px;color:#B7AFA2}
+.sticker b{font-family:Anton,sans-serif;font-weight:400;font-size:52px;line-height:1}
+.sticker small{font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+
+/* MARQUEE */
+.marquee{background:var(--ink);color:var(--paper);overflow:hidden;white-space:nowrap;height:96px;display:flex;align-items:center}
+.marquee div{display:inline-flex;gap:40px;font-family:Anton,sans-serif;font-size:34px;text-transform:uppercase;animation:mq 40s linear infinite}
+.marquee i{font-style:normal;color:var(--orange)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* PROBLEM */
+.chat{grid-column:span 5;display:flex;flex-direction:column;gap:14px}
+.msg{align-self:flex-start;background:#fff;border:1.5px solid var(--line);padding:16px 22px;border-radius:24px 24px 24px 6px;font-size:20px;color:#6B655C}
+.msg.me{align-self:flex-end;background:var(--paper2);border-color:var(--paper2);border-radius:24px 24px 6px 24px}
+.chat .kill{align-self:center;margin-top:20px;font-size:34px}
+.pains{grid-column:7/span 6;display:flex;flex-direction:column;gap:40px}
+.pain-list{border-top:2px solid var(--ink)}
+.pain{display:grid;grid-template-columns:80px minmax(0,1fr);padding:24px 0;border-bottom:2px solid var(--ink)}
+.pain .n{font-family:Anton,sans-serif;font-size:34px;color:var(--orange-dk)}
+.pain b{font-size:26px;display:block}
+.pain p{font-size:19px;color:var(--muted);margin-top:6px}
+.shouldnt{font-family:'Instrument Serif',serif;font-size:44px;line-height:1.15}
+
+/* STORY */
+#story{background:var(--ink);color:var(--paper)}
+#story .grid12{align-items:center}
+.story-img{grid-column:span 5;position:relative}
+.story-img img{width:100%;height:700px;object-fit:cover;border-radius:16px}
+.story-img span{position:absolute;left:-20px;bottom:40px;background:var(--orange);color:var(--ink);padding:12px 18px;font-family:Anton,sans-serif;font-size:26px;text-transform:uppercase;transform:rotate(-4deg)}
+.story-txt{grid-column:7/span 6;display:flex;flex-direction:column;gap:22px}
+.story-txt .kicker{color:var(--orange)}
+.story-txt h2{font-size:clamp(52px,6.6vw,96px)}
+.story-txt p{font-size:21px;line-height:1.6;color:var(--line)}
+.story-txt strong{color:var(--paper)}
+.sci{padding:22px 26px;border:1.5px solid #4A453E;border-radius:14px;font-size:17px;color:var(--line)}
+
+/* ROUNDS */
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:56px;flex-wrap:wrap}
+.sec-head p{max-width:380px;font-size:20px}
+.rounds{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.round{min-height:420px;border-radius:22px;padding:30px;display:flex;flex-direction:column;text-align:center;box-shadow:0 20px 40px rgba(22,20,18,.12);font-family:Fredoka,sans-serif;font-weight:600;text-transform:uppercase}
+.round:nth-child(1){transform:rotate(-2deg)}.round:nth-child(2){transform:rotate(1deg)}.round:nth-child(3){transform:rotate(-1deg)}.round:nth-child(4){transform:rotate(2deg)}
+.round .no{font-size:15px;letter-spacing:.16em}
+.round h3{font-weight:600;font-size:30px;letter-spacing:.04em;margin-top:40px}
+.round p{font-family:'Space Grotesk',sans-serif;font-weight:400;text-transform:none;font-size:18px;margin-top:14px;color:var(--ink)}
+.round .cat{margin-top:auto;font-size:13px;letter-spacing:.14em}
+
+/* TRY */
+#try{background:var(--paper2)}
+#try .grid12{align-items:center}
+.table{grid-column:span 6;display:flex;justify-content:center;align-items:center;position:relative;height:640px}
+.table .under{position:absolute;width:380px;height:560px;border-radius:24px;background:url(img/cardback.jpg) center/cover;transform:rotate(-9deg) translateX(-60px);box-shadow:0 30px 60px rgba(22,20,18,.18)}
+.pcard{position:relative;width:380px;height:560px;border:none;padding:0;background:none;cursor:pointer;perspective:1400px}
+.pcard .inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.pcard.flip .inner{transform:rotateY(180deg)}
+.pcard .f{position:absolute;inset:0;border-radius:24px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 40px 80px rgba(22,20,18,.25)}
+.pcard .f.back{background:url(img/cardback.jpg) center/cover}
+.pcard .f.front{transform:rotateY(180deg);display:flex;flex-direction:column;align-items:center;padding:70px 40px 40px;text-align:center;font-family:Fredoka,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.pcard .q{font-size:32px;line-height:1.25}
+.pcard .lockpill{display:none;margin-top:30px;align-items:center;gap:8px;background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;letter-spacing:.1em}
+.pcard.end .lockpill{display:flex}
+.pcard .cat{position:absolute;bottom:34px;left:0;right:0;font-size:14px;letter-spacing:.14em}
+.try-txt{grid-column:8/span 5;display:flex;flex-direction:column;gap:26px}
+.try-txt h2{font-size:clamp(56px,7.6vw,110px)}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pill{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 20px;border-radius:999px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);font:700 15px 'Space Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.pill i{width:14px;height:14px;border-radius:7px}
+.pill.on{background:var(--ink);color:var(--paper)}
+.endnote{display:none;padding:20px 24px;border:2px dashed var(--ink);border-radius:14px;font-size:18px}
+.endnote.show{display:block}
+.endnote a{font-weight:700;color:var(--orange-dk)}
+#next{align-self:flex-start}
+
+/* WHERE */
+.places{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin-top:56px}
+.place{border-top:2px solid var(--ink);padding-top:20px;display:flex;flex-direction:column;gap:10px}
+.place b{font-size:26px}
+.place p{font-size:18px;color:var(--muted)}
+.place .say{font-size:26px;color:var(--orange-dk)}
+
+/* GALLERY */
+.gallery{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-template-rows:repeat(2,340px);gap:24px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:20px}
+.gallery .big{grid-column:span 7;grid-row:span 2}
+.gallery .sm{grid-column:span 5}
+
+/* CHANGE */
+#change{background:var(--orange)}
+#change h2 .serif{font-size:1.07em}
+.ba{display:flex;flex-direction:column;gap:18px;margin-top:48px}
+.ba-row{display:grid;grid-template-columns:minmax(0,1fr) 60px minmax(0,1fr);align-items:center;gap:16px}
+.ba-row .before{padding:22px 26px;font-size:20px;text-decoration:line-through;text-decoration-thickness:2px;opacity:.75}
+.ba-row .after{padding:22px 26px;background:var(--paper);border:2px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);font-size:20px;font-weight:500}
+
+/* RULES */
+#rules .grid12{align-items:center}
+.rules-img{grid-column:span 5;height:560px;background:#fff;border-radius:24px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.rules-img img{width:560px;max-width:none;height:560px;object-fit:cover;transform:rotate(-4deg)}
+.rules-txt{grid-column:7/span 6;display:flex;flex-direction:column;gap:24px}
+.rules-list{display:flex;flex-direction:column;gap:10px;font-size:22px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1.35}
+.fx{display:flex;flex-wrap:wrap;gap:10px}
+.fx span{padding:10px 18px;border:2px solid var(--ink);border-radius:999px;font-size:16px;font-weight:500}
+.fx .k{background:var(--ink);color:var(--paper)}.fx .or{background:var(--orange)}
+.label2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;font-size:15px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+
+/* BUY */
+#buy{background:var(--ink);color:var(--paper)}
+#buy .grid12{align-items:center}
+.buy-txt{grid-column:span 6;display:flex;flex-direction:column;gap:26px}
+.buy-txt .serif{font-size:38px;color:#B7AFA2}
+.buy-txt h2{font-size:clamp(60px,9vw,130px);line-height:.86}
+.price{display:flex;align-items:baseline;gap:22px;flex-wrap:wrap}
+.price b{font-family:Anton,sans-serif;font-weight:400;font-size:140px;line-height:1;color:var(--orange)}
+.price s{font-size:36px;color:#8A8378}
+.price span{padding:8px 14px;background:var(--paper);color:var(--ink);font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;border-radius:6px}
+.incl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;font-size:18px;color:var(--line)}
+.pay{display:flex;gap:16px;flex-wrap:wrap}
+#buy .btn-o{border-color:var(--paper);box-shadow:6px 6px 0 var(--paper)}
+#buy .btn-ghost{color:var(--paper);border-color:var(--paper);background:none}
+.paynote{font-size:15px;color:#B7AFA2}
+.buy-img{grid-column:8/span 5}
+.buy-img img{width:100%;height:620px;object-fit:cover;border-radius:24px}
+
+/* FAQ */
+.faq-h{grid-column:span 4}
+.faq{grid-column:6/span 7;border-top:2px solid var(--ink)}
+.faq details{padding:24px 0;border-bottom:2px solid var(--ink)}
+.faq summary{font-size:24px;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq summary::after{content:'+';color:var(--orange-dk)}
+.faq details[open] summary::after{content:'−'}
+.faq p{font-size:18px;color:var(--muted);margin-top:8px}
+
+footer{border-top:2px solid var(--ink);padding:40px 0;font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+
+.reveal{opacity:0;transform:translateY(30px);transition:.9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* PHONE / TABLET */
+@media (max-width:1000px){
+  .wrap{padding:0 20px}
+  section{padding:72px 0}
+  .navlinks a:not(.cta){display:none}
+  nav .wrap{height:64px}
+  .logo{font-size:20px;gap:5px;white-space:nowrap}
+  .navlinks .cta{font-size:12px;padding:10px 12px;white-space:nowrap}
+  .navlinks .dk{display:none}.navlinks .mb{display:inline}
+  .grid12{display:flex;flex-direction:column;gap:40px}
+  .hero-r{height:560px;width:100%;max-width:440px;margin:0 auto}
+  .arch{inset:30px 0 30px 20px}
+  .stage{left:50%;top:70px;width:260px;height:398px;margin-left:-130px}
+  .side.face .q{font-size:23px}
+  .orbit{width:180px;height:275px}
+  .orbit.a{left:0;top:150px}.orbit.b{left:auto;right:14px;top:180px;font-size:16px}
+  .bubble{top:40px;font-size:16px}.bubble2{top:480px;right:0;font-size:24px}
+  .sticker{width:110px;height:110px;right:0;top:0}.sticker b{font-size:38px}
+  .hero-row{flex-direction:column;align-items:stretch;gap:28px}
+  .marquee{height:72px}.marquee div{font-size:24px}
+  .story-img img{height:420px}
+  .rounds{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .round{min-height:300px;transform:none!important}
+  .round h3{margin-top:20px}
+  .table{height:500px;width:100%}
+  .pcard,.table .under{width:290px;height:428px}
+  .pcard .q{font-size:24px}.pcard .f.front{padding:50px 28px 28px}
+  .places{grid-template-columns:1fr;gap:28px}
+  .gallery{grid-template-columns:1fr;grid-template-rows:none}
+  .gallery .big,.gallery .sm{grid-column:auto;grid-row:auto;height:300px}
+  .ba-row{grid-template-columns:1fr}
+  .ba-row svg{transform:rotate(90deg);justify-self:center}
+  .rules-img{height:380px}.rules-img img{width:400px;height:400px}
+  .label2,.incl{grid-template-columns:1fr}
+  .price b{font-size:96px}
+  .buy-img img{height:360px}
+  .shouldnt{font-size:32px}
+}
+@media (max-width:560px){.rounds{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){
+  .intro{display:none}.spin,.orbit,.marquee div{animation:none}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- INTRO: the deck drops, fans out, then the curtain lifts -->
+<div class="intro" aria-hidden="true">
+  <div class="intro-txt">Shuffle up. <span class="o">Small talk is dead.</span></div>
+  <div class="deal d1"></div><div class="deal d2"></div><div class="deal d3"></div><div class="deal d4"></div><div class="deal d5"></div>
+</div>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo">F<span class="star">*</span>CK SMALL <span class="tag">TALKS</span></a>
+    <div class="navlinks">
+      <a href="#how">How it works</a>
+      <a href="#try">Free cards</a>
+      <a href="#faq">FAQ</a>
+      <a href="#buy" class="cta"><span class="dk">Get the deck</span><span class="mb">Buy</span> · ₪100</a>
+    </div>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="wrap grid12 hero">
+    <div class="hero-l">
+      <div class="eyebrow">The card game for people who hate small talk</div>
+      <h1 class="display">Nobody<br/>cares <span class="serif strike">what you do</span><br/>for a <span class="o">living.</span></h1>
+      <div class="hero-row">
+        <p>Tell me your biggest fear. Pull one card and skip straight to the real stuff — with your date, your friends, or the stranger in the next bunk.</p>
+        <div class="hero-ctas">
+          <a href="#buy" class="btn btn-o">Get the deck</a>
+          <small><a href="#try">Try free cards ↓</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="hero-r" aria-hidden="true">
+      <div class="arch"></div>
+      <div class="orbit a"></div>
+      <div class="orbit b">What are you still trying to prove to yourself?</div>
+      <div class="stage"><div class="spin">
+        <div class="side back"></div>
+        <div class="side face"><span class="q">What mistakes did your parents make that you want to avoid?</span><span class="cat">Family &amp; relationship</span></div>
+      </div></div>
+      <div class="bubble">“So… what do you do?”</div>
+      <div class="bubble2 serif">Ugh. Pick a card.</div>
+      <div class="sticker"><s>₪175</s><b>₪100</b><small>launch deal</small></div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="problem">
+  <div class="wrap grid12">
+    <div class="chat reveal">
+      <div class="kicker" style="margin-bottom:18px">Sound familiar?</div>
+      <div class="msg">So where are you from?</div>
+      <div class="msg me">Tel Aviv. You?</div>
+      <div class="msg">Cool cool. And what do you do?</div>
+      <div class="msg me">Marketing.</div>
+      <div class="msg">Nice. Crazy weather today, huh?</div>
+      <div class="kill serif">…kill me.</div>
+    </div>
+    <div class="pains reveal">
+      <h2 class="display">You know<br/>this chat.</h2>
+      <div class="pain-list">
+        <div class="pain"><span class="n">01</span><div><b>You go blank.</b><p>You meet someone new and your brain goes empty. So you ask the same three questions. Again.</p></div></div>
+        <div class="pain"><span class="n">02</span><div><b>You feel boring.</b><p>You're scared they'll forget you by tomorrow. Or worse — that they already did.</p></div></div>
+        <div class="pain"><span class="n">03</span><div><b>You want more.</b><p>You don't care about their job. You want to know what keeps them up at night.</p></div></div>
+      </div>
+      <p class="shouldnt">You shouldn't have to waste one more night on talk you'll <em class="odk">forget by morning.</em></p>
+    </div>
+  </div>
+</section>
+
+<section id="story">
+  <div class="wrap grid12">
+    <div class="story-img reveal">
+      <img src="img/group7.jpg" alt="A hand holding a fan of F*ck Small Talks cards"/>
+      <span>Printed. Sold. Printed more.</span>
+    </div>
+    <div class="story-txt reveal">
+      <div class="kicker">Why I made this</div>
+      <h2 class="display">I got sick of it.<br/><span class="o">So I did something.</span></h2>
+      <p>I couldn't take one more “so what do you do?” Not one. I wanted to know people for real — their dreams, their fears, the stuff they never say.</p>
+      <p>So I printed a deck of questions. I walked up to a table of strangers in a hostel and said: <strong>“Wanna play a game?”</strong> By the end we were friends. I sold that deck on the spot. Then I printed more.</p>
+      <p class="serif" style="font-size:34px;color:var(--paper)">— The girl who hates small talk</p>
+      <div class="sci"><strong>Not magic. Science.</strong> In 1997, psychologist Arthur Aron showed that strangers who ask each other questions that get deeper, step by step, feel close in under an hour. That's how this deck is built.</div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="display">Four rounds.<br/>How deep <span class="odk">dare you go?</span></h2>
+      <p>No winners. No points. Pull a card, read it out loud, answer honest, pass the deck. Each round goes deeper. The last one is all about <em>them</em>.</p>
+    </div>
+    <div class="rounds">
+      <div class="round reveal" style="background:#FDF3C7;color:#9A5B00"><span class="no">Round 01</span><h3>Warm up</h3><p>Light &amp; playful. Your camera roll, your guilty pleasures, your weirdest flex.</p><span class="cat">Light &amp; playful</span></div>
+      <div class="round reveal" style="background:#D4EAF6;color:#175A74"><span class="no">Round 02</span><h3>Get real</h3><p>Family, love, dating, the dream you keep putting off.</p><span class="cat">Identity &amp; values</span></div>
+      <div class="round reveal" style="background:#FCE9E8;color:#8E1B22"><span class="no">Round 03</span><h3>No hiding</h3><p>Lies, heartbreaks, guilt. The stuff you never say out loud.</p><span class="cat">Pain &amp; healing</span></div>
+      <div class="round reveal" style="background:#fff;color:#D2470F;border:2px solid #F0D9CC"><span class="no">Round 04</span><h3>About me</h3><p>Now you ask about each other. First impressions. What you'll remember.</p><span class="cat">Legends only</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="try">
+  <div class="wrap grid12">
+    <div class="table">
+      <div class="under"></div>
+      <button type="button" class="pcard" id="pcard" aria-label="Flip the card">
+        <span class="inner">
+          <span class="f back"></span>
+          <span class="f front" id="front"><span class="q" id="q"></span><span class="lockpill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>REST OF THE ROUND IS IN THE DECK</span><span class="cat" id="cat"></span></span>
+        </span>
+      </button>
+    </div>
+    <div class="try-txt reveal">
+      <div class="kicker">Free taste · on the house</div>
+      <h2 class="display">Try it.<br/>Out loud.</h2>
+      <p style="font-size:20px">Tap the card. Read it to whoever's next to you. Yes, out loud. Two free cards from every round. Want the rest? That's in the real deck.</p>
+      <div class="pills" id="pills"></div>
+      <div class="endnote" id="endnote">That was the free taste. The rest of <span id="rname">Round 1</span> lives in the real deck. <a href="#buy">Buy it for ₪100 →</a></div>
+      <button type="button" class="btn btn-k" id="next">Next card →</button>
+    </div>
+  </div>
+</section>
+
+<section id="where">
+  <div class="wrap">
+    <h2 class="display reveal">Anywhere people <span class="odk">run out of<br/>things to say.</span></h2>
+    <div class="places">
+      <div class="place reveal"><b>First dates</b><p>No awkward silence. No panic. Slide the deck over.</p><span class="say serif">“Pick a card.”</span></div>
+      <div class="place reveal"><b>Hostels</b><p>The easiest way into a table of strangers. Leave with friends from five countries.</p><span class="say serif">“Wanna play a game?”</span></div>
+      <div class="place reveal"><b>Family dinners</b><p>Hear the stories nobody told you. From people you thought you knew.</p><span class="say serif">“Mom, your turn.”</span></div>
+      <div class="place reveal"><b>Road trips &amp; tours</b><p>Turn a bus of strangers into a crew. The hours fly.</p><span class="say serif">“Back row, you're up.”</span></div>
+      <div class="place reveal"><b>Teams &amp; groups</b><p>Scouts, courses, new teams. Even the quiet ones talk on their turn.</p><span class="say serif">“Everyone answers.”</span></div>
+      <div class="place reveal"><b>Your best friends</b><p>You've known them for years. You still don't know this.</p><span class="say serif">“Wait… WHAT?”</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap gallery">
+    <img class="big reveal" src="img/group8.jpg" alt="Cards spread out, one asks: what mistakes did your parents make that you want to avoid?"/>
+    <img class="sm reveal" src="img/group6.jpg" alt="Two boxes and a stack of cards"/>
+    <img class="sm reveal" src="img/group2.jpg" alt="Three card backs"/>
+  </div>
+</section>
+
+<section id="change">
+  <div class="wrap">
+    <h2 class="display reveal">Instead of saying this…<br/><span class="serif">you'll say that.</span></h2>
+    <div class="ba">
+      <div class="ba-row reveal"><div class="before">“Every party is the same. Weather, work, where are you from.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“Last night we talked about our wildest dreams and biggest fears. Best party ever.”</div></div>
+      <div class="ba-row reveal"><div class="before">“On dates I panic about what to say next. I'm so boring.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“We laughed about our childhood and what really scares us. We just clicked.”</div></div>
+      <div class="ba-row reveal"><div class="before">“New people? The talk always dies after two minutes.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“Meeting new people is fun now. We go deep, like, right away.”</div></div>
+      <div class="ba-row reveal"><div class="before">“I feel stuck on the surface with my own friends.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“We shared stuff last night we never told anyone. I feel so close to them.”</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="rules">
+  <div class="wrap grid12">
+    <div class="rules-img reveal"><img src="img/card1.jpg" alt="The rules card"/></div>
+    <div class="rules-txt reveal">
+      <div class="kicker">Read the label</div>
+      <h2 class="display">The only rules.</h2>
+      <div class="rules-list">
+        <span><span class="odk">Shut up</span> and, listen for once.</span>
+        <span>What's said here, <span class="odk">stays here.</span></span>
+        <span><span class="odk">Too real?</span> Skip it. We'll pretend we didn't notice.</span>
+      </div>
+      <div class="kicker">Side effects</div>
+      <div class="fx"><span>Mood swings</span><span class="k">Uncontrollable honesty</span><span>Spontaneous life changes</span><span>Increased vulnerability</span><span>Unexpected connections</span><span class="or">Emotional rollercoaster</span></div>
+      <div class="label2">
+        <span><span class="odk">Ages:</span> mature enough to handle truth</span>
+        <span><span class="odk">Contents:</span> countless uncomfortable silences, a few life-changing moments, zero weather-related small talk</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="buy">
+  <div class="wrap grid12">
+    <div class="buy-txt reveal">
+      <p class="serif">Or keep talking about the weather. Your call.</p>
+      <h2 class="display">Quit small talk.<br/><span class="o">Today.</span></h2>
+      <div class="price"><b>₪100</b><s>₪175</s><span>Save ₪75</span></div>
+      <div class="incl"><span>✓ All four rounds</span><span>✓ The rude rules card</span><span>✓ Pocket-size box</span><span>✓ English — play with anyone</span></div>
+      <div class="pay">
+        <a id="paypal" class="btn btn-o" href="#" target="_blank" rel="noopener">Pay with PayPal</a>
+        <a id="bit" class="btn btn-ghost" href="#" target="_blank" rel="noopener">Pay with Bit</a>
+      </div>
+      <p class="paynote">After you pay, I'll message you for your address and shipping.</p>
+    </div>
+    <div class="buy-img reveal"><img src="img/group6.jpg" alt="F*ck Small Talks boxes and cards"/></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap grid12">
+    <h2 class="display faq-h reveal">Before<br/>you ask.</h2>
+    <div class="faq reveal">
+      <details><summary>Isn't a card game weird at 30?</summary><p>For ten seconds. Then someone answers a card, the table goes quiet, and nobody thinks it's weird anymore.</p></details>
+      <details><summary>How many people can play?</summary><p>Two or more. Great one-on-one on a date. Wild with a full hostel table.</p></details>
+      <details><summary>How long does it take?</summary><p>As long as you want. Some people talk for 20 minutes straight — tip: one minute per answer.</p></details>
+      <details><summary>What if I don't want to answer?</summary><p>Too real? Skip it. We'll pretend we didn't notice.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap"><span>© F*ck Small Talks</span><span>fucksmalltalks.com</span><span>Use with caution</span></div>
+</footer>
+
+<script>
+// ——— SET THESE ———
+// PayPal: your PayPal.me handle, e.g. 'fucksmalltalks' → https://paypal.me/fucksmalltalks/100ILS
+// Bit: the payment link from the Bit business app.
+// Until they are filled in, both buttons open an order email.
+const PAYPAL_ME = '';
+const BIT_LINK = '';
+const ORDER_EMAIL = 'enzaout@gmail.com';
+
+const mail = (s) => `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order — ' + s)}`;
+document.getElementById('paypal').href = PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/100ILS` : mail('PayPal');
+document.getElementById('bit').href = BIT_LINK || mail('Bit');
+
+document.getElementById('mq').innerHTML =
+  Array(2).fill('<span>Tell me your biggest fear</span><i>✺</i><span>Skip the weather</span><i>✺</i><span>No more “so what do you do?”</span><i>✺</i><span>Pick a card</span><i>✺</i>').join('');
+
+// Free taste: two real cards from every round, then the "rest is in the deck" card.
+const Y = ['#FDF3C7', '#9A5B00'], B = ['#D4EAF6', '#175A74'], L = ['#F3E6F4', '#7E3F8C'], P = ['#FCE9E8', '#8E1B22'], W = ['#FFFFFF', '#D2470F'];
+const c = (q, cat, pal) => ({ q, cat, bg: pal[0], fg: pal[1] });
+const ROUNDS = [
+  { label: 'Round 1', dot: '#F2C94C', cards: [c('Show the first photo in your camera roll. Explain.', 'Light & playful', Y), c('What makes you feel truly alive?', 'Identity & values', B)] },
+  { label: 'Round 2', dot: '#8CC3E3', cards: [c('What mistakes did your parents make that you want to avoid?', 'Family & relationship', L), c("Is there something you've dreamed of doing for a long time? Why haven't you done it?", 'Challenges & growth', P)] },
+  { label: 'Round 3', dot: '#E9A3A6', cards: [c('What do you need to forgive yourself for?', 'Self-insights', B), c("What's the hardest truth you've had to accept?", 'Pain & healing', P)] },
+  { label: 'Round 4', dot: '#EB5A1E', cards: [c('What was your first impression of me?', 'About me', W), c('When this game is over, what will you remember about me?', 'About me', W)] }
+];
+let round = 0, idx = 0;
+const pcard = document.getElementById('pcard'), front = document.getElementById('front'),
+  qEl = document.getElementById('q'), catEl = document.getElementById('cat'),
+  endnote = document.getElementById('endnote'), rname = document.getElementById('rname'), pills = document.getElementById('pills');
+
+function paint() {
+  const r = ROUNDS[round], end = idx >= r.cards.length;
+  const card = end ? { q: `Want the rest of ${r.label}?`, cat: 'Get the deck · ₪100', bg: '#EB5A1E', fg: '#161412' } : r.cards[idx];
+  qEl.textContent = card.q; catEl.textContent = card.cat;
+  front.style.background = card.bg; front.style.color = card.fg;
+  pcard.classList.toggle('end', end);
+  endnote.classList.toggle('show', end); rname.textContent = r.label;
+  [...pills.children].forEach((p, i) => p.classList.toggle('on', i === round));
+}
+function show(fn) {
+  if (pcard.classList.contains('flip')) { pcard.classList.remove('flip'); setTimeout(() => { fn(); paint(); pcard.classList.add('flip'); }, 380); }
+  else { fn(); paint(); pcard.classList.add('flip'); }
+}
+ROUNDS.forEach((r, i) => {
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'pill'; b.innerHTML = `<i style="background:${r.dot}"></i>${r.label}`;
+  b.onclick = () => show(() => { round = i; idx = 0; });
+  pills.appendChild(b);
+});
+pcard.onclick = () => { if (pcard.classList.contains('flip')) pcard.classList.remove('flip'); else { paint(); pcard.classList.add('flip'); } };
+document.getElementById('next').onclick = () => show(() => { idx = idx >= ROUNDS[round].cards.length ? 0 : idx + 1; });
+paint();
+
+// Scroll reveal
+const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+</script>
+</body>
+</html>
