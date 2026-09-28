@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>F*CK SMALL TALKS — The card game that skips the boring part</title>
+<meta name="description" content="Stop asking what they do for a living. A card game that gets you from “hi” to real talk in minutes. Dates, hostels, family dinners."/>
+<meta property="og:title" content="F*CK SMALL TALKS"/>
+<meta property="og:description" content="Who gives a sh*t what you do for a living. Tell me your biggest fear."/>
+<meta property="og:image" content="img/group6.jpg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --orange:#EB6423;
+  --black:#1A1A1A;
+  --white:#FFFFFF;
+  --paper:#F6F5F2;
+  --gray:#6B6B6B;
+  --green:#3BA55C;
+  --amber:#F29B1D;
+  --red:#D7263D;
+  --blue:#2F6FDB;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--white);color:var(--black);font-family:'Josefin Sans',sans-serif;overflow-x:hidden;font-size:18px;line-height:1.55}
+img{max-width:100%;display:block}
+.bold{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;line-height:.95;letter-spacing:-.01em}
+.o{color:var(--orange)}
+.tag{display:inline-block;background:var(--orange);color:var(--white);padding:.05em .3em .12em;transform:skew(-4deg)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:clamp(4rem,9vw,7rem) 0}
+.kicker{font-weight:700;letter-spacing:.25em;text-transform:uppercase;font-size:.75rem;color:var(--orange);margin-bottom:1rem}
+h2{font-size:clamp(2.4rem,6vw,4.6rem);margin-bottom:1.5rem}
+.lead{font-size:1.2rem;max-width:40ch}
+.btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--orange);color:var(--white);text-decoration:none;font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;letter-spacing:.04em;padding:1.05rem 1.9rem;border:3px solid var(--black);box-shadow:5px 5px 0 var(--black);transition:transform .15s,box-shadow .15s;cursor:pointer;font-size:1rem}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--black)}
+.btn:active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--black)}
+.btn.alt{background:var(--white);color:var(--black)}
+.btn.dark{background:var(--black);color:var(--white);border-color:var(--black)}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:3px solid var(--black)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:66px}
+.logo{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-decoration:none;color:var(--black);font-size:1.15rem;line-height:1}
+.logo i{font-style:normal;color:var(--orange)}
+nav ul{display:flex;gap:1.8rem;list-style:none;align-items:center}
+nav ul a{text-decoration:none;color:var(--black);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
+nav ul a:hover{color:var(--orange)}
+nav .btn{padding:.6rem 1rem;font-size:.8rem;box-shadow:3px 3px 0 var(--black)}
+
+/* HERO */
+#hero{padding:clamp(2.5rem,6vw,5rem) 0 3rem;position:relative;overflow:hidden}
+#hero .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:2rem;align-items:center}
+h1{font-size:clamp(3rem,8.4vw,6.6rem)}
+h1 s{color:var(--gray);text-decoration:line-through;text-decoration-color:var(--orange);text-decoration-thickness:.12em}
+.hero-sub{font-size:1.3rem;margin:1.6rem 0 2rem;max-width:30ch}
+.hero-sub b{background:linear-gradient(transparent 60%,rgba(235,100,35,.35) 60%)}
+.cta{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+.trust{margin-top:2rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray)}
+.trust span::before{content:'✦ ';color:var(--orange)}
+.hero-art{position:relative;aspect-ratio:1}
+.hero-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;animation:float 6s ease-in-out infinite}
+.bubble{position:absolute;background:var(--black);color:var(--white);font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;padding:.7rem 1rem;font-size:.85rem;line-height:1.2;border-radius:14px}
+.bubble::after{content:'';position:absolute;bottom:-10px;left:22px;border:10px solid transparent;border-top-color:var(--black);border-bottom:0}
+.bubble.b1{top:10%;left:0;transform:rotate(-6deg)}
+.bubble.b2{bottom:16%;right:0;background:var(--orange);transform:rotate(5deg)}
+.bubble.b2::after{border-top-color:var(--orange);left:auto;right:22px}
+@keyframes float{50%{transform:translateY(-14px) rotate(1.5deg)}}
+
+/* MARQUEE */
+.marquee{background:var(--orange);color:var(--white);border-block:3px solid var(--black);overflow:hidden;white-space:nowrap}
+.marquee div{display:inline-block;padding:.9rem 0;font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.05rem;animation:mq 30s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* PROBLEM */
+#problem{background:var(--paper)}
+.chat{display:grid;gap:.7rem;max-width:520px;margin:2rem 0}
+.msg{background:var(--white);border:2px solid #ddd;padding:.8rem 1.1rem;border-radius:18px 18px 18px 4px;max-width:80%;color:var(--gray);position:relative}
+.msg.me{justify-self:end;border-radius:18px 18px 4px 18px}
+.msg .z{position:absolute;right:-28px;top:-6px;font-size:1.2rem}
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:2.5rem}
+.pain{border:3px solid var(--black);padding:1.5rem;background:var(--white)}
+.pain b{display:block;font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.1rem;margin-bottom:.4rem}
+.pain p{font-size:1rem;color:#444}
+.shouldnt{margin-top:3rem;font-family:'Archivo Black','Arial Black',Impact,sans-serif;font-size:clamp(1.4rem,3.2vw,2.2rem);line-height:1.2;text-transform:uppercase;max-width:28ch}
+
+/* STORY */
+#story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center}
+#story img{border:3px solid var(--black);box-shadow:10px 10px 0 var(--orange)}
+#story p{margin-bottom:1rem;font-size:1.1rem}
+.sign{font-family:'Archivo Black','Arial Black',Impact,sans-serif;font-size:1.3rem;margin-top:1.4rem}
+.science{margin-top:1.8rem;border-left:5px solid var(--orange);padding:.6rem 0 .6rem 1.1rem;font-size:.95rem;color:#444}
+
+/* LEVELS */
+#levels{background:var(--black);color:var(--white)}
+#levels .lead{color:#bbb}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:3rem}
+.lvl{border-radius:18px;padding:1.6rem;min-height:250px;display:flex;flex-direction:column;color:var(--white);position:relative;overflow:hidden;transition:transform .25s}
+.lvl:hover{transform:translateY(-8px) rotate(-1deg)}
+.lvl .n{font-family:'Archivo Black','Arial Black',Impact,sans-serif;font-size:3.4rem;opacity:.35;line-height:1}
+.lvl b{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.3rem;margin:.6rem 0 .5rem}
+.lvl p{font-size:.95rem;opacity:.95}
+.lvl em{margin-top:auto;font-style:normal;font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding-top:1rem}
+.lvl.g{background:var(--green)}.lvl.a{background:var(--amber);color:var(--black)}.lvl.r{background:var(--red)}.lvl.bl{background:var(--blue)}
+
+/* TRY */
+#try{background:var(--paper)}
+#try .wrap{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.table{position:relative;height:470px;perspective:1300px;display:flex;justify-content:center;align-items:center}
+.pcard{width:290px;height:430px;position:relative;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.2,.8,.2,1);cursor:pointer}
+.pcard.flip{transform:rotateY(180deg)}
+.pcard .f{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;overflow:hidden;box-shadow:0 25px 50px rgba(0,0,0,.2);border:1px solid #e5e5e5}
+.pcard .back{background:url(img/cardback.jpg) center/cover}
+.pcard .face{transform:rotateY(180deg);background:var(--white);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;border-top:12px solid var(--c,var(--green))}
+.pcard .face .q{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.45rem;line-height:1.2;color:var(--c,var(--green))}
+.pcard .face small{position:absolute;bottom:22px;font-weight:700;letter-spacing:.2em;font-size:.7rem;text-transform:uppercase;color:var(--gray)}
+.pills{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.pill{border:3px solid var(--black);background:var(--white);padding:.5rem 1rem;font-family:'Josefin Sans';font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;cursor:pointer;display:flex;align-items:center;gap:.45rem}
+.pill i{width:12px;height:12px;border-radius:50%;background:var(--c)}
+.pill.on{background:var(--black);color:var(--white)}
+.pill.lock{opacity:.55}
+.locked{display:none;margin-top:1.2rem;border:3px dashed var(--orange);padding:1rem 1.2rem;font-weight:600}
+.locked.show{display:block}
+
+/* PLACES */
+.places{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:2.5rem}
+.place{border-top:4px solid var(--orange);padding-top:1rem}
+.place b{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.15rem;display:block;margin-bottom:.3rem}
+.place p{color:#444;font-size:1rem}
+.place .say{display:inline-block;margin-top:.6rem;background:var(--black);color:var(--white);padding:.3rem .7rem;font-size:.85rem;font-weight:700;border-radius:10px}
+
+/* GALLERY */
+.gallery{display:grid;grid-template-columns:1.4fr 1fr;grid-template-rows:auto auto;gap:1rem}
+.gallery img{width:100%;height:100%;object-fit:cover;border:3px solid var(--black)}
+.gallery .big{grid-row:span 2}
+
+/* BEFORE AFTER */
+#change{background:var(--orange);color:var(--white)}
+#change h2{color:var(--white)}
+.ba{display:grid;gap:1.2rem;margin-top:2.5rem}
+.ba-row{display:grid;grid-template-columns:1fr auto 1fr;gap:1.2rem;align-items:center}
+.ba-row div{padding:1.3rem 1.5rem;border-radius:16px;font-size:1.05rem}
+.before{background:rgba(0,0,0,.14);text-decoration:line-through;text-decoration-color:rgba(255,255,255,.5)}
+.after{background:var(--white);color:var(--black);font-weight:600;border:3px solid var(--black);box-shadow:5px 5px 0 var(--black)}
+.arrow{font-family:'Archivo Black','Arial Black',Impact,sans-serif;font-size:1.8rem}
+
+/* PLAN */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem;counter-reset:s}
+.step{border:3px solid var(--black);padding:1.8rem;position:relative;background:var(--white)}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:-22px;left:20px;background:var(--orange);color:var(--white);font-family:'Archivo Black','Arial Black',Impact,sans-serif;width:44px;height:44px;display:grid;place-items:center;border:3px solid var(--black);border-radius:50%}
+.step b{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.2rem;display:block;margin:.4rem 0}
+
+/* LABEL */
+#label{background:var(--paper)}
+#label .wrap{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.fx{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.5rem}
+.fx span{border:2px solid var(--black);padding:.45rem .9rem;border-radius:99px;font-weight:700;font-size:.85rem;text-transform:uppercase;background:var(--white);transition:.2s}
+.fx span:hover{background:var(--orange);color:var(--white);transform:rotate(-3deg)}
+
+/* STAKES + BUY */
+#stakes{text-align:center}
+#stakes .bold{font-size:clamp(2rem,5vw,3.6rem);max-width:20ch;margin:0 auto}
+#stakes p{max-width:46ch;margin:1.4rem auto 0;font-size:1.15rem}
+#buy{background:var(--black);color:var(--white)}
+#buy .wrap{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+#buy h2{color:var(--white)}
+.price{font-family:'Archivo Black','Arial Black',Impact,sans-serif;font-size:5.5rem;color:var(--orange);line-height:1;margin:.5rem 0 1rem}
+.price small{font-family:'Josefin Sans';font-size:1rem;color:#aaa;font-weight:600;letter-spacing:.1em;text-transform:uppercase;display:block;margin-top:.5rem}
+.incl{list-style:none;margin:1.5rem 0 2rem}
+.incl li{padding:.45rem 0;border-bottom:1px solid #333}
+.incl li::before{content:'✓ ';color:var(--orange);font-weight:700}
+#buy .btn{border-color:var(--white);box-shadow:5px 5px 0 var(--orange)}
+#buy .btn.alt{background:transparent;color:var(--white)}
+.paynote{margin-top:1rem;font-size:.85rem;color:#999}
+#buy img{border-radius:10px}
+
+/* FAQ */
+details{border-bottom:3px solid var(--black);padding:1.2rem 0}
+summary{font-family:'Archivo Black','Arial Black',Impact,sans-serif;text-transform:uppercase;font-size:1.1rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between}
+summary::after{content:'+';color:var(--orange)}
+details[open] summary::after{content:'−'}
+details p{margin-top:.8rem;max-width:60ch}
+
+footer{border-top:3px solid var(--black);padding:2rem 0;font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+footer a{color:var(--black)}
+
+.reveal{opacity:0;transform:translateY(30px);transition:.9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  nav ul li:not(:last-child){display:none}
+  #hero .wrap,#story .wrap,#try .wrap,#label .wrap,#buy .wrap{grid-template-columns:1fr}
+  .hero-art{max-width:420px;margin:0 auto;width:100%}
+  .pains,.places,.steps{grid-template-columns:1fr}
+  .levels{grid-template-columns:1fr 1fr}
+  .ba-row{grid-template-columns:1fr}
+  .arrow{transform:rotate(90deg);justify-self:center}
+  .gallery{grid-template-columns:1fr}
+  .gallery .big{grid-row:auto}
+  .step{margin-top:1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .marquee div,.hero-art img{animation:none}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#hero">F<i>*</i>CK SMALL <span class="tag">TALKS</span></a>
+    <ul>
+      <li><a href="#levels">How it works</a></li>
+      <li><a href="#try">Try a card</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a class="btn" href="#buy">Get the deck</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO: what you get, in 5 seconds -->
+<header id="hero">
+  <div class="wrap">
+    <div>
+      <div class="kicker">The card game for people who hate small talk</div>
+      <h1 class="bold">Nobody cares <s>what you do</s><br/>for a <span class="o">living.</span></h1>
+      <p class="hero-sub">Tell me your biggest fear. Pull one card and <b>skip straight to the real stuff</b> — with your date, your friends, or the stranger in the next bunk.</p>
+      <div class="cta">
+        <a class="btn" href="#buy">Get the deck — ₪75</a>
+        <a class="btn alt" href="#try">Try a free card ↓</a>
+      </div>
+      <div class="trust"><span>English deck</span><span>2+ players</span><span>Fits in your pocket</span></div>
+    </div>
+    <div class="hero-art">
+      <img src="img/box3.jpg" alt="The F*ck Small Talks card box"/>
+      <div class="bubble b1">"So… what do you do?"</div>
+      <div class="bubble b2">Ugh. Pick a card.</div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee"><div id="mq"></div></div>
+
+<!-- PROBLEM: external / internal / philosophical -->
+<section id="problem">
+  <div class="wrap">
+    <div class="kicker reveal">Sound familiar?</div>
+    <h2 class="bold reveal">You know<br/>this chat.</h2>
+    <div class="chat reveal">
+      <div class="msg">So where are you from?</div>
+      <div class="msg me">Tel Aviv. You?</div>
+      <div class="msg">Cool cool. And what do you do?</div>
+      <div class="msg me">Marketing. <span class="z">😴</span></div>
+      <div class="msg">Nice. Crazy weather today, huh?</div>
+    </div>
+    <div class="pains">
+      <div class="pain reveal"><b>You go blank</b><p>You meet someone new and your brain goes empty. So you ask the same three questions. Again.</p></div>
+      <div class="pain reveal"><b>You feel boring</b><p>You're scared they'll forget you by tomorrow. Or worse — that they already did.</p></div>
+      <div class="pain reveal"><b>You want more</b><p>You don't want to talk about work. You want to know what keeps them up at night.</p></div>
+    </div>
+    <p class="shouldnt reveal">You shouldn't have to waste one more night on talk you'll <span class="o">forget by morning.</span></p>
+  </div>
+</section>
+
+<!-- GUIDE: empathy + authority -->
+<section id="story">
+  <div class="wrap">
+    <img class="reveal" src="img/group7.jpg" alt="A hand holding a fan of F*ck Small Talks cards"/>
+    <div class="reveal">
+      <div class="kicker">Why I made this</div>
+      <h2 class="bold">I got sick<br/>of it. <span class="o">So I did something.</span></h2>
+      <p>I couldn't take one more "so what do you do?" Not one. I wanted to know people for real — their dreams, their fears, the stuff they never say.</p>
+      <p>So I printed a deck of questions. I brought it to a hostel and asked a table of strangers: <b>"Wanna play a game?"</b></p>
+      <p>By card five, people were laughing. By card ten, someone was crying. By the end, we were friends. I sold that deck on the spot. Then I printed more.</p>
+      <p>Now I take it everywhere. And it works every single time.</p>
+      <div class="sign">— The girl who hates small talk</div>
+      <div class="science"><b>It's not magic. It's science.</b> In 1997, psychologist Arthur Aron found that strangers who ask each other questions that get deeper, step by step, feel close in under an hour. That's exactly how this deck is built.</div>
+    </div>
+  </div>
+</section>
+
+<!-- LEVELS: clears up the "no rules" confusion -->
+<section id="levels">
+  <div class="wrap">
+    <div class="kicker reveal">How it works</div>
+    <h2 class="bold reveal">Four colors.<br/>Go as deep<br/>as you <span class="o">dare.</span></h2>
+    <p class="lead reveal">No winners. No points. Pull a card, read it out loud, answer honest. Then pass the deck. Start with green. Nobody stays on green.</p>
+    <div class="levels">
+      <div class="lvl g reveal"><span class="n">01</span><b>Green · Warm up</b><p>Easy ones. Fun, light, a little weird. Great for a first date.</p><em>Start here</em></div>
+      <div class="lvl a reveal"><span class="n">02</span><b>Orange · Get real</b><p>Now it gets personal. Family, love, the stuff you think about at 2am.</p><em>After a few rounds</em></div>
+      <div class="lvl r reveal"><span class="n">03</span><b>Red · No hiding</b><p>The hard ones. Fears, regrets, secrets. This is where people change.</p><em>Only if you're brave</em></div>
+      <div class="lvl bl reveal"><span class="n">04</span><b>Blue · The finale</b><p>Only for groups who finish the whole deck. Most never get here.</p><em>Legends only</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRY: the "first stage is free" move, online -->
+<section id="try">
+  <div class="wrap">
+    <div class="table">
+      <div class="pcard" id="pcard">
+        <div class="f back" role="img" aria-label="Card back"></div>
+        <div class="f face" id="face">
+          <div class="q" id="q">What mistakes did your parents make that you want to avoid?</div>
+          <small id="lv">Green · Warm up</small>
+        </div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="kicker">Free round</div>
+      <h2 class="bold">Try it<br/><span class="o">right now.</span></h2>
+      <p class="lead">Tap the card. Read it out loud to whoever's next to you. Yes, out loud. Green is on the house.</p>
+      <div class="pills" id="pills">
+        <button class="pill on" data-l="g" style="--c:var(--green)"><i></i>Green</button>
+        <button class="pill lock" data-l="a" style="--c:var(--amber)"><i></i>Orange 🔒</button>
+        <button class="pill lock" data-l="r" style="--c:var(--red)"><i></i>Red 🔒</button>
+        <button class="pill lock" data-l="bl" style="--c:var(--blue)"><i></i>Blue 🔒</button>
+      </div>
+      <div class="cta">
+        <button class="btn" id="next">Next card</button>
+      </div>
+      <div class="locked" id="locked">Want the next level? That's in the real deck. 😏 <a href="#buy" style="color:var(--orange);font-weight:700">Get it here →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHERE -->
+<section id="where">
+  <div class="wrap">
+    <div class="kicker reveal">Where you'll use it</div>
+    <h2 class="bold reveal">Anywhere people<br/>run out of <span class="o">things to say.</span></h2>
+    <div class="places">
+      <div class="place reveal"><b>First dates</b><p>No more awkward silence. No more panic. You just slide the deck over.</p><span class="say">"Pick a card."</span></div>
+      <div class="place reveal"><b>Hostels</b><p>The easiest way to join a table of strangers. Leave with friends from five countries.</p><span class="say">"Wanna play a game?"</span></div>
+      <div class="place reveal"><b>Family dinners</b><p>Hear the stories nobody ever told you. From people you thought you knew.</p><span class="say">"Mom, your turn."</span></div>
+      <div class="place reveal"><b>Road trips & tours</b><p>Turn a bus full of strangers into a crew. Hours fly by.</p><span class="say">"Back row, you're up."</span></div>
+      <div class="place reveal"><b>Teams & groups</b><p>Scouts, courses, new teams. Even the quiet ones talk when it's their turn.</p><span class="say">"Everyone answers."</span></div>
+      <div class="place reveal"><b>Your best friends</b><p>You've known them for years. You still don't know this.</p><span class="say">"Wait… WHAT?"</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap gallery">
+    <img class="big reveal" src="img/group8.jpg" alt="Cards spread on a table with the question: what mistakes did your parents make that you want to avoid?"/>
+    <img class="reveal" src="img/group6.jpg" alt="Two F*ck Small Talks boxes and a stack of cards"/>
+    <img class="reveal" src="img/group2.jpg" alt="Three card backs"/>
+  </div>
+</section>
+
+<!-- SUCCESS: before / after -->
+<section id="change">
+  <div class="wrap">
+    <div class="kicker reveal" style="color:var(--black)">What changes</div>
+    <h2 class="bold reveal">Instead of saying this…<br/>you'll say that.</h2>
+    <div class="ba">
+      <div class="ba-row reveal"><div class="before">"Every party is the same. Weather, work, where are you from."</div><span class="arrow">→</span><div class="after">"Last night we talked about our wildest dreams and biggest fears. Best party ever."</div></div>
+      <div class="ba-row reveal"><div class="before">"On dates I panic about what to say next. I'm so boring."</div><span class="arrow">→</span><div class="after">"We laughed about our childhood and what really scares us. We just clicked."</div></div>
+      <div class="ba-row reveal"><div class="before">"New people? The talk always dies after two minutes."</div><span class="arrow">→</span><div class="after">"Meeting new people is fun now. We go deep, like, right away."</div></div>
+      <div class="ba-row reveal"><div class="before">"I feel stuck on the surface with my own friends."</div><span class="arrow">→</span><div class="after">"We shared stuff last night we never told anyone. I feel so close to them."</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section id="plan">
+  <div class="wrap">
+    <div class="kicker reveal">Easy as it gets</div>
+    <h2 class="bold reveal">Three steps.<br/>That's it.</h2>
+    <div class="steps">
+      <div class="step reveal"><b>Grab the deck</b><p>Order it here. It fits in your pocket, so it goes where you go.</p></div>
+      <div class="step reveal"><b>Pull a card</b><p>Read it out loud. Answer honest. Pass it on. Start green, go deeper.</p></div>
+      <div class="step reveal"><b>Watch them open up</b><p>You'll see them in a new light. They'll see you too. And they won't forget you.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RULES (real card) -->
+<section id="label">
+  <div class="wrap">
+    <img class="reveal" src="img/card1.jpg" alt="The rules card: don't be a jerk, listen for once, what happens here stays here"/>
+    <div class="reveal">
+      <div class="kicker">Read the label</div>
+      <h2 class="bold">The only<br/><span class="o">rules.</span></h2>
+      <p class="lead">Don't be a jerk. Listen — for once. What happens here, stays here. And yes, you can pass a question. If you're a p*ssy.</p>
+      <p style="margin-top:1.4rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.85rem">Possible side effects:</p>
+      <div class="fx">
+        <span>Mood swings</span><span>Spontaneous life decisions</span><span>Uncontrollable honesty</span><span>Increased vulnerability</span><span>Unexpected connections</span><span>Intense emotions</span><span>Personal growth</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STAKES -->
+<section id="stakes">
+  <div class="wrap reveal">
+    <div class="bold">Or keep talking about <span class="o">the weather.</span></div>
+    <p>Keep asking what they do. Keep going home feeling like nobody really knows you. Keep being forgotten by Tuesday. Your call. I already made mine.</p>
+  </div>
+</section>
+
+<!-- BUY -->
+<section id="buy">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Get yours</div>
+      <h2 class="bold">Quit small talk.<br/><span class="o">Today.</span></h2>
+      <div class="price">₪75<small>One deck · all four levels</small></div>
+      <ul class="incl">
+        <li>Green, orange, red &amp; blue question cards</li>
+        <li>The rules card (yes, the rude one)</li>
+        <li>Pocket-size box — take it anywhere</li>
+        <li>In English, so you can play with anyone</li>
+      </ul>
+      <div class="cta">
+        <a class="btn" id="paypal" href="#" target="_blank" rel="noopener">Pay with PayPal</a>
+        <a class="btn alt" id="bit" href="#" target="_blank" rel="noopener">Pay with Bit 🇮🇱</a>
+      </div>
+      <p class="paynote">After you pay, I'll message you to get your address and sort out shipping.</p>
+    </div>
+    <img class="reveal" src="img/group6.jpg" alt="F*ck Small Talks boxes and cards"/>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="kicker reveal">Questions</div>
+    <h2 class="bold reveal">Before you ask.</h2>
+    <details class="reveal"><summary>Isn't it weird to play a card game at 30?</summary><p>For about ten seconds. Then someone answers a card, the whole table goes quiet, and nobody thinks it's weird anymore. Grown-ups need this more than kids do.</p></details>
+    <details class="reveal"><summary>How many people can play?</summary><p>Two or more. It's great one-on-one on a date and wild with a full table at a hostel.</p></details>
+    <details class="reveal"><summary>How long does a game take?</summary><p>As long as you want. Some people talk about themselves for 20 minutes straight (you know who you are). Tip: set a timer, or keep each answer to one minute.</p></details>
+    <details class="reveal"><summary>What if I don't want to answer?</summary><p>Then pass. It's totally fine. We'll just think a little less of you. 😘</p></details>
+    <details class="reveal"><summary>Is it in English?</summary><p>Yes. That's the point — you can play it with anyone you meet, anywhere in the world.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© F*ck Small Talks</span>
+    <span>Use with caution</span>
+    <a href="#hero">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+// ——— SET THESE ———
+// PayPal: your PayPal.me handle, e.g. 'fucksmalltalks'  →  https://paypal.me/fucksmalltalks/75ILS
+// Bit: the payment link from the Bit business app.
+// Until they are filled in, both buttons open an email to order.
+const PAYPAL_ME = '';
+const BIT_LINK = '';
+const ORDER_EMAIL = 'enzaout@gmail.com';
+
+const mail = s => `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order — ' + s)}`;
+document.getElementById('paypal').href = PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/75ILS` : mail('PayPal');
+document.getElementById('bit').href = BIT_LINK || mail('Bit');
+
+document.getElementById('mq').textContent =
+  'Tell me your biggest fear ✦ Skip the weather ✦ No more “so what do you do?” ✦ Pick a card ✦ Warning: may change your relationships forever ✦ '.repeat(6);
+
+// Free green round
+const GREEN = [
+  'What mistakes did your parents make that you want to avoid?',
+  'What would 12-year-old you think of you right now?',
+  'What is the most useless thing you are proud of?',
+  'What song would play when you walk into a room?',
+  'What is a dream you have never said out loud?',
+  'Who in your life do you miss the most right now?',
+  'What is something small that makes your whole day better?',
+  'When was the last time you did something for the first time?'
+];
+const pcard = document.getElementById('pcard'), q = document.getElementById('q'), locked = document.getElementById('locked');
+let last = 0;
+function next(){
+  const go = () => {
+    let i; do { i = Math.floor(Math.random() * GREEN.length); } while (i === last);
+    last = i; q.textContent = GREEN[i]; pcard.classList.add('flip');
+  };
+  if (pcard.classList.contains('flip')) { pcard.classList.remove('flip'); setTimeout(go, 420); } else go();
+}
+pcard.onclick = () => pcard.classList.contains('flip') ? pcard.classList.remove('flip') : pcard.classList.add('flip');
+document.getElementById('next').onclick = next;
+document.querySelectorAll('.pill').forEach(p => p.onclick = () => {
+  const isGreen = p.dataset.l === 'g';
+  locked.classList.toggle('show', !isGreen);
+  if (isGreen) next();
+});
+
+// Scroll reveal
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
