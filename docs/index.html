@@ -141,10 +141,10 @@ h1 .strike{font-size:.9em;color:#8A8378;text-decoration:line-through;text-decora
 #try .grid12{align-items:center}
 .table{grid-column:span 6;display:flex;justify-content:center;align-items:center;position:relative;height:640px}
 .table .under{position:absolute;width:380px;height:560px;border-radius:24px;background:url(img/cardback.jpg) center/cover;transform:rotate(-9deg) translateX(-60px);box-shadow:0 30px 60px rgba(22,20,18,.18)}
-.pcard{position:relative;width:380px;height:560px;border:none;padding:0;background:none;cursor:pointer;perspective:1400px}
-.pcard .inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.pcard{position:relative;width:380px;height:560px;cursor:pointer;perspective:1400px;-webkit-perspective:1400px;-webkit-tap-highlight-color:transparent}
+.pcard .inner{position:absolute;inset:0;display:block;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
 .pcard.flip .inner{transform:rotateY(180deg)}
-.pcard .f{position:absolute;inset:0;border-radius:24px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 40px 80px rgba(22,20,18,.25)}
+.pcard .f{position:absolute;inset:0;display:flex;border-radius:24px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 40px 80px rgba(22,20,18,.25)}
 .pcard .f.back{background:url(img/cardback.jpg) center/cover}
 .pcard .f.front{transform:rotateY(180deg);display:flex;flex-direction:column;align-items:center;padding:70px 40px 40px;text-align:center;font-family:Fredoka,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
 .pcard .q{font-size:32px;line-height:1.25}
@@ -430,12 +430,12 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
   <div class="wrap grid12">
     <div class="table">
       <div class="under"></div>
-      <button type="button" class="pcard" id="pcard" aria-label="Flip the card">
+      <div class="pcard" id="pcard" role="button" tabindex="0" aria-label="Flip the card">
         <span class="inner">
           <span class="f back"></span>
           <span class="f front" id="front"><span class="q" id="q"></span><span class="lockpill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>REST OF THE ROUND IS IN THE DECK</span><span class="cat" id="cat"></span></span>
         </span>
-      </button>
+      </div>
     </div>
     <div class="try-txt reveal">
       <div class="kicker">Free taste · on the house</div>
@@ -711,7 +711,12 @@ function paint() {
   endnote.classList.toggle('show', end); rname.textContent = r.label;
   [...pills.children].forEach((p, i) => p.classList.toggle('on', i === round));
 }
+function reveal() {
+  const r = pcard.getBoundingClientRect();
+  if (r.top < 0 || r.bottom > innerHeight) pcard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
 function show(fn) {
+  reveal();
   if (pcard.classList.contains('flip')) { pcard.classList.remove('flip'); setTimeout(() => { fn(); paint(); pcard.classList.add('flip'); }, 380); }
   else { fn(); paint(); pcard.classList.add('flip'); }
 }
@@ -721,7 +726,8 @@ ROUNDS.forEach((r, i) => {
   b.onclick = () => show(() => { round = i; idx = 0; });
   pills.appendChild(b);
 });
-pcard.onclick = () => { if (pcard.classList.contains('flip')) pcard.classList.remove('flip'); else { paint(); pcard.classList.add('flip'); } };
+pcard.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pcard.click(); } };
+pcard.onclick = () => { if (pcard.classList.contains('flip')) document.getElementById('next').click(); else { paint(); pcard.classList.add('flip'); } };
 document.getElementById('next').onclick = () => show(() => { idx = idx >= ROUNDS[round].cards.length ? 0 : idx + 1; });
 paint();
 
