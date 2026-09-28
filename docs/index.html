@@ -232,7 +232,7 @@ footer a{color:var(--black)}
       <h1 class="bold">Nobody cares <s>what you do</s><br/>for a <span class="o">living.</span></h1>
       <p class="hero-sub">Tell me your biggest fear. Pull one card and <b>skip straight to the real stuff</b> — with your date, your friends, or the stranger in the next bunk.</p>
       <div class="cta">
-        <a class="btn" href="#buy">Get the deck — ₪75</a>
+        <a class="btn" href="#buy">Get the deck — ₪100</a>
         <a class="btn alt" href="#try">Try a free card ↓</a>
       </div>
       <div class="trust"><span>English deck</span><span>2+ players</span><span>Fits in your pocket</span></div>
@@ -411,7 +411,7 @@ footer a{color:var(--black)}
     <div class="reveal">
       <div class="kicker">Get yours</div>
       <h2 class="bold">Quit small talk.<br/><span class="o">Today.</span></h2>
-      <div class="price">₪75<small>One deck · all four levels</small></div>
+      <div class="price">₪100 <s style="font-size:2rem;color:#888">₪175</s><small>One deck · all four levels</small></div>
       <ul class="incl">
         <li>Green, orange, red &amp; blue question cards</li>
         <li>The rules card (yes, the rude one)</li>
@@ -451,7 +451,7 @@ footer a{color:var(--black)}
 
 <script>
 // ——— SET THESE ———
-// PayPal: your PayPal.me handle, e.g. 'fucksmalltalks'  →  https://paypal.me/fucksmalltalks/75ILS
+// PayPal: your PayPal.me handle, e.g. 'fucksmalltalks'  →  https://paypal.me/fucksmalltalks/100ILS
 // Bit: the payment link from the Bit business app.
 // Until they are filled in, both buttons open an email to order.
 const PAYPAL_ME = '';
@@ -459,7 +459,7 @@ const BIT_LINK = '';
 const ORDER_EMAIL = 'enzaout@gmail.com';
 
 const mail = s => `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order — ' + s)}`;
-document.getElementById('paypal').href = PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/75ILS` : mail('PayPal');
+document.getElementById('paypal').href = PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/100ILS` : mail('PayPal');
 document.getElementById('bit').href = BIT_LINK || mail('Bit');
 
 document.getElementById('mq').textContent =
