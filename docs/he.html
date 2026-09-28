@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>F*CK SMALL TALKS — The card game that skips the boring part</title>
-<meta name="description" content="Nobody cares what you do for a living. Tell me your biggest fear. A card game that gets you from “hi” to real talk in minutes."/>
+<title>F*CK SMALL TALKS — משחק הקלפים שמדלג על החלק המשעמם</title>
+<meta name="description" content="לאף אחד לא אכפת במה אתה עובד. ספר לי מה הפחד הכי גדול שלך. משחק קלפים שלוקח אותך מ״היי״ לשיחה אמיתית תוך דקות."/>
 <meta property="og:title" content="F*CK SMALL TALKS"/>
 <meta property="og:description" content="Nobody cares what you do for a living. Tell me your biggest fear."/>
 <meta property="og:image" content="img/group6.jpg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@500;600&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Karantina:wght@700&family=Rubik:wght@400;500;700&family=Frank+Ruhl+Libre:wght@500&family=Fredoka:wght@500;600&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
 <style>
 :root{
   --paper:#F4F1EA;--paper2:#E6E1D7;--ink:#161412;--orange:#EB5A1E;--orange-dk:#C8420C;
@@ -273,6 +273,16 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 .reveal{opacity:0;transform:translateY(30px);transition:.9s cubic-bezier(.2,.8,.2,1)}
 .reveal.in{opacity:1;transform:none}
 
+:lang(he) body,html[lang=he] body{font-family:Rubik,'Space Grotesk',sans-serif}
+html[lang=he] .display,html[lang=he] .logo,html[lang=he] .intro-txt,html[lang=he] .btn,html[lang=he] .marquee div,html[lang=he] .pain .n,html[lang=he] .story-img span,html[lang=he] .co-total strong,html[lang=he] .qty output{font-family:Karantina,Anton,sans-serif;font-weight:700}
+html[lang=he] .display{line-height:.95;letter-spacing:0}
+html[lang=he] h1.display{font-size:clamp(72px,12.5vw,190px)}
+html[lang=he] .serif{font-family:'Frank Ruhl Libre',serif;font-style:normal}
+html[lang=he] .kicker,html[lang=he] .eyebrow,html[lang=he] .rules-list,html[lang=he] .label2,html[lang=he] .co-label,html[lang=he] .round .no,html[lang=he] footer{letter-spacing:.04em}
+html[lang=he] .round{font-family:Rubik,sans-serif}
+html[lang=he] .logo,html[lang=he] .pcard,html[lang=he] .side,html[lang=he] .orbit.b,html[lang=he] .price,html[lang=he] .sticker{direction:ltr}
+html[lang=he] .eyebrow::before{order:0}
+html[lang=he] .ba-row svg{transform:scaleX(-1)}
 /* PHONE / TABLET */
 @media (max-width:1000px){
   .wrap{padding:0 20px}
@@ -324,7 +334,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 
 <!-- INTRO: the deck drops, fans out, then the curtain lifts -->
 <div class="intro" aria-hidden="true">
-  <div class="intro-txt">Shuffle up. <span class="o">Small talk is dead.</span></div>
+  <div class="intro-txt">מערבבים. <span class="o">הסמול טוק מת.</span></div>
   <div class="deal d1"></div><div class="deal d2"></div><div class="deal d3"></div><div class="deal d4"></div><div class="deal d5"></div>
 </div>
 
@@ -332,11 +342,11 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
   <div class="wrap">
     <a href="#top" class="logo">F<span class="star">*</span>CK SMALL <span class="tag">TALKS</span></a>
     <div class="navlinks">
-      <a href="he.html" class="lang" lang="he"><span class="dk">זה בני גורן לי</span><span class="mb">עברית</span></a>
-      <a href="#how">How it works</a>
-      <a href="#try">Free cards</a>
-      <a href="#faq">FAQ</a>
-      <a href="#buy" class="cta"><span class="dk">Get the deck</span><span class="mb">Buy</span> · ₪100</a>
+      <a href="index.html" class="lang" lang="en"><span class="dk">English, please</span><span class="mb">EN</span></a>
+      <a href="#how">איך זה עובד</a>
+      <a href="#try">קלפים בחינם</a>
+      <a href="#faq">שאלות</a>
+      <a href="#buy" class="cta"><span class="dk">לחפיסה</span><span class="mb">לקנות</span> · ₪100</a>
     </div>
   </div>
 </nav>
@@ -344,13 +354,13 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 <header id="top">
   <div class="wrap grid12 hero">
     <div class="hero-l">
-      <div class="eyebrow">The card game for people who hate small talk</div>
-      <h1 class="display">Nobody<br/>cares <span class="serif strike">what you do</span><br/>for a <span class="o">living.</span></h1>
+      <div class="eyebrow">משחק הקלפים לאנשים ששונאים סמול טוק</div>
+      <h1 class="display">לאף אחד<br/>לא אכפת <span class="serif strike">במה אתה עובד</span><br/><span class="o">באמת.</span></h1>
       <div class="hero-row">
-        <p>Tell me your biggest fear. Pull one card and skip straight to the real stuff — with your date, your friends, or the stranger in the next bunk.</p>
+        <p>ספר לי מה הפחד הכי גדול שלך. שולפים קלף אחד וקופצים ישר לדברים האמיתיים — עם הדייט, עם החברים, או עם הזר מהמיטה ליד בהוסטל.</p>
         <div class="hero-ctas">
-          <a href="#buy" class="btn btn-o">Get the deck</a>
-          <small><a href="#try">Try free cards ↓</a></small>
+          <a href="#buy" class="btn btn-o">אני רוצה חפיסה</a>
+          <small><a href="#try">לנסות קלפים בחינם ↓</a></small>
         </div>
       </div>
     </div>
@@ -362,9 +372,9 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
         <div class="side back"></div>
         <div class="side face"><span class="q">What mistakes did your parents make that you want to avoid?</span><span class="cat">Family &amp; relationship</span></div>
       </div></div>
-      <div class="bubble">“So… what do you do?”</div>
-      <div class="bubble2 serif">Ugh. Pick a card.</div>
-      <div class="sticker"><s>₪175</s><b>₪100</b><small>launch deal</small></div>
+      <div class="bubble">״אז… במה אתה עובד?״</div>
+      <div class="bubble2 serif">אוף. תשלוף קלף.</div>
+      <div class="sticker"><s>₪175</s><b>₪100</b><small>מחיר השקה</small></div>
     </div>
   </div>
 </header>
@@ -374,22 +384,22 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 <section id="problem">
   <div class="wrap grid12">
     <div class="chat reveal">
-      <div class="kicker" style="margin-bottom:18px">Sound familiar?</div>
-      <div class="msg">So where are you from?</div>
-      <div class="msg me">Tel Aviv. You?</div>
-      <div class="msg">Cool cool. And what do you do?</div>
-      <div class="msg me">Marketing.</div>
-      <div class="msg">Nice. Crazy weather today, huh?</div>
-      <div class="kill serif">…kill me.</div>
+      <div class="kicker" style="margin-bottom:18px">נשמע מוכר?</div>
+      <div class="msg">אז מאיפה אתה?</div>
+      <div class="msg me">תל אביב. ואתה?</div>
+      <div class="msg">סבבה סבבה. ובמה אתה עובד?</div>
+      <div class="msg me">שיווק.</div>
+      <div class="msg">נחמד. איזה חום היום, הא?</div>
+      <div class="kill serif">…תהרגו אותי.</div>
     </div>
     <div class="pains reveal">
-      <h2 class="display">You know<br/>this chat.</h2>
+      <h2 class="display">אתה מכיר<br/>את השיחה הזאת.</h2>
       <div class="pain-list">
-        <div class="pain"><span class="n">01</span><div><b>You go blank.</b><p>You meet someone new and your brain goes empty. So you ask the same three questions. Again.</p></div></div>
-        <div class="pain"><span class="n">02</span><div><b>You feel boring.</b><p>You're scared they'll forget you by tomorrow. Or worse — that they already did.</p></div></div>
-        <div class="pain"><span class="n">03</span><div><b>You want more.</b><p>You don't care about their job. You want to know what keeps them up at night.</p></div></div>
+        <div class="pain"><span class="n">01</span><div><b>המוח מתרוקן.</b><p>פוגש מישהו חדש והראש ריק. אז אתה שואל את אותן שלוש שאלות. שוב.</p></div></div>
+        <div class="pain"><span class="n">02</span><div><b>אתה מרגיש משעמם.</b><p>מפחד שישכחו אותך עד מחר. או גרוע יותר — שכבר שכחו.</p></div></div>
+        <div class="pain"><span class="n">03</span><div><b>אתה רוצה יותר.</b><p>לא מעניין אותך במה הם עובדים. אתה רוצה לדעת מה לא נותן להם לישון בלילה.</p></div></div>
       </div>
-      <p class="shouldnt">You shouldn't have to waste one more night on talk you'll <em class="odk">forget by morning.</em></p>
+      <p class="shouldnt">לא מגיע לך לבזבז עוד ערב אחד על שיחה <em class="odk">שתשכח עד הבוקר.</em></p>
     </div>
   </div>
 </section>
@@ -397,16 +407,16 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 <section id="story">
   <div class="wrap grid12">
     <div class="story-img reveal">
-      <img src="img/group7.jpg" alt="A hand holding a fan of F*ck Small Talks cards"/>
-      <span>Printed. Sold. Printed more.</span>
+      <img src="img/group7.jpg" alt="יד מחזיקה מניפה של קלפי F*ck Small Talks"/>
+      <span>הדפסתי. מכרתי. הדפסתי עוד.</span>
     </div>
     <div class="story-txt reveal">
-      <div class="kicker">Why I made this</div>
-      <h2 class="display">I got sick of it.<br/><span class="o">So I did something.</span></h2>
-      <p>I couldn't take one more “so what do you do?” Not one. I wanted to know people for real — their dreams, their fears, the stuff they never say.</p>
-      <p>So I printed a deck of questions. I walked up to a table of strangers in a hostel and said: <strong>“Wanna play a game?”</strong> By the end we were friends. I sold that deck on the spot. Then I printed more.</p>
-      <p class="serif" style="font-size:34px;color:var(--paper)">— The girl who hates small talk</p>
-      <div class="sci"><strong>Not magic. Science.</strong> In 1997, psychologist Arthur Aron showed that strangers who ask each other questions that get deeper, step by step, feel close in under an hour. That's how this deck is built.</div>
+      <div class="kicker">למה עשיתי את זה</div>
+      <h2 class="display">נמאס לי.<br/><span class="o">אז עשיתי משהו.</span></h2>
+      <p>לא יכולתי לשמוע עוד ״אז במה את עובדת?״ אף לא אחד. רציתי להכיר אנשים באמת — את החלומות שלהם, הפחדים, הדברים שהם אף פעם לא אומרים.</p>
+      <p>אז הדפסתי חפיסת שאלות. ניגשתי לשולחן של זרים בהוסטל ואמרתי: <strong>״רוצים לשחק משחק?״</strong> בסוף הערב היינו חברים. מכרתי את החפיסה על המקום. ואז הדפסתי עוד.</p>
+      <p class="serif" style="font-size:34px;color:var(--paper)">— הבחורה ששונאת סמול טוק</p>
+      <div class="sci"><strong>זה לא קסם. זה מדע.</strong> ב-1997 הפסיכולוג ארתור ארון הראה שזרים ששואלים זה את זה שאלות שהולכות ומעמיקות, צעד אחרי צעד, מרגישים קרובים תוך פחות משעה. ככה בנויה החפיסה הזאת.</div>
     </div>
   </div>
 </section>
@@ -414,14 +424,14 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 <section id="how">
   <div class="wrap">
     <div class="sec-head reveal">
-      <h2 class="display">Four rounds.<br/>How deep <span class="odk">dare you go?</span></h2>
-      <p>No winners. No points. Pull a card, read it out loud, answer honest, pass the deck. Each round goes deeper. The last one is all about <em>them</em>.</p>
+      <h2 class="display">ארבעה סבבים.<br/>כמה עמוק <span class="odk">אתה מעז?</span></h2>
+      <p>אין מנצחים. אין נקודות. שולפים קלף, מקריאים בקול, עונים בכנות, מעבירים הלאה. כל סבב יותר עמוק. האחרון כולו <em>עליהם</em>.</p>
     </div>
     <div class="rounds">
-      <div class="round reveal" style="background:#FDF3C7;color:#9A5B00"><span class="no">Round 01</span><h3>Warm up</h3><p>Light &amp; playful. Your camera roll, your guilty pleasures, your weirdest flex.</p><span class="cat">Light &amp; playful</span></div>
-      <div class="round reveal" style="background:#D4EAF6;color:#175A74"><span class="no">Round 02</span><h3>Get real</h3><p>Family, love, dating, the dream you keep putting off.</p><span class="cat">Identity &amp; values</span></div>
-      <div class="round reveal" style="background:#FCE9E8;color:#8E1B22"><span class="no">Round 03</span><h3>No hiding</h3><p>Lies, heartbreaks, guilt. The stuff you never say out loud.</p><span class="cat">Pain &amp; healing</span></div>
-      <div class="round reveal" style="background:#fff;color:#D2470F;border:2px solid #F0D9CC"><span class="no">Round 04</span><h3>About me</h3><p>Now you ask about each other. First impressions. What you'll remember.</p><span class="cat">Legends only</span></div>
+      <div class="round reveal" style="background:#FDF3C7;color:#9A5B00"><span class="no">סבב 01</span><h3>חימום</h3><p>קליל ושובב. הגלריה בטלפון, התענוגות האשמים, הפלקס הכי מוזר שלך.</p><span class="cat">Light &amp; playful</span></div>
+      <div class="round reveal" style="background:#D4EAF6;color:#175A74"><span class="no">סבב 02</span><h3>בלי שטויות</h3><p>משפחה, אהבה, דייטים, החלום שאתה ממשיך לדחות.</p><span class="cat">Identity &amp; values</span></div>
+      <div class="round reveal" style="background:#FCE9E8;color:#8E1B22"><span class="no">סבב 03</span><h3>אין איפה להתחבא</h3><p>שקרים, לבבות שבורים, אשמה. הדברים שאף פעם לא אומרים בקול.</p><span class="cat">Pain &amp; healing</span></div>
+      <div class="round reveal" style="background:#fff;color:#D2470F;border:2px solid #F0D9CC"><span class="no">סבב 04</span><h3>עליי</h3><p>עכשיו שואלים אחד על השני. רושם ראשוני. מה תזכרו.</p><span class="cat">רק לאגדות</span></div>
     </div>
   </div>
 </section>
@@ -430,80 +440,80 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
   <div class="wrap grid12">
     <div class="table">
       <div class="under"></div>
-      <button type="button" class="pcard" id="pcard" aria-label="Flip the card">
+      <button type="button" class="pcard" id="pcard" aria-label="להפוך את הקלף">
         <span class="inner">
           <span class="f back"></span>
-          <span class="f front" id="front"><span class="q" id="q"></span><span class="lockpill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>REST OF THE ROUND IS IN THE DECK</span><span class="cat" id="cat"></span></span>
+          <span class="f front" id="front"><span class="q" id="q"></span><span class="lockpill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>שאר הסבב בחפיסה</span><span class="cat" id="cat"></span></span>
         </span>
       </button>
     </div>
     <div class="try-txt reveal">
-      <div class="kicker">Free taste · on the house</div>
-      <h2 class="display">Try it.<br/>Out loud.</h2>
-      <p style="font-size:20px">Tap the card. Read it to whoever's next to you. Yes, out loud. Two free cards from every round. Want the rest? That's in the real deck.</p>
+      <div class="kicker">טעימה חינם · על חשבון הבית</div>
+      <h2 class="display">תנסה.<br/>בקול.</h2>
+      <p style="font-size:20px">תלחץ על הקלף. תקריא למי שיושב לידך. כן, בקול. שני קלפים חינם מכל סבב. רוצה את השאר? הם בחפיסה האמיתית.</p>
       <div class="pills" id="pills"></div>
-      <div class="endnote" id="endnote">That was the free taste. The rest of <span id="rname">Round 1</span> lives in the real deck. <a href="#buy">Buy it for ₪100 →</a></div>
-      <button type="button" class="btn btn-k" id="next">Next card →</button>
+      <div class="endnote" id="endnote">זאת הייתה הטעימה. שאר <span id="rname">סבב 1</span> נמצא בחפיסה האמיתית. <a href="#buy">לקנות ב-₪100 ←</a></div>
+      <button type="button" class="btn btn-k" id="next">הקלף הבא ←</button>
     </div>
   </div>
 </section>
 
 <section id="where">
   <div class="wrap">
-    <h2 class="display reveal">Anywhere people <span class="odk">run out of<br/>things to say.</span></h2>
+    <h2 class="display reveal">בכל מקום שבו <span class="odk">נגמרים<br/>הדברים להגיד.</span></h2>
     <div class="places">
-      <div class="place reveal"><b>First dates</b><p>No awkward silence. No panic. Slide the deck over.</p><span class="say serif">“Pick a card.”</span></div>
-      <div class="place reveal"><b>Hostels</b><p>The easiest way into a table of strangers. Leave with friends from five countries.</p><span class="say serif">“Wanna play a game?”</span></div>
-      <div class="place reveal"><b>Family dinners</b><p>Hear the stories nobody told you. From people you thought you knew.</p><span class="say serif">“Mom, your turn.”</span></div>
-      <div class="place reveal"><b>Road trips &amp; tours</b><p>Turn a bus of strangers into a crew. The hours fly.</p><span class="say serif">“Back row, you're up.”</span></div>
-      <div class="place reveal"><b>Teams &amp; groups</b><p>Scouts, courses, new teams. Even the quiet ones talk on their turn.</p><span class="say serif">“Everyone answers.”</span></div>
-      <div class="place reveal"><b>Your best friends</b><p>You've known them for years. You still don't know this.</p><span class="say serif">“Wait… WHAT?”</span></div>
+      <div class="place reveal"><b>דייט ראשון</b><p>בלי שתיקות מביכות. בלי פאניקה. פשוט מחליקים את החפיסה.</p><span class="say serif">״תשלפי קלף.״</span></div>
+      <div class="place reveal"><b>הוסטלים</b><p>הדרך הכי קלה להצטרף לשולחן של זרים. יוצאים עם חברים מחמש מדינות.</p><span class="say serif">״רוצים לשחק משחק?״</span></div>
+      <div class="place reveal"><b>ארוחת שישי</b><p>תשמע סיפורים שאף אחד לא סיפר לך. מאנשים שחשבת שאתה מכיר.</p><span class="say serif">״אמא, תורך.״</span></div>
+      <div class="place reveal"><b>טיולים ונסיעות</b><p>הופכים אוטובוס של זרים לחבורה. השעות טסות.</p><span class="say serif">״ספסל אחורי, תורכם.״</span></div>
+      <div class="place reveal"><b>צוותים וקבוצות</b><p>צופים, קורסים, צוותים חדשים. גם השקטים מדברים כשמגיע התור שלהם.</p><span class="say serif">״כולם עונים.״</span></div>
+      <div class="place reveal"><b>החברים הכי טובים</b><p>אתם מכירים שנים. את זה עדיין לא ידעת.</p><span class="say serif">״רגע… מה?!״</span></div>
     </div>
   </div>
 </section>
 
 <section style="padding-top:0">
   <div class="wrap gallery">
-    <img class="big reveal" src="img/group8.jpg" alt="Cards spread out, one asks: what mistakes did your parents make that you want to avoid?"/>
-    <img class="sm reveal" src="img/group6.jpg" alt="Two boxes and a stack of cards"/>
-    <img class="sm reveal" src="img/group2.jpg" alt="Three card backs"/>
+    <img class="big reveal" src="img/group8.jpg" alt="קלפים פזורים על שולחן"/>
+    <img class="sm reveal" src="img/group6.jpg" alt="שתי קופסאות וערימת קלפים"/>
+    <img class="sm reveal" src="img/group2.jpg" alt="שלושה גבי קלפים"/>
   </div>
 </section>
 
 <section id="change">
   <div class="wrap">
-    <h2 class="display reveal">Instead of saying this…<br/><span class="serif">you'll say that.</span></h2>
+    <h2 class="display reveal">במקום להגיד את זה…<br/><span class="serif">תגיד את זה.</span></h2>
     <div class="ba">
-      <div class="ba-row reveal"><div class="before">“Every party is the same. Weather, work, where are you from.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“Last night we talked about our wildest dreams and biggest fears. Best party ever.”</div></div>
-      <div class="ba-row reveal"><div class="before">“On dates I panic about what to say next. I'm so boring.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“We laughed about our childhood and what really scares us. We just clicked.”</div></div>
-      <div class="ba-row reveal"><div class="before">“New people? The talk always dies after two minutes.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“Meeting new people is fun now. We go deep, like, right away.”</div></div>
-      <div class="ba-row reveal"><div class="before">“I feel stuck on the surface with my own friends.”</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">“We shared stuff last night we never told anyone. I feel so close to them.”</div></div>
+      <div class="ba-row reveal"><div class="before">״כל מסיבה אותו דבר. מזג אוויר, עבודה, מאיפה אתה.״</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">״אתמול דיברנו על החלומות הכי משוגעים והפחדים הכי גדולים. המסיבה הכי טובה אי פעם.״</div></div>
+      <div class="ba-row reveal"><div class="before">״בדייטים אני נכנס לפאניקה מה להגיד. אני כל כך משעמם.״</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">״צחקנו על הילדות ועל מה שבאמת מפחיד אותנו. פשוט התחברנו.״</div></div>
+      <div class="ba-row reveal"><div class="before">״אנשים חדשים? השיחה תמיד מתה אחרי שתי דקות.״</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">״להכיר אנשים חדשים זה כיף עכשיו. אנחנו צוללים לעומק, ממש מיד.״</div></div>
+      <div class="ba-row reveal"><div class="before">״אני מרגיש תקוע על פני השטח גם עם החברים שלי.״</div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#161412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"></path></svg><div class="after">״אתמול שיתפנו דברים שלא סיפרנו לאף אחד. אני מרגיש כל כך קרוב אליהם.״</div></div>
     </div>
   </div>
 </section>
 
 <section id="rules">
   <div class="wrap grid12">
-    <div class="rules-stage reveal" id="rulesStage" aria-label="The rules card — drag to spin" role="img">
+    <div class="rules-stage reveal" id="rulesStage" aria-label="קלף החוקים — גוררים כדי לסובב" role="img">
       <div class="rules-spin" id="rulesSpin">
         <div class="rside rfront"></div>
         <div class="rside rback"></div>
       </div>
-      <span class="rhint">Drag to spin</span>
+      <span class="rhint">גוררים כדי לסובב</span>
     </div>
     <div class="rules-txt reveal">
-      <div class="kicker">Read the label</div>
-      <h2 class="display">The only rules.</h2>
+      <div class="kicker">לקרוא את התווית</div>
+      <h2 class="display">החוקים היחידים.</h2>
       <div class="rules-list">
-        <span><span class="odk">Shut up</span> and, listen for once.</span>
-        <span>What's said here, <span class="odk">stays here.</span></span>
-        <span><span class="odk">Too real?</span> Skip it. We'll pretend we didn't notice.</span>
+        <span><span class="odk">שתוק</span> ותקשיב, לשם שינוי.</span>
+        <span>מה שנאמר כאן, <span class="odk">נשאר כאן.</span></span>
+        <span><span class="odk">יותר מדי אמיתי?</span> תדלג. נעשה כאילו לא שמנו לב.</span>
       </div>
-      <div class="kicker">Side effects</div>
-      <div class="fx"><span>Mood swings</span><span class="k">Uncontrollable honesty</span><span>Spontaneous life changes</span><span>Increased vulnerability</span><span>Unexpected connections</span><span class="or">Emotional rollercoaster</span></div>
+      <div class="kicker">תופעות לוואי</div>
+      <div class="fx"><span>מצבי רוח</span><span class="k">כנות בלתי נשלטת</span><span>שינויי חיים ספונטניים</span><span>פגיעות מוגברת</span><span>חיבורים לא צפויים</span><span class="or">רכבת הרים רגשית</span></div>
       <div class="label2">
-        <span><span class="odk">Ages:</span> mature enough to handle truth</span>
-        <span><span class="odk">Contents:</span> countless uncomfortable silences, a few life-changing moments, zero weather-related small talk</span>
+        <span><span class="odk">גילאים:</span> מספיק בוגרים כדי להתמודד עם האמת</span>
+        <span><span class="odk">תכולה:</span> אינספור שתיקות לא נוחות, כמה רגעים משני חיים, אפס שיחות על מזג האוויר</span>
       </div>
     </div>
   </div>
@@ -512,50 +522,50 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 <section id="buy">
   <div class="wrap grid12">
     <div class="buy-txt reveal">
-      <p class="serif">Or keep talking about the weather. Your call.</p>
-      <h2 class="display">Quit small talk.<br/><span class="o">Today.</span></h2>
-      <div class="price"><b>₪100</b><s>₪175</s><span>Save ₪75</span></div>
-      <div class="incl"><span>✓ All four rounds</span><span>✓ The rude rules card</span><span>✓ Pocket-size box</span><span>✓ English — play with anyone</span></div>
+      <p class="serif">או שתמשיך לדבר על מזג האוויר. ההחלטה שלך.</p>
+      <h2 class="display">די לסמול טוק.<br/><span class="o">היום.</span></h2>
+      <div class="price"><b>₪100</b><s>₪175</s><span>חוסכים ₪75</span></div>
+      <div class="incl"><span>✓ כל ארבעת הסבבים</span><span>✓ קלף החוקים החצוף</span><span>✓ קופסה בגודל כיס</span><span>✓ באנגלית — משחקים עם כל העולם</span></div>
       <form class="checkout" id="checkout" novalidate>
         <div class="co-row">
-          <span class="co-label">How many decks?</span>
+          <span class="co-label">כמה חפיסות?</span>
           <div class="qty">
-            <button type="button" id="qminus" aria-label="One less">−</button>
+            <button type="button" id="qminus" aria-label="אחת פחות">−</button>
             <output id="qty">1</output>
-            <button type="button" id="qplus" aria-label="One more">+</button>
+            <button type="button" id="qplus" aria-label="עוד אחת">+</button>
           </div>
         </div>
 
         <fieldset class="co-box">
-          <legend class="co-label">Shipping</legend>
-          <label class="opt"><input type="radio" name="ship" value="pickup" checked/><span>Pick up in Jaffa</span><b>Free</b></label>
-          <label class="opt"><input type="radio" name="ship" value="whatsapp"/><span>Want it delivered? WhatsApp me.<small>I'll ship it if I'm in the mood.</small></span><b>We'll see</b></label>
+          <legend class="co-label">משלוח</legend>
+          <label class="opt"><input type="radio" name="ship" value="pickup" checked/><span>איסוף עצמי ביפו</span><b>חינם</b></label>
+          <label class="opt"><input type="radio" name="ship" value="whatsapp"/><span>רוצה משלוח? תכתוב לי בוואטסאפ.<small>אשלח אם יהיה לי כוח.</small></span><b>נראה</b></label>
         </fieldset>
 
         <div class="pickup-only">
           <fieldset class="co-box">
-            <legend class="co-label">Your details</legend>
-            <input class="field" name="name" placeholder="Full name" autocomplete="name" required/>
-            <input class="field" name="phone" placeholder="Phone / WhatsApp" autocomplete="tel" required/>
+            <legend class="co-label">הפרטים שלך</legend>
+            <input class="field" name="name" placeholder="שם מלא" autocomplete="name" required/>
+            <input class="field" name="phone" placeholder="טלפון / וואטסאפ" autocomplete="tel" required/>
           </fieldset>
 
           <fieldset class="co-box">
-            <legend class="co-label">Pay with</legend>
-            <label class="opt"><input type="radio" name="pay" value="card" checked/><span>Card · Apple Pay · Google Pay</span><em class="chips"><i>VISA</i><i>MC</i><i>AMEX</i></em></label>
-            <label class="opt"><input type="radio" name="pay" value="bit"/><span>Bit</span><em class="chips"><i class="bit">bit</i></em></label>
+            <legend class="co-label">איך משלמים</legend>
+            <label class="opt"><input type="radio" name="pay" value="card" checked/><span>אשראי · Apple Pay · Google Pay</span><em class="chips"><i>VISA</i><i>MC</i><i>AMEX</i></em></label>
+            <label class="opt"><input type="radio" name="pay" value="bit"/><span>ביט</span><em class="chips"><i class="bit">bit</i></em></label>
           </fieldset>
         </div>
 
         <div class="co-total">
-          <span>Total now</span>
+          <span>לתשלום עכשיו</span>
           <strong id="total">₪100</strong>
         </div>
         <p class="paynote" id="shipnote">Pick up in Jaffa — I'll message you the address and a time.</p>
         <p class="co-err" id="coerr" role="alert"></p>
-        <button type="submit" class="btn btn-o co-go">Place order &amp; pay →</button>
+        <button type="submit" class="btn btn-o co-go">להזמין ולשלם ←</button>
       </form>
     </div>
-    <div class="box-stage reveal" id="boxStage" role="img" aria-label="The F*ck Small Talks box — drag to spin">
+    <div class="box-stage reveal" id="boxStage" role="img" aria-label="הקופסה של F*ck Small Talks — גוררים כדי לסובב">
       <div class="box3d" id="box3d">
         <div class="bf b-front"></div>
         <div class="bf b-back"></div>
@@ -565,25 +575,25 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
         <div class="bf b-bottom"></div>
       </div>
       <div class="box-shadow"></div>
-      <span class="rhint" style="color:#8A8378">Grab it. Spin it. It won't bite.</span>
+      <span class="rhint" style="color:#8A8378">תתפוס. תסובב. היא לא נושכת.</span>
     </div>
   </div>
 </section>
 
 <section id="faq">
   <div class="wrap grid12">
-    <h2 class="display faq-h reveal">Before<br/>you ask.</h2>
+    <h2 class="display faq-h reveal">לפני<br/>שאתה שואל.</h2>
     <div class="faq reveal">
-      <details><summary>Isn't a card game weird at 30?</summary><p>For ten seconds. Then someone answers a card, the table goes quiet, and nobody thinks it's weird anymore.</p></details>
-      <details><summary>How many people can play?</summary><p>Two or more. Great one-on-one on a date. Wild with a full hostel table.</p></details>
-      <details><summary>How long does it take?</summary><p>As long as you want. Some people talk for 20 minutes straight — tip: one minute per answer.</p></details>
-      <details><summary>What if I don't want to answer?</summary><p>Too real? Skip it. We'll pretend we didn't notice.</p></details>
+      <details><summary>משחק קלפים בגיל 30? זה לא מוזר?</summary><p>לעשר שניות. ואז מישהו עונה על קלף, השולחן משתתק, ואף אחד כבר לא חושב שזה מוזר.</p></details>
+      <details><summary>כמה אנשים יכולים לשחק?</summary><p>שניים ומעלה. מעולה אחד על אחד בדייט. מטורף עם שולחן מלא בהוסטל.</p></details>
+      <details><summary>כמה זמן זה לוקח?</summary><p>כמה שבא לכם. יש אנשים שמדברים 20 דקות ברצף — טיפ: דקה לתשובה.</p></details>
+      <details><summary>ומה אם אני לא רוצה לענות?</summary><p>יותר מדי אמיתי? תדלג. נעשה כאילו לא שמנו לב.</p></details>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap"><span>© F*ck Small Talks</span><span>fucksmalltalks.com</span><span>Use with caution</span></div>
+  <div class="wrap"><span>© F*ck Small Talks</span><span>fucksmalltalks.com</span><span>להשתמש בזהירות</span></div>
 </footer>
 
 <script>
@@ -609,12 +619,12 @@ const contact = (text) => WHATSAPP
 function refresh() {
   const pickup = form.ship.value === 'pickup';
   qtyEl.textContent = qty;
-  totalEl.textContent = '₪' + qty * PRICE + (pickup ? '' : ' + shipping');
+  totalEl.textContent = '₪' + qty * PRICE + (pickup ? '' : ' + משלוח');
   pickupOnly.hidden = !pickup;
   shipnote.textContent = pickup
-    ? "Pick up in Jaffa — I'll message you the address and a time."
-    : "Tell me where you are. If I'm in the mood, I'll ship it and send you the cost.";
-  goBtn.textContent = pickup ? 'Place order & pay →' : (WHATSAPP ? 'WhatsApp me →' : 'Message me →');
+    ? 'איסוף ביפו — אשלח לך כתובת ושעה.'
+    : 'תגיד לי איפה אתה. אם יהיה לי כוח, אשלח ואגיד לך כמה זה עולה.';
+  goBtn.textContent = pickup ? 'להזמין ולשלם ←' : (WHATSAPP ? 'לוואטסאפ ←' : 'לשלוח לי הודעה ←');
   coerr.textContent = '';
 }
 document.getElementById('qminus').onclick = () => { qty = Math.max(1, qty - 1); refresh(); };
@@ -625,12 +635,12 @@ refresh();
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   if (form.ship.value !== 'pickup') {
-    window.open(contact(`Hi! I want ${qty} F*ck Small Talks deck${qty > 1 ? 's' : ''} delivered to: `), '_blank', 'noopener');
+    window.open(contact(`היי! אני רוצה ${qty} חפיסות F*ck Small Talks במשלוח אל: `), '_blank', 'noopener');
     return;
   }
   const missing = ['name', 'phone'].filter((n) => !form[n].value.trim());
   form.querySelectorAll('.field').forEach((el) => el.classList.toggle('bad', missing.includes(el.name)));
-  if (missing.length) { coerr.textContent = 'Fill in the highlighted fields. Yes, all of them.'; return; }
+  if (missing.length) { coerr.textContent = 'תמלא את השדות המסומנים. כן, את כולם.'; return; }
 
   const payLabel = form.pay.value === 'bit' ? 'Bit' : 'Card / Apple Pay / Google Pay';
   const order = [
@@ -645,10 +655,10 @@ form.addEventListener('submit', (e) => {
 
   goBtn.outerHTML =
     `<div class="co-steps">
-       <a class="btn btn-ghost" href="${contact(order)}" target="_blank" rel="noopener">1 · Send my order</a>
-       <a class="btn btn-o" href="${payHref}" target="_blank" rel="noopener">2 · Pay ₪${qty * PRICE}</a>
+       <a class="btn btn-ghost" href="${contact(order)}" target="_blank" rel="noopener">1 · לשלוח את ההזמנה</a>
+       <a class="btn btn-o" href="${payHref}" target="_blank" rel="noopener">2 · לשלם ₪${qty * PRICE}</a>
      </div>`;
-  shipnote.textContent = 'Send the order, then pay. See you in Jaffa.';
+  shipnote.textContent = 'שולחים את ההזמנה ואז משלמים. נתראה ביפו.';
 });
 
 // Drag-to-spin 3D objects (rules card, box). They idle-rotate until grabbed.
@@ -686,16 +696,16 @@ if (matchMedia('(hover: hover)').matches) {
 }
 
 document.getElementById('mq').innerHTML =
-  Array(2).fill('<span>Tell me your biggest fear</span><i>✺</i><span>Skip the weather</span><i>✺</i><span>No more “so what do you do?”</span><i>✺</i><span>Pick a card</span><i>✺</i>').join('');
+  Array(2).fill('<span>ספר לי מה הפחד הכי גדול שלך</span><i>✺</i><span>בלי מזג אוויר</span><i>✺</i><span>די עם ״במה אתה עובד?״</span><i>✺</i><span>תשלוף קלף</span><i>✺</i>').join('');
 
 // Free taste: two real cards from every round, then the "rest is in the deck" card.
 const Y = ['#FDF3C7', '#9A5B00'], B = ['#D4EAF6', '#175A74'], L = ['#F3E6F4', '#7E3F8C'], P = ['#FCE9E8', '#8E1B22'], W = ['#FFFFFF', '#D2470F'];
 const c = (q, cat, pal) => ({ q, cat, bg: pal[0], fg: pal[1] });
 const ROUNDS = [
-  { label: 'Round 1', dot: '#F2C94C', cards: [c('Show the first photo in your camera roll. Explain.', 'Light & playful', Y), c('What makes you feel truly alive?', 'Identity & values', B)] },
-  { label: 'Round 2', dot: '#8CC3E3', cards: [c('What mistakes did your parents make that you want to avoid?', 'Family & relationship', L), c("Is there something you've dreamed of doing for a long time? Why haven't you done it?", 'Challenges & growth', P)] },
-  { label: 'Round 3', dot: '#E9A3A6', cards: [c('What do you need to forgive yourself for?', 'Self-insights', B), c("What's the hardest truth you've had to accept?", 'Pain & healing', P)] },
-  { label: 'Round 4', dot: '#EB5A1E', cards: [c('What was your first impression of me?', 'About me', W), c('When this game is over, what will you remember about me?', 'About me', W)] }
+  { label: 'סבב 1', dot: '#F2C94C', cards: [c('Show the first photo in your camera roll. Explain.', 'Light & playful', Y), c('What makes you feel truly alive?', 'Identity & values', B)] },
+  { label: 'סבב 2', dot: '#8CC3E3', cards: [c('What mistakes did your parents make that you want to avoid?', 'Family & relationship', L), c("Is there something you've dreamed of doing for a long time? Why haven't you done it?", 'Challenges & growth', P)] },
+  { label: 'סבב 3', dot: '#E9A3A6', cards: [c('What do you need to forgive yourself for?', 'Self-insights', B), c("What's the hardest truth you've had to accept?", 'Pain & healing', P)] },
+  { label: 'סבב 4', dot: '#EB5A1E', cards: [c('What was your first impression of me?', 'About me', W), c('When this game is over, what will you remember about me?', 'About me', W)] }
 ];
 let round = 0, idx = 0;
 const pcard = document.getElementById('pcard'), front = document.getElementById('front'),
@@ -704,7 +714,7 @@ const pcard = document.getElementById('pcard'), front = document.getElementById(
 
 function paint() {
   const r = ROUNDS[round], end = idx >= r.cards.length;
-  const card = end ? { q: `Want the rest of ${r.label}?`, cat: 'Get the deck · ₪100', bg: '#EB5A1E', fg: '#161412' } : r.cards[idx];
+  const card = end ? { q: `Want the rest of ${r.label.replace('סבב','Round')}?`, cat: 'לחפיסה · ₪100', bg: '#EB5A1E', fg: '#161412' } : r.cards[idx];
   qEl.textContent = card.q; catEl.textContent = card.cat;
   front.style.background = card.bg; front.style.color = card.fg;
   pcard.classList.toggle('end', end);
