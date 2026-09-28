@@ -207,6 +207,32 @@ h1 .strike{font-size:.9em;color:#8A8378;text-decoration:line-through;text-decora
 #buy .btn-o{border-color:var(--paper);box-shadow:6px 6px 0 var(--paper)}
 #buy .btn-ghost{color:var(--paper);border-color:var(--paper);background:none}
 .paynote{font-size:15px;color:#B7AFA2}
+.checkout{display:flex;flex-direction:column;gap:18px;max-width:560px}
+.co-label{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#B7AFA2;padding:0}
+.co-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.qty{display:flex;align-items:center;border:2px solid var(--paper);border-radius:999px}
+.qty button{width:48px;height:48px;background:none;border:none;color:var(--paper);font-size:24px;cursor:pointer}
+.qty output{min-width:36px;text-align:center;font-family:Anton,sans-serif;font-size:24px}
+.co-box{border:1.5px solid #4A453E;border-radius:14px;padding:14px 18px;display:flex;flex-direction:column;gap:4px}
+.co-box legend{padding:0 6px}
+.opt{display:flex;align-items:center;gap:12px;min-height:48px;cursor:pointer;border-bottom:1px solid #2E2A26}
+.opt:last-child{border-bottom:none}
+.opt input{accent-color:var(--orange);width:18px;height:18px;flex-shrink:0}
+.opt span{flex:1;font-size:17px}
+.opt b{font-size:14px;font-weight:500;color:#B7AFA2}
+.chips{display:flex;gap:6px;font-style:normal}
+.chips i{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.04em;background:var(--paper);color:#1A1F71;padding:4px 7px;border-radius:5px}
+.chips i.bit{background:#1CA7B8;color:#fff}
+.field{width:100%;background:none;border:none;border-bottom:1px solid #4A453E;color:var(--paper);font:inherit;font-size:17px;padding:12px 2px;outline:none}
+.field::placeholder{color:#8A8378}
+.field:focus{border-bottom-color:var(--orange)}
+.field.bad{border-bottom-color:#E5484D}
+.co-total{display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid var(--paper);padding-top:14px;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.co-total strong{font-family:Anton,sans-serif;font-weight:400;font-size:44px;color:var(--orange);letter-spacing:0}
+.co-err{color:#FF8A80;font-size:15px;min-height:1em}
+.co-go{align-self:flex-start}
+.co-steps{display:flex;gap:14px;flex-wrap:wrap}
+.field[hidden]{display:none}
 .buy-img{grid-column:8/span 5}
 .buy-img img{width:100%;height:620px;object-fit:cover;border-radius:24px}
 
@@ -459,11 +485,46 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
       <h2 class="display">Quit small talk.<br/><span class="o">Today.</span></h2>
       <div class="price"><b>₪100</b><s>₪175</s><span>Save ₪75</span></div>
       <div class="incl"><span>✓ All four rounds</span><span>✓ The rude rules card</span><span>✓ Pocket-size box</span><span>✓ English — play with anyone</span></div>
-      <div class="pay">
-        <a id="paypal" class="btn btn-o" href="#" target="_blank" rel="noopener">Pay with PayPal</a>
-        <a id="bit" class="btn btn-ghost" href="#" target="_blank" rel="noopener">Pay with Bit</a>
-      </div>
-      <p class="paynote">After you pay, I'll message you for your address and shipping.</p>
+      <form class="checkout" id="checkout" novalidate>
+        <div class="co-row">
+          <span class="co-label">How many decks?</span>
+          <div class="qty">
+            <button type="button" id="qminus" aria-label="One less">−</button>
+            <output id="qty">1</output>
+            <button type="button" id="qplus" aria-label="One more">+</button>
+          </div>
+        </div>
+
+        <fieldset class="co-box">
+          <legend class="co-label">Shipping</legend>
+          <label class="opt"><input type="radio" name="ship" value="pickup" checked/><span>Pick up in Jaffa</span><b>Free</b></label>
+          <label class="opt"><input type="radio" name="ship" value="israel"/><span>Home delivery in Israel</span><b>Quoted after order</b></label>
+          <label class="opt"><input type="radio" name="ship" value="abroad"/><span>Shipping abroad</span><b>Quoted after order</b></label>
+        </fieldset>
+
+        <fieldset class="co-box">
+          <legend class="co-label">Your details</legend>
+          <input class="field" name="name" placeholder="Full name" autocomplete="name" required/>
+          <input class="field" name="phone" placeholder="Phone / WhatsApp" autocomplete="tel" required/>
+          <input class="field ship-only" name="address" placeholder="Street, city, zip" autocomplete="street-address"/>
+          <input class="field abroad-only" name="country" placeholder="Country" autocomplete="country-name"/>
+        </fieldset>
+
+        <fieldset class="co-box">
+          <legend class="co-label">Pay with</legend>
+          <label class="opt"><input type="radio" name="pay" value="card" checked/><span>Card · Apple Pay · Google Pay</span><em class="chips"><i>VISA</i><i>MC</i><i>AMEX</i></em></label>
+          <label class="opt"><input type="radio" name="pay" value="bit"/><span>Bit</span><em class="chips"><i class="bit">bit</i></em></label>
+          <label class="opt"><input type="radio" name="pay" value="paypal"/><span>PayPal</span><em class="chips"><i>PayPal</i></em></label>
+        </fieldset>
+
+        <div class="co-total">
+          <span>Total now</span>
+          <strong id="total">₪100</strong>
+        </div>
+        <p class="paynote" id="shipnote">Pick up in Jaffa — I'll message you the address and a time.</p>
+        <p class="co-err" id="coerr" role="alert"></p>
+        <button type="submit" class="btn btn-o co-go">Place order &amp; pay →</button>
+      </form>
     </div>
     <div class="buy-img reveal"><img src="img/group6.jpg" alt="F*ck Small Talks boxes and cards"/></div>
   </div>
@@ -487,16 +548,78 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 
 <script>
 // ——— SET THESE ———
-// PayPal: your PayPal.me handle, e.g. 'fucksmalltalks' → https://paypal.me/fucksmalltalks/100ILS
-// Bit: the payment link from the Bit business app.
-// Until they are filled in, both buttons open an order email.
+// GROW_LINK: the Grow payment page (card, Apple Pay, Google Pay, Bit).
+// PAYPAL_ME: your PayPal.me handle, e.g. 'fucksmalltalks' → https://paypal.me/fucksmalltalks/200ILS
+// WHATSAPP: your number in international format without + or spaces, e.g. '972501234567'.
+// Anything left empty falls back to an email to ORDER_EMAIL.
+const GROW_LINK = '';
 const PAYPAL_ME = '';
-const BIT_LINK = '';
+const WHATSAPP = '';
 const ORDER_EMAIL = 'enzaout@gmail.com';
+const PRICE = 100;
 
-const mail = (s) => `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order — ' + s)}`;
-document.getElementById('paypal').href = PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/100ILS` : mail('PayPal');
-document.getElementById('bit').href = BIT_LINK || mail('Bit');
+// Checkout: quantity, shipping, details, payment method.
+const form = document.getElementById('checkout');
+const qtyEl = document.getElementById('qty'), totalEl = document.getElementById('total'),
+  shipnote = document.getElementById('shipnote'), coerr = document.getElementById('coerr');
+let qty = 1;
+const SHIP_NOTES = {
+  pickup: "Pick up in Jaffa — I'll message you the address and a time.",
+  israel: "Shipping cost depends on the courier — I'll send it to you after you order.",
+  abroad: "International shipping depends on the country — I'll send you the cost after you order."
+};
+function refresh() {
+  const ship = form.ship.value;
+  qtyEl.textContent = qty;
+  totalEl.textContent = '₪' + qty * PRICE + (ship === 'pickup' ? '' : ' + shipping');
+  shipnote.textContent = SHIP_NOTES[ship];
+  form.querySelectorAll('.ship-only').forEach((el) => { el.hidden = ship === 'pickup'; });
+  form.querySelectorAll('.abroad-only').forEach((el) => { el.hidden = ship !== 'abroad'; });
+}
+document.getElementById('qminus').onclick = () => { qty = Math.max(1, qty - 1); refresh(); };
+document.getElementById('qplus').onclick = () => { qty = Math.min(20, qty + 1); refresh(); };
+form.addEventListener('change', refresh);
+refresh();
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const ship = form.ship.value, pay = form.pay.value;
+  const need = ['name', 'phone'].concat(ship === 'pickup' ? [] : ['address']).concat(ship === 'abroad' ? ['country'] : []);
+  const missing = need.filter((n) => !form[n].value.trim());
+  form.querySelectorAll('.field').forEach((el) => el.classList.toggle('bad', missing.includes(el.name)));
+  if (missing.length) { coerr.textContent = 'Fill in the highlighted fields. Yes, all of them.'; return; }
+  coerr.textContent = '';
+
+  const shipLabel = { pickup: 'Pick up in Jaffa', israel: 'Home delivery in Israel', abroad: 'Shipping abroad' }[ship];
+  const payLabel = { card: 'Card / Apple Pay / Google Pay', bit: 'Bit', paypal: 'PayPal' }[pay];
+  const order = [
+    'New F*ck Small Talks order',
+    `Decks: ${qty} (₪${qty * PRICE})`,
+    `Shipping: ${shipLabel}`,
+    `Name: ${form.name.value.trim()}`,
+    `Phone: ${form.phone.value.trim()}`,
+    ship !== 'pickup' ? `Address: ${form.address.value.trim()}` : '',
+    ship === 'abroad' ? `Country: ${form.country.value.trim()}` : '',
+    `Paying with: ${payLabel}`
+  ].filter(Boolean).join('\n');
+
+  const sendHref = WHATSAPP
+    ? `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(order)}`
+    : `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order')}&body=${encodeURIComponent(order)}`;
+  let payHref = pay === 'paypal'
+    ? (PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/${qty * PRICE}ILS` : '')
+    : GROW_LINK;
+  if (!payHref) payHref = `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks — payment link please')}&body=${encodeURIComponent(order)}`;
+
+  form.querySelector('.co-go').outerHTML =
+    `<div class="co-steps">
+       <a class="btn btn-ghost" href="${sendHref}" target="_blank" rel="noopener">1 · Send my order</a>
+       <a class="btn btn-o" href="${payHref}" target="_blank" rel="noopener">2 · Pay ₪${qty * PRICE}</a>
+     </div>`;
+  shipnote.textContent = ship === 'pickup'
+    ? 'Send the order, then pay. See you in Jaffa.'
+    : 'Send the order, then pay for the decks. Shipping cost comes separately.';
+});
 
 document.getElementById('mq').innerHTML =
   Array(2).fill('<span>Tell me your biggest fear</span><i>✺</i><span>Skip the weather</span><i>✺</i><span>No more “so what do you do?”</span><i>✺</i><span>Pick a card</span><i>✺</i>').join('');
