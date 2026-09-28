@@ -183,8 +183,14 @@ h1 .strike{font-size:.9em;color:#8A8378;text-decoration:line-through;text-decora
 
 /* RULES */
 #rules .grid12{align-items:center}
-.rules-img{grid-column:span 5;height:560px;background:#fff;border-radius:24px;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.rules-img img{width:560px;max-width:none;height:560px;object-fit:cover;transform:rotate(-4deg)}
+.rules-stage{grid-column:span 5;height:600px;perspective:1600px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;cursor:grab;touch-action:pan-y;user-select:none}
+.rules-stage:active{cursor:grabbing}
+.rules-spin{position:relative;width:320px;height:540px;transform-style:preserve-3d;will-change:transform}
+.rside{position:absolute;inset:0;border-radius:22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;background-size:cover;background-position:center;box-shadow:0 40px 80px rgba(22,20,18,.28)}
+.rfront{background-image:url(img/rules.jpg)}
+.rback{background-image:url(img/cardback.jpg);transform:rotateY(180deg)}
+.rhint{font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#8A8378}
+[data-tilt]{transition:transform .25s ease-out;transform-style:preserve-3d;will-change:transform}
 .rules-txt{grid-column:7/span 6;display:flex;flex-direction:column;gap:24px}
 .rules-list{display:flex;flex-direction:column;gap:10px;font-size:22px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1.35}
 .fx{display:flex;flex-wrap:wrap;gap:10px}
@@ -232,9 +238,23 @@ h1 .strike{font-size:.9em;color:#8A8378;text-decoration:line-through;text-decora
 .co-err{color:#FF8A80;font-size:15px;min-height:1em}
 .co-go{align-self:flex-start}
 .co-steps{display:flex;gap:14px;flex-wrap:wrap}
-.field[hidden]{display:none}
-.buy-img{grid-column:8/span 5}
-.buy-img img{width:100%;height:620px;object-fit:cover;border-radius:24px}
+.field[hidden],.pickup-only[hidden]{display:none}
+.pickup-only{display:flex;flex-direction:column;gap:18px}
+.opt small{display:block;font-size:14px;color:#8A8378;font-family:'Instrument Serif',serif;font-style:italic;font-size:17px}
+.box-stage{grid-column:8/span 5;height:640px;perspective:1800px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;position:relative;cursor:grab;touch-action:pan-y;user-select:none}
+.box-stage:active{cursor:grabbing}
+.box3d{--w:241px;--h:390px;--d:146px;position:relative;width:var(--w);height:var(--h);transform-style:preserve-3d;will-change:transform}
+.bf{position:absolute;background-size:100% 100%;background-color:#fff;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+.b-front,.b-back{width:var(--w);height:var(--h)}
+.b-front{background-image:url(img/box-front.jpg);transform:translateZ(calc(var(--d)/2))}
+.b-back{background-image:url(img/box-back.jpg);transform:rotateY(180deg) translateZ(calc(var(--d)/2))}
+.b-left,.b-right{width:var(--d);height:var(--h);left:calc((var(--w) - var(--d))/2)}
+.b-left{background-image:url(img/box-spine.jpg);transform:rotateY(-90deg) translateZ(calc(var(--w)/2))}
+.b-right{background-image:url(img/box-side.jpg);transform:rotateY(90deg) translateZ(calc(var(--w)/2))}
+.b-top,.b-bottom{width:var(--w);height:var(--d);top:calc((var(--h) - var(--d))/2)}
+.b-top{background:#f4f4f2;transform:rotateX(90deg) translateZ(calc(var(--h)/2))}
+.b-bottom{background-image:url(img/box-top.jpg);transform:rotateX(-90deg) translateZ(calc(var(--h)/2))}
+.box-shadow{position:absolute;bottom:90px;width:300px;height:40px;border-radius:50%;background:radial-gradient(closest-side,rgba(235,90,30,.45),transparent);filter:blur(6px);pointer-events:none}
 
 /* FAQ */
 .faq-h{grid-column:span 4}
@@ -283,10 +303,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
   .gallery .big,.gallery .sm{grid-column:auto;grid-row:auto;height:300px}
   .ba-row{grid-template-columns:1fr}
   .ba-row svg{transform:rotate(90deg);justify-self:center}
-  .rules-img{height:380px}.rules-img img{width:400px;height:400px}
+  .rules-stage{height:480px}.rules-spin{width:250px;height:422px}
   .label2,.incl{grid-template-columns:1fr}
   .price b{font-size:96px}
-  .buy-img img{height:360px}
+  .box-stage{height:500px}.box3d{--w:181px;--h:293px;--d:110px}.box-shadow{bottom:70px;width:220px}
   .shouldnt{font-size:32px}
 }
 @media (max-width:560px){.rounds{grid-template-columns:1fr}}
@@ -459,7 +479,13 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 
 <section id="rules">
   <div class="wrap grid12">
-    <div class="rules-img reveal"><img src="img/card1.jpg" alt="The rules card"/></div>
+    <div class="rules-stage reveal" id="rulesStage" aria-label="The rules card — drag to spin" role="img">
+      <div class="rules-spin" id="rulesSpin">
+        <div class="rside rfront"></div>
+        <div class="rside rback"></div>
+      </div>
+      <span class="rhint">Drag to spin</span>
+    </div>
     <div class="rules-txt reveal">
       <div class="kicker">Read the label</div>
       <h2 class="display">The only rules.</h2>
@@ -498,24 +524,22 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
         <fieldset class="co-box">
           <legend class="co-label">Shipping</legend>
           <label class="opt"><input type="radio" name="ship" value="pickup" checked/><span>Pick up in Jaffa</span><b>Free</b></label>
-          <label class="opt"><input type="radio" name="ship" value="israel"/><span>Home delivery in Israel</span><b>Quoted after order</b></label>
-          <label class="opt"><input type="radio" name="ship" value="abroad"/><span>Shipping abroad</span><b>Quoted after order</b></label>
+          <label class="opt"><input type="radio" name="ship" value="whatsapp"/><span>Want it delivered? WhatsApp me.<small>I'll ship it if I'm in the mood.</small></span><b>We'll see</b></label>
         </fieldset>
 
-        <fieldset class="co-box">
-          <legend class="co-label">Your details</legend>
-          <input class="field" name="name" placeholder="Full name" autocomplete="name" required/>
-          <input class="field" name="phone" placeholder="Phone / WhatsApp" autocomplete="tel" required/>
-          <input class="field ship-only" name="address" placeholder="Street, city, zip" autocomplete="street-address"/>
-          <input class="field abroad-only" name="country" placeholder="Country" autocomplete="country-name"/>
-        </fieldset>
+        <div class="pickup-only">
+          <fieldset class="co-box">
+            <legend class="co-label">Your details</legend>
+            <input class="field" name="name" placeholder="Full name" autocomplete="name" required/>
+            <input class="field" name="phone" placeholder="Phone / WhatsApp" autocomplete="tel" required/>
+          </fieldset>
 
-        <fieldset class="co-box">
-          <legend class="co-label">Pay with</legend>
-          <label class="opt"><input type="radio" name="pay" value="card" checked/><span>Card · Apple Pay · Google Pay</span><em class="chips"><i>VISA</i><i>MC</i><i>AMEX</i></em></label>
-          <label class="opt"><input type="radio" name="pay" value="bit"/><span>Bit</span><em class="chips"><i class="bit">bit</i></em></label>
-          <label class="opt"><input type="radio" name="pay" value="paypal"/><span>PayPal</span><em class="chips"><i>PayPal</i></em></label>
-        </fieldset>
+          <fieldset class="co-box">
+            <legend class="co-label">Pay with</legend>
+            <label class="opt"><input type="radio" name="pay" value="card" checked/><span>Card · Apple Pay · Google Pay</span><em class="chips"><i>VISA</i><i>MC</i><i>AMEX</i></em></label>
+            <label class="opt"><input type="radio" name="pay" value="bit"/><span>Bit</span><em class="chips"><i class="bit">bit</i></em></label>
+          </fieldset>
+        </div>
 
         <div class="co-total">
           <span>Total now</span>
@@ -526,7 +550,18 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
         <button type="submit" class="btn btn-o co-go">Place order &amp; pay →</button>
       </form>
     </div>
-    <div class="buy-img reveal"><img src="img/group6.jpg" alt="F*ck Small Talks boxes and cards"/></div>
+    <div class="box-stage reveal" id="boxStage" role="img" aria-label="The F*ck Small Talks box — drag to spin">
+      <div class="box3d" id="box3d">
+        <div class="bf b-front"></div>
+        <div class="bf b-back"></div>
+        <div class="bf b-left"></div>
+        <div class="bf b-right"></div>
+        <div class="bf b-top"></div>
+        <div class="bf b-bottom"></div>
+      </div>
+      <div class="box-shadow"></div>
+      <span class="rhint" style="color:#8A8378">Grab it. Spin it. It won't bite.</span>
+    </div>
   </div>
 </section>
 
@@ -549,32 +584,33 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 <script>
 // ——— SET THESE ———
 // GROW_LINK: the Grow payment page (card, Apple Pay, Google Pay, Bit).
-// PAYPAL_ME: your PayPal.me handle, e.g. 'fucksmalltalks' → https://paypal.me/fucksmalltalks/200ILS
 // WHATSAPP: your number in international format without + or spaces, e.g. '972501234567'.
 // Anything left empty falls back to an email to ORDER_EMAIL.
 const GROW_LINK = '';
-const PAYPAL_ME = '';
 const WHATSAPP = '';
 const ORDER_EMAIL = 'enzaout@gmail.com';
 const PRICE = 100;
 
-// Checkout: quantity, shipping, details, payment method.
+// Checkout: quantity, pickup in Jaffa (pay now) or "WhatsApp me" for delivery.
 const form = document.getElementById('checkout');
 const qtyEl = document.getElementById('qty'), totalEl = document.getElementById('total'),
-  shipnote = document.getElementById('shipnote'), coerr = document.getElementById('coerr');
+  shipnote = document.getElementById('shipnote'), coerr = document.getElementById('coerr'),
+  goBtn = form.querySelector('.co-go'), pickupOnly = form.querySelector('.pickup-only');
 let qty = 1;
-const SHIP_NOTES = {
-  pickup: "Pick up in Jaffa — I'll message you the address and a time.",
-  israel: "Shipping cost depends on the courier — I'll send it to you after you order.",
-  abroad: "International shipping depends on the country — I'll send you the cost after you order."
-};
+const contact = (text) => WHATSAPP
+  ? `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`
+  : `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order')}&body=${encodeURIComponent(text)}`;
+
 function refresh() {
-  const ship = form.ship.value;
+  const pickup = form.ship.value === 'pickup';
   qtyEl.textContent = qty;
-  totalEl.textContent = '₪' + qty * PRICE + (ship === 'pickup' ? '' : ' + shipping');
-  shipnote.textContent = SHIP_NOTES[ship];
-  form.querySelectorAll('.ship-only').forEach((el) => { el.hidden = ship === 'pickup'; });
-  form.querySelectorAll('.abroad-only').forEach((el) => { el.hidden = ship !== 'abroad'; });
+  totalEl.textContent = '₪' + qty * PRICE + (pickup ? '' : ' + shipping');
+  pickupOnly.hidden = !pickup;
+  shipnote.textContent = pickup
+    ? "Pick up in Jaffa — I'll message you the address and a time."
+    : "Tell me where you are. If I'm in the mood, I'll ship it and send you the cost.";
+  goBtn.textContent = pickup ? 'Place order & pay →' : (WHATSAPP ? 'WhatsApp me →' : 'Message me →');
+  coerr.textContent = '';
 }
 document.getElementById('qminus').onclick = () => { qty = Math.max(1, qty - 1); refresh(); };
 document.getElementById('qplus').onclick = () => { qty = Math.min(20, qty + 1); refresh(); };
@@ -583,43 +619,66 @@ refresh();
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const ship = form.ship.value, pay = form.pay.value;
-  const need = ['name', 'phone'].concat(ship === 'pickup' ? [] : ['address']).concat(ship === 'abroad' ? ['country'] : []);
-  const missing = need.filter((n) => !form[n].value.trim());
+  if (form.ship.value !== 'pickup') {
+    window.open(contact(`Hi! I want ${qty} F*ck Small Talks deck${qty > 1 ? 's' : ''} delivered to: `), '_blank', 'noopener');
+    return;
+  }
+  const missing = ['name', 'phone'].filter((n) => !form[n].value.trim());
   form.querySelectorAll('.field').forEach((el) => el.classList.toggle('bad', missing.includes(el.name)));
   if (missing.length) { coerr.textContent = 'Fill in the highlighted fields. Yes, all of them.'; return; }
-  coerr.textContent = '';
 
-  const shipLabel = { pickup: 'Pick up in Jaffa', israel: 'Home delivery in Israel', abroad: 'Shipping abroad' }[ship];
-  const payLabel = { card: 'Card / Apple Pay / Google Pay', bit: 'Bit', paypal: 'PayPal' }[pay];
+  const payLabel = form.pay.value === 'bit' ? 'Bit' : 'Card / Apple Pay / Google Pay';
   const order = [
     'New F*ck Small Talks order',
     `Decks: ${qty} (₪${qty * PRICE})`,
-    `Shipping: ${shipLabel}`,
+    'Pick up in Jaffa',
     `Name: ${form.name.value.trim()}`,
     `Phone: ${form.phone.value.trim()}`,
-    ship !== 'pickup' ? `Address: ${form.address.value.trim()}` : '',
-    ship === 'abroad' ? `Country: ${form.country.value.trim()}` : '',
     `Paying with: ${payLabel}`
-  ].filter(Boolean).join('\n');
+  ].join('\n');
+  const payHref = GROW_LINK || `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks — payment link please')}&body=${encodeURIComponent(order)}`;
 
-  const sendHref = WHATSAPP
-    ? `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(order)}`
-    : `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks order')}&body=${encodeURIComponent(order)}`;
-  let payHref = pay === 'paypal'
-    ? (PAYPAL_ME ? `https://paypal.me/${PAYPAL_ME}/${qty * PRICE}ILS` : '')
-    : GROW_LINK;
-  if (!payHref) payHref = `mailto:${ORDER_EMAIL}?subject=${encodeURIComponent('F*ck Small Talks — payment link please')}&body=${encodeURIComponent(order)}`;
-
-  form.querySelector('.co-go').outerHTML =
+  goBtn.outerHTML =
     `<div class="co-steps">
-       <a class="btn btn-ghost" href="${sendHref}" target="_blank" rel="noopener">1 · Send my order</a>
+       <a class="btn btn-ghost" href="${contact(order)}" target="_blank" rel="noopener">1 · Send my order</a>
        <a class="btn btn-o" href="${payHref}" target="_blank" rel="noopener">2 · Pay ₪${qty * PRICE}</a>
      </div>`;
-  shipnote.textContent = ship === 'pickup'
-    ? 'Send the order, then pay. See you in Jaffa.'
-    : 'Send the order, then pay for the decks. Shipping cost comes separately.';
+  shipnote.textContent = 'Send the order, then pay. See you in Jaffa.';
 });
+
+// Drag-to-spin 3D objects (rules card, box). They idle-rotate until grabbed.
+function spinnable(stage, obj, tiltX) {
+  let ry = -25, rx = tiltX, vy = 0.25, drag = false, lx = 0, ly = 0, last = 0;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  stage.addEventListener('pointerdown', (e) => { drag = true; lx = e.clientX; ly = e.clientY; vy = 0; stage.setPointerCapture(e.pointerId); });
+  stage.addEventListener('pointermove', (e) => {
+    if (!drag) return;
+    vy = (e.clientX - lx) * 0.5; ry += vy;
+    rx = Math.max(-35, Math.min(35, rx - (e.clientY - ly) * 0.3));
+    lx = e.clientX; ly = e.clientY;
+  });
+  const up = () => { drag = false; if (Math.abs(vy) < 0.2) vy = 0.25; };
+  stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+  (function tick(t) {
+    if (!drag && !reduce) { ry += vy; vy += (0.25 - vy) * 0.03; rx += (tiltX - rx) * 0.03; }
+    obj.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg)`;
+    requestAnimationFrame(tick);
+  })();
+}
+spinnable(document.getElementById('rulesStage'), document.getElementById('rulesSpin'), 6);
+spinnable(document.getElementById('boxStage'), document.getElementById('box3d'), -10);
+
+// 3D tilt on hover for cards and photos.
+if (matchMedia('(hover: hover)').matches) {
+  document.querySelectorAll('.round, .gallery img, .after, .place').forEach((el) => {
+    el.setAttribute('data-tilt', '');
+    el.addEventListener('pointermove', (e) => {
+      const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+      el.style.transform = `perspective(900px) rotateY(${x * 14}deg) rotateX(${-y * 14}deg) translateZ(8px)`;
+    });
+    el.addEventListener('pointerleave', () => { el.style.transform = ''; });
+  });
+}
 
 document.getElementById('mq').innerHTML =
   Array(2).fill('<span>Tell me your biggest fear</span><i>✺</i><span>Skip the weather</span><i>✺</i><span>No more “so what do you do?”</span><i>✺</i><span>Pick a card</span><i>✺</i>').join('');
