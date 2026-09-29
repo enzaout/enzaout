@@ -213,3 +213,8 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 #taste h2.display{font-size:clamp(40px,4.6vw,70px)}
 #taste .cta-row{justify-content:center;margin-top:22px}
 .npc h2.display{white-space:nowrap;font-size:clamp(40px,5.2vw,84px)}
+.fc{aspect-ratio:533/900}
+.fc:focus{outline:none}
+.fc .s.b{background-size:100% 100%}
+#ai h2.display{white-space:nowrap;font-size:clamp(20px,5.6vw,84px)}
+html[lang=en] #ai h2.display{font-size:clamp(20px,5vw,76px)}
