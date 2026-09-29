@@ -212,3 +212,4 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}*{animation:none!important}}
 #taste h2.display{font-size:clamp(40px,4.6vw,70px)}
 #taste .cta-row{justify-content:center;margin-top:22px}
+.npc h2.display{white-space:nowrap;font-size:clamp(40px,5.2vw,84px)}
