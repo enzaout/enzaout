@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>F*CK SMALL TALKS — משחק קלפים נגד סמול טוק</title>
 <meta name="description" content="לא מעניין אותי במה את.ה עובד.ת. מה הכי מפחיד אותך? משחק קלפים שלוקח כל שיחה לעומק תוך דקות."/>
-<meta property="og:title" content="F*CK SMALL TALKS"/>
-<meta property="og:description" content="Nobody cares what you do for a living. Tell me your biggest fear."/>
+<meta property="og:title" content="F*CK SMALL TALKS — בעברית"/>
+<meta property="og:description" content="לא מעניין אותי במה אתה עובד. ספר לי ממה אתה הכי מפחד."/>
 <meta property="og:image" content="img/group6.jpg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -273,10 +273,37 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
 .reveal{opacity:0;transform:translateY(30px);transition:.9s cubic-bezier(.2,.8,.2,1)}
 .reveal.in{opacity:1;transform:none}
 
+
+/* HERO (simple) */
+.hero-img{position:absolute;inset:30px 0 30px 40px;width:calc(100% - 40px);height:calc(100% - 60px);object-fit:cover;border-radius:300px 300px 24px 24px;box-shadow:0 30px 60px rgba(22,20,18,.18)}
+.rot{display:inline-block;font-size:.5em;line-height:1.1;margin-top:.15em}
+#rot{display:inline-block;transition:opacity .35s,transform .35s}
+#rot.out{opacity:0;transform:translateY(12px)}
+/* WHATSAPP PHONE */
+.phone-col{grid-column:span 5;display:flex;flex-direction:column;align-items:center;gap:22px}
+.phone{width:340px;max-width:100%;height:600px;border:12px solid #161412;border-radius:46px;background:#EFE7DE;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 30px 60px rgba(22,20,18,.25);position:relative}
+.phone::before{content:'';position:absolute;top:8px;left:50%;width:90px;height:22px;margin-left:-45px;background:#161412;border-radius:999px;z-index:3}
+.wa-top{background:#075E54;color:#fff;display:flex;align-items:center;gap:10px;padding:40px 14px 12px}
+.wa-av{width:36px;height:36px;border-radius:50%;background:#D9D3C7;color:#6B655C;display:grid;place-items:center;font-weight:700}
+.wa-who{display:flex;flex-direction:column;line-height:1.2}
+.wa-who b{font-size:16px}.wa-who small{font-size:12px;opacity:.8}
+.wa-body{flex:1;padding:14px 12px;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;overflow:hidden;background-color:#EFE7DE;background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:14px 14px}
+.wa-msg{max-width:78%;padding:7px 10px 16px;border-radius:10px;font-size:15px;line-height:1.35;position:relative;box-shadow:0 1px 1px rgba(0,0,0,.08);animation:pop .35s cubic-bezier(.2,.9,.3,1.4) both;align-self:flex-start;background:#fff;color:#161412}
+.wa-msg.me{align-self:flex-end;background:#D9FDD3}
+.wa-msg time{position:absolute;bottom:3px;inset-inline-end:8px;font-size:10px;color:#8A8378}
+.wa-typing{align-self:flex-start;background:#fff;border-radius:10px;padding:10px 12px;display:flex;gap:4px}
+.wa-typing i{width:6px;height:6px;border-radius:50%;background:#8A8378;animation:blink 1s infinite}
+.wa-typing i:nth-child(2){animation-delay:.2s}.wa-typing i:nth-child(3){animation-delay:.4s}
+@keyframes pop{from{opacity:0;transform:scale(.6) translateY(10px)}to{opacity:1;transform:none}}
+@keyframes blink{50%{opacity:.25}}
+.wa-cta{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#fff;text-decoration:none;font-weight:700;font-size:18px;padding:14px 24px;border-radius:999px;box-shadow:0 10px 24px rgba(37,211,102,.35)}
+.wa-cta:hover{color:#fff;transform:translateY(-2px)}
+/* PLACES with photos */
+.place img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:16px;margin-bottom:6px}
 :lang(he) body,html[lang=he] body{font-family:Rubik,'Space Grotesk',sans-serif}
 html[lang=he] .display,html[lang=he] .intro-txt,html[lang=he] .btn,html[lang=he] .marquee div,html[lang=he] .pain .n,html[lang=he] .story-img span,html[lang=he] .co-total strong,html[lang=he] .qty output{font-family:Karantina,Anton,sans-serif;font-weight:700}
 html[lang=he] .display{line-height:.95;letter-spacing:0}
-html[lang=he] h1.display{font-size:clamp(72px,12.5vw,190px)}
+html[lang=he] h1.display{font-size:clamp(64px,10vw,160px)}
 html[lang=he] .serif{font-family:'Frank Ruhl Libre',serif;font-style:normal}
 html[lang=he] .kicker,html[lang=he] .eyebrow,html[lang=he] .rules-list,html[lang=he] .label2,html[lang=he] .co-label,html[lang=he] .round .no,html[lang=he] footer{letter-spacing:.04em}
 html[lang=he] .round{font-family:Rubik,sans-serif}
@@ -313,7 +340,9 @@ html[lang=he] .st1{top:40px;left:120px;animation-delay:-1s}html[lang=he] .st2{to
   .logo{font-size:18px;margin-inline-end:8px}
   .navlinks .dk{display:none}.navlinks .mb{display:inline}
   .grid12{display:flex;flex-direction:column;gap:40px}
-  .hero-r{height:560px;width:100%;max-width:440px;margin:0 auto}
+  .hero-r{height:480px;width:100%;max-width:440px;margin:0 auto}
+  .hero-img{inset:0;width:100%;height:100%}
+  .phone{height:540px}
   .arch{inset:30px 0 30px 20px}
   .stage{left:50%;top:70px;width:260px;height:398px;margin-left:-130px}
   .side.face .q{font-size:23px}
@@ -377,7 +406,7 @@ html[lang=he] .st1{top:40px;left:120px;animation-delay:-1s}html[lang=he] .st2{to
   <div class="wrap grid12 hero">
     <div class="hero-l">
       <div class="eyebrow">משחק קלפים למי שנמאס לו מסמול טוק</div>
-      <h1 class="display">לא מעניין<br/>אותי <span class="serif strike">במה את.ה עובד.ת</span><br/><span class="o">בכלל.</span></h1>
+      <h1 class="display">לא מעניין אותי<br/><span class="rot"><span class="serif strike" id="rot">במה אתה עובד?</span></span></h1>
       <div class="hero-row">
         <p>אף אחד לא קם בבוקר ואמר ״וואלה, בא לי לשמוע היום במה עובד הבן דוד של השכן״. אז שולפים קלף ועוברים ישר לדברים האמיתיים — בדייט, עם החברים, או עם הזר מהמיטה ליד בהוסטל.</p>
         <div class="hero-ctas">
@@ -386,37 +415,26 @@ html[lang=he] .st1{top:40px;left:120px;animation-delay:-1s}html[lang=he] .st2{to
         </div>
       </div>
     </div>
-    <div class="hero-r" aria-hidden="true">
-      <div class="arch"></div>
-      <div class="orbit a"></div>
-      <div class="orbit b">מה הדבר שאת.ה עדיין מנסה להוכיח להורים שלך?</div>
-      <div class="stage"><div class="spin">
-        <div class="side back"></div>
-        <div class="side face"><span class="q">אילו טעויות עשו ההורים שלך שאת.ה רוצה להימנע מהן?</span><span class="cat">F**CK · Level 2</span></div>
-      </div></div>
-      <div class="st st1">מאיפה את?</div><div class="st st2">איזה חום, אה?</div><div class="st st3">את מהאיזור?</div><div class="st st4">עוד פעם בחירות, איזה קטע</div><div class="st st5">מה עשית בסופ״ש?</div>
-      <div class="bubble">״אז… מה את עושה בחיים?״</div>
-      <div class="bubble2 serif">אז סתום כבר ותשלוף קלף.</div>
-      <div class="sticker"><s>₪175</s><b>₪100</b><small>מחיר השקה</small></div>
+    <div class="hero-r">
+      <img class="hero-img" src="img/hero.jpg" alt="חברים צוחקים סביב שולחן ומשחקים בקלפים"/>
+      <div class="sticker" aria-hidden="true"><s>₪175</s><b>₪100</b><small>מחיר השקה</small></div>
     </div>
   </div>
 </header>
 
-<div class="marquee" aria-hidden="true"><div id="mq"></div></div>
+
 
 <section id="problem">
   <div class="wrap grid12">
-    <div class="chat reveal">
-      <div class="kicker" style="margin-bottom:18px">ואז הוא אמר לי:</div>
-      <div class="msg">מאיפה את?</div>
-      <div class="msg me">תל אביב.</div>
-      <div class="msg">תגידי, מה את עושה בחיים?</div>
-      <div class="msg">את מהאיזור?</div>
-      <div class="msg">מה את אוהבת לעשות? אני אוהב לראות טלוויזיה</div>
-      <div class="msg">איזה חום, אה?</div>
-      <div class="msg">עוד פעם בחירות, איזה קטע</div>
-      <div class="msg me">אין לי מה לומר.</div>
-      <div class="kill serif">וואי. ליטרלי קרינג׳ לי.</div>
+    <div class="phone-col reveal">
+      <div class="phone" aria-label="שיחת סמול טוק משעממת בוואטסאפ">
+        <div class="wa-top">
+          <span class="wa-av" aria-hidden="true">?</span>
+          <span class="wa-who"><b id="waName">אחד מטינדר</b><small id="waStatus">מקליד…</small></span>
+        </div>
+        <div class="wa-body" id="wa"></div>
+      </div>
+      <a class="wa-cta" id="waCta" href="#" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2 .7 2.8.6.4-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg><span>דברו איתי</span></a>
     </div>
     <div class="pains reveal">
       <h2 class="display">למה כולם<br/><span class="odk">NPC</span></h2>
@@ -488,12 +506,12 @@ html[lang=he] .st1{top:40px;left:120px;animation-delay:-1s}html[lang=he] .st2{to
   <div class="wrap">
     <h2 class="display reveal">בכל מקום <span class="odk">שנגמרות<br/>המילים.</span></h2>
     <div class="places">
-      <div class="place reveal"><b>דייט ראשון</b><p>במקום לשמוע ארבעים דקות על קריפטו. מניחים את החפיסה על השולחן וזהו.</p><span class="say serif">״תשלפי קלף.״</span></div>
-      <div class="place reveal"><b>הוסטלים</b><p>הדרך הכי קלה להצטרף לשולחן של זרים בלי להעמיד פנים שאת.ה יודע.ת לשחק שש-בש.</p><span class="say serif">״רוצים לשחק?״</span></div>
-      <div class="place reveal"><b>ארוחת שישי</b><p>סוף סוף סבתא מספרת משהו חוץ מ״אכלת?״</p><span class="say serif">״אמא, תורך.״</span></div>
-      <div class="place reveal"><b>טיולים</b><p>אוטובוס של זרים הופך לחבר׳ה עוד לפני שעוברים את שער הגיא.</p><span class="say serif">״ספסל אחורי, תורכם.״</span></div>
-      <div class="place reveal"><b>צוותים וקבוצות</b><p>צופים, קורסים, צוות חדש בעבודה. גם השקטים מדברים כשמגיע התור שלהם.</p><span class="say serif">״כולם עונים.״</span></div>
-      <div class="place reveal"><b>החברים הכי טובים</b><p>מכירים עשר שנים. מסתבר שלא.</p><span class="say serif">״רגע… מה?!״</span></div>
+      <div class="place reveal"><img src="img/p-date.jpg" alt="זוג בדייט ראשון משחק בקלפים" loading="lazy"/><b>דייט ראשון</b><p>במקום לשמוע ארבעים דקות על קריפטו. מניחים את החפיסה על השולחן וזהו.</p><span class="say serif">״תשלפי קלף.״</span></div>
+      <div class="place reveal"><img src="img/p-hostel.jpg" alt="מטיילים בהוסטל משחקים בקלפים" loading="lazy"/><b>הוסטלים</b><p>הדרך הכי קלה להצטרף לשולחן של זרים בלי להעמיד פנים שאת.ה יודע.ת לשחק שש-בש.</p><span class="say serif">״רוצים לשחק?״</span></div>
+      <div class="place reveal"><img src="img/p-family.jpg" alt="ארוחת שישי משפחתית עם הקלפים" loading="lazy"/><b>ארוחת שישי</b><p>סוף סוף סבתא מספרת משהו חוץ מ״אכלת?״</p><span class="say serif">״אמא, תורך.״</span></div>
+      <div class="place reveal"><img src="img/p-trip.jpg" alt="חברים באוטובוס משחקים בקלפים" loading="lazy"/><b>טיולים</b><p>אוטובוס של זרים הופך לחבר׳ה עוד לפני שעוברים את שער הגיא.</p><span class="say serif">״ספסל אחורי, תורכם.״</span></div>
+      <div class="place reveal"><img src="img/p-team.jpg" alt="צוות עבודה משחק בקלפים" loading="lazy"/><b>צוותים וקבוצות</b><p>צופים, קורסים, צוות חדש בעבודה. גם השקטים מדברים כשמגיע התור שלהם.</p><span class="say serif">״כולם עונים.״</span></div>
+      <div class="place reveal"><img src="img/p-friends.jpg" alt="חברות הכי טובות בים עם הקלפים" loading="lazy"/><b>החברים הכי טובים</b><p>מכירים עשר שנים. מסתבר שלא.</p><span class="say serif">״רגע… מה?!״</span></div>
     </div>
   </div>
 </section>
@@ -721,8 +739,46 @@ if (matchMedia('(hover: hover)').matches) {
   });
 }
 
-document.getElementById('mq').innerHTML =
-  Array(2).fill('<s>במה אתה עובד?</s><i>✺</i><s>מאיפה את?</s><i>✺</i><s>איזה חום, אה?</s><i>✺</i><s>עוד פעם בחירות</s><i>✺</i><span>ממה את.ה הכי מפחד.ת?</span><i>✺</i>').join('');
+// Rotating struck-out small-talk line in the hero
+const ROT = ['במה אתה עובד?', 'כמה אחים יש לך?', 'מאיפה אתה במקור?', 'מה עשית בצבא?'];
+const rotEl = document.getElementById('rot');
+let ri = 0;
+setInterval(() => {
+  rotEl.classList.add('out');
+  setTimeout(() => { ri = (ri + 1) % ROT.length; rotEl.textContent = ROT[ri]; rotEl.classList.remove('out'); }, 350);
+}, 2400);
+
+// WhatsApp phone: boring messages pop in on a loop
+const WA_NAME = 'אחד מטינדר';
+const CHAT = [
+  { t: 'היי מה קורה?' }, { t: 'בת כמה את?' }, { t: 'מה הצבע האהוב עלייך?' },
+  { t: 'מה את עושה בחיים?' }, { me: true, t: '…' }, { t: 'איזה מזג אוויר היום, אה?' },
+  { t: 'מה עשית בצבא?' }, { t: 'מה התחביבים שלך?' }, { t: 'אני אוהב לראות טלוויזיה' },
+  { me: true, t: 'וואי. ליטרלי קרינג׳ לי.' }
+];
+const wa = document.getElementById('wa'), waStatus = document.getElementById('waStatus');
+document.getElementById('waName').textContent = WA_NAME;
+document.getElementById('waCta').href = contact('היי! ראיתי את האתר 👋');
+const now = () => new Date().toTimeString().slice(0, 5);
+let wi = 0;
+function waStep() {
+  if (wi >= CHAT.length) { setTimeout(() => { wa.innerHTML = ''; wi = 0; waStep(); }, 2600); return; }
+  const m = CHAT[wi++];
+  const typing = document.createElement('div');
+  typing.className = 'wa-typing'; typing.innerHTML = '<i></i><i></i><i></i>';
+  if (!m.me) { wa.appendChild(typing); waStatus.style.visibility = 'visible'; }
+  setTimeout(() => {
+    typing.remove(); waStatus.style.visibility = 'hidden';
+    const b = document.createElement('div');
+    b.className = 'wa-msg' + (m.me ? ' me' : '');
+    b.textContent = m.t;
+    const tm = document.createElement('time'); tm.textContent = now(); b.appendChild(tm);
+    wa.appendChild(b);
+    while (wa.children.length > 9) wa.firstChild.remove();
+    setTimeout(waStep, 700);
+  }, m.me ? 500 : 900);
+}
+waStep();
 
 // Free taste: two real cards from every round, then the "rest is in the deck" card.
 const Y = ['#FDF3C7', '#9A5B00'], B = ['#D4EAF6', '#175A74'], G = ['#E0FAE6', '#236B45'], L = ['#F3E6F4', '#7E3F8C'], P = ['#FCE9E8', '#8E1B22'], W = ['#FFFFFF', '#D2470F'];
