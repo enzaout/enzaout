@@ -83,6 +83,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Every day, even cooking days: warm water + salt/lemon → movement → meditation → sun BEFORE the kitchen. If something must cook, put it on the heat first and do the routine while it simmers.
 - Short version for busy days (15 min): water 1 min · movement 5 min · meditation 5 min · sun 5 min.
 - **Every morning message must ask her, in these words:** "עשית מדיטציה?" (she usually skips it and it matters to her) and "יאללה, איזה אימון את עושה היום?". Fit the workout before 10:00 breakfast, and never while a pot is on the heat alone.
+- **Every morning message includes a short guide:** 5 stretches (one line each, vary them day to day, include cat-cow / knees-to-chest for the gut) + a 5-minute guided meditation in the course's style (cushion on the floor, breath — energy in / stress out, smile to the organs, imagine the microbiome thriving and the body healing, thank the body). Short, warm, step by step.
 - First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
 
 ### Daily walkthrough
