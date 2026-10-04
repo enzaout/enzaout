@@ -80,6 +80,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - She orders organic vegetables **twice a month, before Tuesday**. On the Monday before an order, remind her: what to order, what to remove (pumpkin — she doesn't eat it), and quantities for 2 weeks.
 
 ### Morning routine is protected
+- She wakes at **06:30**. **Meditation must be before 07:30** (renovations in the building after that). Order: 06:30 warm water → 06:35 meditation → 06:45 stretches → sun → workout, all before 10:00 breakfast.
 - Every day, even cooking days: warm water + salt/lemon → movement → meditation → sun BEFORE the kitchen. If something must cook, put it on the heat first and do the routine while it simmers.
 - Short version for busy days (15 min): water 1 min · movement 5 min · meditation 5 min · sun 5 min.
 - **Every morning message must ask her, in these words:** "עשית מדיטציה?" (she usually skips it and it matters to her) and "יאללה, איזה אימון את עושה היום?". Fit the workout before 10:00 breakfast, and never while a pot is on the heat alone.
