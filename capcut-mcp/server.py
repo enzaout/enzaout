@@ -24,6 +24,8 @@ DRAFT_ROOT = Path(os.environ.get(
 ))
 BACKUP_ROOT = Path(os.environ.get("CAPCUT_BACKUPS", Path.home() / "capcut-mcp-backups"))
 DRAFT_FILES = ("draft_content.json", "draft_info.json")  # name differs between CapCut versions
+_bundled = Path(__file__).with_name("ffmpeg") / "ffprobe.exe"  # placed by install.ps1
+FFPROBE = os.environ.get("CAPCUT_FFPROBE", str(_bundled) if _bundled.exists() else "ffprobe")
 US = 1_000_000  # CapCut stores time in microseconds
 
 mcp = FastMCP("capcut")
@@ -47,16 +49,19 @@ def draft_file(folder):
     raise ValueError(f"No draft JSON in {folder} (looked for {', '.join(DRAFT_FILES)})")
 
 
+NO_WINDOW = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+
+
 def capcut_running():
     out = subprocess.run(["tasklist", "/FI", "IMAGENAME eq CapCut.exe"],
-                         capture_output=True, text=True).stdout
+                         capture_output=True, text=True, creationflags=NO_WINDOW).stdout
     return "CapCut.exe" in out
 
 
 def close_capcut(timeout=20):
     if not capcut_running():
         return
-    subprocess.run(["taskkill", "/IM", "CapCut.exe"], capture_output=True)
+    subprocess.run(["taskkill", "/IM", "CapCut.exe"], capture_output=True, creationflags=NO_WINDOW)
     for _ in range(timeout):
         if not capcut_running():
             return
@@ -150,8 +155,8 @@ def probe(path):
     """Width, height and duration (microseconds) via ffprobe, or None if ffprobe is missing."""
     try:
         out = json.loads(subprocess.check_output(
-            ["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height,duration:format=duration",
-             "-of", "json", str(path)], stderr=subprocess.DEVNULL))
+            [FFPROBE, "-v", "error", "-show_entries", "stream=codec_type,width,height,duration:format=duration",
+             "-of", "json", str(path)], stderr=subprocess.DEVNULL, creationflags=NO_WINDOW))
     except (OSError, subprocess.CalledProcessError, ValueError):
         return None
     v = next((x for x in out.get("streams", []) if x.get("codec_type") == "video"), {})
