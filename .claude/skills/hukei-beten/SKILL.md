@@ -73,6 +73,9 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **You calculate the amounts for her.** Work out how much of each thing she needs for the week and tell her plainly, e.g. "תקשיבי, חצי כוס מכל אחד מספיק לכל השבוע" (½ cup dry chickpeas ≈ 3 portions, ½ cup dry quinoa ≈ 1½ cups cooked ≈ 3 portions). Don't make her do the math, and don't suggest more than needed.
 - **Missing or too little of an ingredient → give both options:** (a) adapt the recipe to what she has (e.g. 0.3 L broth + water, boost with onion, garlic, ginger), (b) what to buy, added to the shopping list.
 
+### Use the scraps
+- Always tell her what to do with leftovers/trimmings, e.g. lemongrass leaves → tea (handful in 1 cup boiling water, 10 min), ginger peels → tea, herb stems → into the soup pot.
+
 ### Vegetable orders
 - She orders organic vegetables **twice a month, before Tuesday**. On the Monday before an order, remind her: what to order, what to remove (pumpkin — she doesn't eat it), and quantities for 2 weeks.
 
