@@ -33,7 +33,7 @@ if (-not $Python) {
     if (-not $Python) { throw "Python install failed. Install it from python.org (check 'Add to PATH') and run this again." }
 }
 Write-Host "Using Python: $Python"
-& $Python -m pip install --quiet --upgrade pip mcp
+& $Python -m pip install --quiet --no-warn-script-location --upgrade pip mcp
 if ($LASTEXITCODE -ne 0) { throw "pip install mcp failed." }
 
 # FFmpeg is optional: it lets the server read video length. Placed next to server.py.
@@ -63,8 +63,11 @@ else { Write-Host "CapCut projects folder not found at $drafts. Set CAPCUT_DRAFT
 $server = Join-Path $Dir "server.py"
 $connected = $false
 if (Get-Command claude -ErrorAction SilentlyContinue) {
-    claude mcp remove capcut --scope user 2>$null | Out-Null
+    # Windows PowerShell turns a native command's stderr into a terminating error under "Stop".
+    $ErrorActionPreference = "Continue"
+    cmd /c "claude mcp remove capcut --scope user >nul 2>&1"
     claude mcp add capcut --scope user -- $Python $server
+    $ErrorActionPreference = "Stop"
     Write-Host "Connected to Claude Code."
     $connected = $true
 }
