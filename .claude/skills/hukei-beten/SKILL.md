@@ -85,7 +85,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Short version for busy days (15 min): water 1 min · movement 5 min · meditation 5 min · sun 5 min.
 - **Every morning message must ask her, in these words:** "עשית מדיטציה?" (she usually skips it and it matters to her) and "יאללה, איזה אימון את עושה היום?". Fit the workout before 10:00 breakfast, and never while a pot is on the heat alone.
 - **Every morning message includes a short guide:** 5 stretches (one line each, vary them day to day, include cat-cow / knees-to-chest for the gut) + a 5-minute guided meditation in the course's style (cushion on the floor, breath — energy in / stress out, smile to the organs, imagine the microbiome thriving and the body healing, thank the body). Short, warm, step by step.
-- **Her meditation images** (she can't picture "good energy"): feel the AIR — cool in through the nose, warm out; a WARM REDDISH LIGHT filling the belly; inhale "רגוע", exhale "משחררת". She is a person of FREEDOM — use open-space images (open sky, wind, open sea), offer choices, never rigid instructions; "if your mind wanders, that's free too".
+- **Her meditation (body-focused, not "freedom"):** feel the AIR in and out; a GOLDEN light filling the stomach and intestines; inhale "שלווה זה יציבות", exhale "להרפות". Visualise realistic anatomy (not cartoon/pink): the stomach and the intestines lit golden, villi inside the small intestine like a field of grass, the microbiome thriving. Talk to the organs and smile to them (e.g. "תודה, קחי את הזמן, אני כאן"). Rotate images day to day.
 - First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
 
 ### Daily walkthrough
