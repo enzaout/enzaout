@@ -109,6 +109,56 @@ def text_of(m):
         return m.get("content", "") if m else ""
 
 
+def clone_segment(d, tmpl, material_id):
+    """Copy a segment and give the copy its own helper materials (speed, canvas, animation...)."""
+    seg = copy.deepcopy(tmpl)
+    seg["id"] = uid()
+    seg["material_id"] = material_id
+    seg["keyframe_refs"] = []
+    seg["common_keyframes"] = []
+    refs = []
+    for ref in seg.get("extra_material_refs", []):
+        for items in d["materials"].values():
+            hit = next((x for x in items if isinstance(x, dict) and x.get("id") == ref), None) if isinstance(items, list) else None
+            if hit:
+                new = copy.deepcopy(hit)
+                new["id"] = uid()
+                items.append(new)
+                refs.append(new["id"])
+                break
+    seg["extra_material_refs"] = refs
+    return seg
+
+
+def place(d, track, seg):
+    """Put seg on track, or on a new track of the same type if it overlaps (CapCut needs that)."""
+    rng = seg["target_timerange"]
+    overlaps = any(s["target_timerange"]["start"] < rng["start"] + rng["duration"]
+                   and rng["start"] < s["target_timerange"]["start"] + s["target_timerange"]["duration"]
+                   for s in track["segments"])
+    if overlaps:
+        track = {**{k: v for k, v in track.items() if k != "segments"}, "id": uid(), "segments": []}
+        if track["type"] == "video":
+            track["flag"] = 2  # overlay layer above the main track
+        d["tracks"].append(track)
+    track["segments"].append(seg)
+    track["segments"].sort(key=lambda s: s["target_timerange"]["start"])
+    return d["tracks"].index(track)
+
+
+def probe(path):
+    """Width, height and duration (microseconds) via ffprobe, or None if ffprobe is missing."""
+    try:
+        out = json.loads(subprocess.check_output(
+            ["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height,duration:format=duration",
+             "-of", "json", str(path)], stderr=subprocess.DEVNULL))
+    except (OSError, subprocess.CalledProcessError, ValueError):
+        return None
+    v = next((x for x in out.get("streams", []) if x.get("codec_type") == "video"), {})
+    dur = v.get("duration") or out.get("format", {}).get("duration")
+    return v.get("width"), v.get("height"), round(float(dur) * US) if dur else None
+
+
 def segments(d, kind):
     return [(t, s) for t in d["tracks"] if t["type"] == kind for s in t["segments"]]
 
@@ -168,32 +218,90 @@ def add_text(project: str, text: str, start: float, duration: float = 3.0) -> st
         except (KeyError, ValueError):
             m["content"] = text
         d["materials"]["texts"].append(m)
-        seg = copy.deepcopy(tmpl)
-        seg["id"] = uid()
-        seg["material_id"] = m["id"]
-        refs = []
-        for ref in seg.get("extra_material_refs", []):  # give the copy its own helper materials
-            for cat, items in d["materials"].items():
-                hit = next((x for x in items if isinstance(x, dict) and x.get("id") == ref), None) if isinstance(items, list) else None
-                if hit:
-                    new = copy.deepcopy(hit)
-                    new["id"] = uid()
-                    items.append(new)
-                    refs.append(new["id"])
-                    break
-        seg["extra_material_refs"] = refs
+        seg = clone_segment(d, tmpl, m["id"])
         rng = {"start": round(start * US), "duration": round(duration * US)}
         seg["target_timerange"] = rng
         seg["source_timerange"] = {"start": 0, "duration": rng["duration"]}
-        overlaps = any(s["target_timerange"]["start"] < rng["start"] + rng["duration"]
-                       and rng["start"] < s["target_timerange"]["start"] + s["target_timerange"]["duration"]
-                       for s in track["segments"])
-        if overlaps:  # CapCut needs overlapping texts on separate tracks
-            track = {**{k: v for k, v in track.items() if k != "segments"}, "id": uid(), "segments": []}
-            d["tracks"].append(track)
-        track["segments"].append(seg)
-        track["segments"].sort(key=lambda s: s["target_timerange"]["start"])
+        place(d, track, seg)
         return f"Added text {text!r} at {start:.2f}s for {duration:.2f}s."
+    return edit(project, mutate)
+
+
+@mcp.tool()
+def add_media(project: str, file_path: str, start: float | None = None,
+              duration: float | None = None, kind: str = "video") -> str:
+    """Add a video, image or audio file to the timeline.
+    kind: "video", "image" or "audio". start: seconds; omit to append at the end of the main track.
+    duration: seconds; omit to use the whole file (needs ffprobe, else required; images default to 5s).
+    The project must already contain at least one clip of the same kind (video/image share a template),
+    which is copied so the new clip matches CapCut's format."""
+    src = Path(file_path).expanduser().resolve()
+    if not src.is_file():
+        raise ValueError(f"File not found: {src}")
+    if kind not in ("video", "image", "audio"):
+        raise ValueError('kind must be "video", "image" or "audio"')
+    w, h, file_us = probe(src) or (None, None, None)
+    if kind == "image":
+        file_us = None  # stills have no length; ffprobe reports a single frame
+
+    def mutate(d):
+        track_type, cat = ("audio", "audios") if kind == "audio" else ("video", "videos")
+        existing = segments(d, track_type)
+        if not existing:
+            raise ValueError(f"Add any {track_type} clip in CapCut first; it is used as the template.")
+        main = next((t for t in d["tracks"] if t["type"] == track_type and t.get("flag", 0) == 0), existing[0][0])
+        tmpl = existing[0][1]
+        m = copy.deepcopy(material(d, tmpl["material_id"]))
+        m["id"] = uid()
+        m["path"] = str(src)
+        m["material_name"] = m["name"] = src.name
+        if kind == "image":
+            m["type"] = "photo"
+            m["duration"] = 10_800_000_000  # CapCut's value for stills
+        elif kind == "video":
+            m["type"] = "video"
+        if w and h:
+            m["width"], m["height"] = w, h
+        if file_us:
+            m["duration"] = file_us
+        d["materials"][cat].append(m)
+        dur = round(duration * US) if duration else (file_us or (5 * US if kind == "image" else None))
+        if not dur:
+            raise ValueError("Could not read the file length (ffprobe not installed). Pass duration in seconds.")
+        if file_us and dur > file_us:
+            raise ValueError(f"The file is only {file_us / US:.2f}s long.")
+        at = round(start * US) if start is not None else max(
+            (s["target_timerange"]["start"] + s["target_timerange"]["duration"] for s in main["segments"]), default=0)
+        seg = clone_segment(d, tmpl, m["id"])
+        seg["target_timerange"] = {"start": at, "duration": dur}
+        seg["source_timerange"] = {"start": 0, "duration": dur}
+        ti = place(d, main, seg)
+        return f"Added {src.name} on track {ti} at {at / US:.2f}s for {dur / US:.2f}s."
+    return edit(project, mutate)
+
+
+@mcp.tool()
+def set_transform(project: str, track: int, index: int, scale: float | None = None,
+                  x: float | None = None, y: float | None = None,
+                  rotation: float | None = None, opacity: float | None = None) -> str:
+    """Set size/position/rotation/opacity of a clip or text. Use read_timeline for track/index.
+    scale: 1.0 = original. x, y: -1..1 relative to the frame (0,0 = center). rotation: degrees. opacity: 0..1."""
+    def mutate(d):
+        seg = d["tracks"][track]["segments"][index]
+        clip = seg.setdefault("clip", {"scale": {"x": 1.0, "y": 1.0}, "rotation": 0.0,
+                                       "transform": {"x": 0.0, "y": 0.0}, "alpha": 1.0})
+        if scale is not None:
+            clip["scale"] = {"x": scale, "y": scale}
+            seg["uniform_scale"] = {"on": True, "value": scale}
+        if x is not None:
+            clip["transform"]["x"] = x
+        if y is not None:
+            clip["transform"]["y"] = y
+        if rotation is not None:
+            clip["rotation"] = rotation
+        if opacity is not None:
+            clip["alpha"] = opacity
+        return f"Transform set on [{track}][{index}]: {clip}"
     return edit(project, mutate)
 
 
