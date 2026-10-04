@@ -95,7 +95,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 ### Evening check-in (20:52 daily notification)
 - Every evening ask: "הולכת מחר בבוקר לאימון? איזה ומתי?" + how was today (bowel movements, food) + tonight's kitchen step (rinse legumes, move from freezer to fridge, pots into the fridge) + sleep by 23:00. Plan the next morning around her workout answer.
-- Don't plan the same dish twice in one day (e.g. not soup for breakfast AND dinner) unless she asks.
+- Repeating a dish she loves is fine (she happily eats the soup twice a day). Make sure every fresh vegetable she has (lettuce, spinach…) gets a place in the plan before it spoils.
 
 ### Daily walkthrough
 - She loves being walked through her day exactly: 06:30 wake routine → prep steps → 10:00 breakfast → … with what (if anything) to take to work.
