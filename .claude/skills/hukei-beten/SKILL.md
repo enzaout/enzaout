@@ -79,6 +79,11 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 ### Vegetable orders
 - She orders organic vegetables **twice a month, before Tuesday**. On the Monday before an order, remind her: what to order, what to remove (pumpkin — she doesn't eat it), and quantities for 2 weeks.
 
+### Morning routine is protected
+- Every day, even cooking days: warm water + salt/lemon → movement → meditation → sun BEFORE the kitchen. If something must cook, put it on the heat first and do the routine while it simmers.
+- Short version for busy days (15 min): water 1 min · movement 5 min · meditation 5 min · sun 5 min.
+- First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
+
 ### Daily walkthrough
 - She loves being walked through her day exactly: 06:30 wake routine → prep steps → 10:00 breakfast → … with what (if anything) to take to work.
 - A daily phone notification at 06:30 (Israel time) sends her "מה עושים היום במטבח".
