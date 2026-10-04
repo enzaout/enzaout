@@ -88,6 +88,11 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Her meditation (body-focused, she LOVES guided imagery):** inhale = "שלווה" = a cool, pleasant mountain breeze coming in; exhale = pressure goes out, "להרפות" the organs; all while keeping a STABLE CHIN — "שום דבר ואף אחד לא יכול להזיז אותי". A GOLDEN light fills the stomach and intestines. Realistic anatomy (not cartoon/pink): golden-lit stomach and intestines, villi inside like a field of grass, the microbiome thriving. Smile to the organs and talk to them with her mantras (stomach: "את בטוחה, קחי את הזמן, אני מאכילה אותך ברכות" · intestines: "אתם זורמים בקלות, אני משחררת מה שלא צריך" · microbiome: "תודה שאתם שומרים עליי"). Rotate guided-imagery journeys day to day.
 - First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
 
+### Daily check-in (food & bowel diary)
+- Every day ask her: did you have a bowel movement (when, easy/hard)? what did you actually eat at each meal and in between? how did your belly feel?
+- Respond warmly, NEVER with guilt. Off-plan food (e.g. challah, a meat+potato dish brought to her) = "it happens, the body knows how to handle it, back to the routine at the next meal". Note what helped and what didn't, and adapt the next days (e.g. a lighter, cooked meal after a heavy one).
+- If a planned meal didn't happen, move its ingredients to the next day (check freshness: raw meat 3–4 days in the fridge, otherwise freeze).
+
 ### Daily walkthrough
 - She loves being walked through her day exactly: 06:30 wake routine → prep steps → 10:00 breakfast → … with what (if anything) to take to work.
 - A daily phone notification at 06:30 (Israel time) sends her "מה עושים היום במטבח".
