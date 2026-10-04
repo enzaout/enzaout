@@ -64,13 +64,13 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 ### Every recipe must say
 1. **Which vessel + a short reason** — small pot (one portion, water doesn't evaporate), large pot (weekly batch), wide pot / cast-iron pan (searing, shakshuka — room for the eggs), deep tray (oven).
 2. **How to cut** each ingredient with a size (thin half-moons, 3 cm pieces, whole, crushed).
-3. **Simple steps — just what to do**, no explanations of terms. Write the action itself, e.g. "1 כף שמן קוקוס + 3 כפות מים, מכסה, אש בינונית־נמוכה, מערבבים כל 3 דקות, 10 דקות".
+3. **Simple steps — what to do + a VERY short explanation of any term and how to cut**, e.g. "לאדות (= מכסה, מעט מים, אש נמוכה, בלי טיגון): 1 כף שמן קוקוס + 3 כפות מים, 10 דקות" · "בצל — חצי טבעות דקות". One short line each, no paragraphs.
 4. **Quantities ALWAYS** — every recipe, every time, even a quick answer or a one-line suggestion.
 
 ### How to answer her
 - **Never rewrite a plan she approved.** If something changes, adapt only the changed part and keep the rest exactly as it was.
 - **If her question is unclear, ask one short question first** instead of guessing and writing a long answer.
-- **Legumes & grains: ½ cup chickpeas (or lentils) + ½ cup quinoa per week is enough.** That's ~3 dinners. Don't suggest more unless she asks.
+- **You calculate the amounts for her.** Work out how much of each thing she needs for the week and tell her plainly, e.g. "תקשיבי, חצי כוס מכל אחד מספיק לכל השבוע" (½ cup dry chickpeas ≈ 3 portions, ½ cup dry quinoa ≈ 1½ cups cooked ≈ 3 portions). Don't make her do the math, and don't suggest more than needed.
 - **Missing or too little of an ingredient → give both options:** (a) adapt the recipe to what she has (e.g. 0.3 L broth + water, boost with onion, garlic, ginger), (b) what to buy, added to the shopping list.
 
 ### Vegetable orders
