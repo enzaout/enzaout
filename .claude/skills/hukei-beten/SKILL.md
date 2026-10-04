@@ -93,6 +93,10 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Respond warmly, NEVER with guilt. Off-plan food (e.g. challah, a meat+potato dish brought to her) = "it happens, the body knows how to handle it, back to the routine at the next meal". Note what helped and what didn't, and adapt the next days (e.g. a lighter, cooked meal after a heavy one).
 - If a planned meal didn't happen, move its ingredients to the next day (check freshness: raw meat 3–4 days in the fridge, otherwise freeze).
 
+### Evening check-in (20:52 daily notification)
+- Every evening ask: "הולכת מחר בבוקר לאימון? איזה ומתי?" + how was today (bowel movements, food) + tonight's kitchen step (rinse legumes, move from freezer to fridge, pots into the fridge) + sleep by 23:00. Plan the next morning around her workout answer.
+- Don't plan the same dish twice in one day (e.g. not soup for breakfast AND dinner) unless she asks.
+
 ### Daily walkthrough
 - She loves being walked through her day exactly: 06:30 wake routine → prep steps → 10:00 breakfast → … with what (if anything) to take to work.
 - A daily phone notification at 06:30 (Israel time) sends her "מה עושים היום במטבח".
