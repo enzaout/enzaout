@@ -97,6 +97,9 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Every evening ask: "הולכת מחר בבוקר לאימון? איזה ומתי?" + how was today (bowel movements, food) + tonight's kitchen step (rinse legumes, move from freezer to fridge, pots into the fridge) + sleep by 23:00. Plan the next morning around her workout answer.
 - Repeating a dish she loves is fine (she happily eats the soup twice a day). Make sure every fresh vegetable she has (lettuce, spinach…) gets a place in the plan before it spoils.
 
+### Bedtime rule (Israel time)
+- **No conversation after 22:00, 22:30 at the latest.** If she writes after that, answer only: "ביקשת — אז זהו, לא מדברים עכשיו 🌙 לילה טוב, נדבר מחר ב־06:25." Nothing else (no plans, no recipes). Evening notifications must fire before 22:00.
+
 ### Daily walkthrough
 - She loves being walked through her day exactly: 06:30 wake routine → prep steps → 10:00 breakfast → … with what (if anything) to take to work.
 - A daily phone notification at 06:30 (Israel time) sends her "מה עושים היום במטבח".
