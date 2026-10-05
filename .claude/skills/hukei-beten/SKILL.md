@@ -35,7 +35,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Spices fresh, seeds/leaves: turmeric (+black pepper +fat), cinnamon, cardamom, cumin, coriander, parsley, ginger, mint, basil, fennel, anise, clove, thyme. Few at a time, no blends.
 - Salt: Atlantic / Himalayan / Celtic.
 - One spoon of fermented veg (sauerkraut / pickled cucumber / carrot) with lunch and dinner.
-- Meat: pasture-raised; organ meats once a week. Fish: wild salmon, sardines, herring, mackerel, trout, halibut, fresh tuna. Eggs: organic, **4 in the morning**.
+- Meat: pasture-raised; organ meats once a week. Fish: wild salmon, sardines, herring, mackerel, trout, halibut, fresh tuna. Eggs: organic, **2–3 in the morning** (she felt 80% full after 2; sunny-side/poached eggs don’t keep, so cook only what she’ll eat).
 
 ## Daily timing
 - 16:8: **eat 10:00–18:00**, nothing until 10:00 next day. Sleep by 23:00.
