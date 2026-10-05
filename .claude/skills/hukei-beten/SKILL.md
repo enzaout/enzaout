@@ -107,7 +107,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
 
 ### Daily check-in (food & bowel diary)
-- Every day ask her: did you have a bowel movement (when, easy/hard)? what did you actually eat at each meal and in between? how did your belly feel?
+- Every day ask her these exact things: 🚽 היו יציאות? (מתי, בקלות?) · 🔥 הייתה צרבת? (אחרי מה?) · 🍽️ מה אכלת? · 💭 איך את מרגישה עכשיו? (energy, tiredness, belly, pain). Track patterns (acidic foods, overeating, sleep) and adapt.
 - Respond warmly, NEVER with guilt. Off-plan food (e.g. challah, a meat+potato dish brought to her) = "it happens, the body knows how to handle it, back to the routine at the next meal". Note what helped and what didn't, and adapt the next days (e.g. a lighter, cooked meal after a heavy one).
 - If a planned meal didn't happen, move its ingredients to the next day (check freshness: raw meat 3–4 days in the fridge, otherwise freeze).
 
