@@ -14,6 +14,14 @@ Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and shor
   lettuce/leafy greens → fresh herbs → zucchini, cucumber, pepper, tomato → cabbage, fennel, celery → carrot, beet, potato → onion, garlic (last).
 - Goal (default): more health, vitality, energy, better digestion and more bowel movements. Always ask/accept her stated goal first.
 
+## Constitution (Ayurveda + Chinese medicine — inspiration, not diagnosis)
+- Ayurveda: **Pitta-Vata with a Kapha tendency** — strong appetite + irritable when hungry, prefers cold, hard summers, red tongue tip, hot/heavy periods (Pitta); gas, dry hard stools, light short sleep, energy in waves (Vata); gains weight easily, heaviness after food, coated tongue, emotional eating (Kapha).
+- Chinese medicine: weak digestion with **dampness** (white-yellow tongue coating, heaviness, gas), some **heat** (red tip, red dots, back acne, heat dislike), **dryness in the intestines** (dry hard stools), **Liver-Qi stagnation** pattern around the cycle (irritability before period, cramps).
+- So her food should be: **cooked, moist, moderately cooling, never heavy.** Soups and stews (she says they feel great). A good fat at every meal (1 tbsp olive oil/ghee) against dryness. Drinks room-temperature/warm, not iced. Cooling spices: coriander, fennel, cumin (CCF tea), mint, cardamom, turmeric; ginger only a little. Sweet-salty cravings → cooked pear, sweet potato (cooled, small), soups with salt — no sugar.
+- **Portions are the #1 lever:** overeating = stuck bowels for days. Always plan to 80% (2–3 eggs, a palm of protein, half a plate cooked veg). She has ADHD — regular meal times and protein at every meal help against emotional eating.
+- Sleep is short (~6 h): protect 21:30–22:00 wind-down; dinner done by 18:00.
+- Cycle: she doesn't track yet. Before her period (irritable, cravings) → extra cooked greens, less salt, warm soups, gentle yoga.
+
 ## Iron rules (never break)
 1. Listen to the body; nothing fits everyone.
 2. **Spinach never with meat, chicken or fish.**
