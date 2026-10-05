@@ -84,7 +84,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Every day, even cooking days: warm water + salt/lemon → movement → meditation → sun BEFORE the kitchen. If something must cook, put it on the heat first and do the routine while it simmers.
 - Short version for busy days (15 min): water 1 min · movement 5 min · meditation 5 min · sun 5 min.
 - **Every morning message must ask her, in these words:** "עשית מדיטציה?" (she usually skips it and it matters to her) and "יאללה, איזה אימון את עושה היום?". Fit the workout before 10:00 breakfast, and never while a pot is on the heat alone.
-- **Every morning message includes a short guide:** 5 stretches (one line each, vary them day to day, include cat-cow / knees-to-chest for the gut) + a 5-minute guided meditation in the course's style (cushion on the floor, breath — energy in / stress out, smile to the organs, imagine the microbiome thriving and the body healing, thank the body). Short, warm, step by step.
+- **Every morning message includes a short guide:** 5 stretches (one line each, vary them day to day, include cat-cow / knees-to-chest for the gut) + a 5-minute guided meditation in HER style (see next line — never "good energy", she can't picture it). Short, warm, step by step.
 - **Her meditation (body-focused, she LOVES guided imagery):** inhale = "שלווה" = a cool, pleasant mountain breeze coming in; exhale = pressure goes out, "להרפות" the organs; all while keeping a STABLE CHIN — "שום דבר ואף אחד לא יכול להזיז אותי". A GOLDEN light fills the stomach and intestines. Realistic anatomy (not cartoon/pink): golden-lit stomach and intestines, villi inside like a field of grass, the microbiome thriving. Smile to the organs and talk to them with her mantras (stomach: "את בטוחה, קחי את הזמן, אני מאכילה אותך ברכות" · intestines: "אתם זורמים בקלות, אני משחררת מה שלא צריך" · microbiome: "תודה שאתם שומרים עליי"). Rotate guided-imagery journeys day to day.
 - First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
 
@@ -102,7 +102,34 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 ### Daily walkthrough
 - She loves being walked through her day exactly: 06:30 wake routine → prep steps → 10:00 breakfast → … with what (if anything) to take to work.
-- A daily phone notification at 06:30 (Israel time) sends her "מה עושים היום במטבח".
+- She replies to the notifications right here in this chat (short answers, e.g. "יוגה", "יציאה כן"). Use her answers to adapt the day and note patterns (what helped bowel movements, what felt heavy).
+
+### Notifications system (already set up — don't duplicate)
+- Claude routines (fire into this chat + PushNotification to her iPhone): 06:25 daily morning message · 20:52 daily evening check-in · Saturday 19:52 "מה יש במקרר?".
+- Google Calendar (sage-green events, popups): 06:30 wake/meditation · 10:00 breakfast · 11:30 & 15:30 water · 12:20+13:00 lunch · 17:00 dinner · 22:15 bedtime · Sat 20:00 fridge · every 2nd Mon 19:00 veg order.
+- Do NOT write meditation prompts to meditation/today.txt or push them to GitHub anymore (she asked to stop). The repo is public — keep personal health details out of new public files.
+- Timers while cooking: use send_later + PushNotification ("⏰ לשעועית!") when she's in the middle of a recipe.
+
+### Eating ritual (from the course — tell her when she asks "what to think while eating")
+- Sit, no screen. 3 breaths (mountain air "שלווה" / "להרפות"). Look at the plate, think where it came from, ask the belly "נכון לי?".
+- Only eat. Chew to a paste (~20 chews), fork down between bites, imagine golden light filling the stomach.
+- Stop at 80% full ("נעים לי", not "מלאה") — she noticed this after 2 eggs. Don't finish food just because it's expensive: store leftovers for the next meal when they keep; cook smaller amounts next time.
+- No drinking during the meal; 30 min before/after. Digestion tea after. Short motto: "לאט, רך, תודה".
+
+### Course summary notes (her full course summary, 4.10 — checked, matches the rules)
+- Signs of health to track: easy morning bowel movement ("smooth sausage", Bristol type 4, no coffee needed), good sleep, clear skin, energy, regular painless cycle.
+- First three to drop: flour, processed dairy, seed oils. Whatever spikes blood sugar harms most long-term.
+- Insoluble-fibre foods to add to orders: pear (cooked, at breakfast), soaked walnuts (1–2/day), quinoa, millet, peas, blueberries.
+- Eggs: booklet says up to 12/week, her book says 6/day — we use 2–3 in the morning; check the transcript when it arrives.
+- Tools: food & symptom diary, cast iron / stainless steel (no teflon/plastic), filtered water. Before a water fast or medication changes — doctor first.
+
+## Current week (from Mon 5.10) — update as things change
+- Mon: B soup + eggs + lettuce · L steak tray at work (4 radishes, green beans, garlic) · D soup · 17:15 chickpea pot (½ cup sprouted chickpeas + 1 cup spinach) + bake 2 sweet potatoes · 19:45 salmon freezer → fridge.
+- Tue: B omelette 2–3 eggs + steamed green beans · L salmon tray (onion, tomato, lemongrass, ginger, thyme) · D chickpea + ½ cup quinoa.
+- Wed: B eggs + green beans (mango after workout if ripe) · L chickpea + quinoa · D ½ cooled sweet potato + green beans in garlic oil.
+- Thu: B eggs + veg · L last chickpea + quinoa · D sweet potato + green beans.
+- Sat 20:00: ask what's in the fridge → plan next week + what to soak that night.
+- To buy: bone broth 1.5 L, lemons, ghee/tallow, cilantro/parsley, pears, walnuts. Out: radishes after Monday, bone broth.
 
 ## Reference
 - Two summaries, use both: this file (binding rules) and `course-summary.md` (her full course summary — natural medicine cabinet, recipes, habits).
