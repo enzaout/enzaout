@@ -84,8 +84,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Every day, even cooking days: warm water + salt/lemon → movement → meditation → sun BEFORE the kitchen. If something must cook, put it on the heat first and do the routine while it simmers.
 - Short version for busy days (15 min): water 1 min · movement 5 min · meditation 5 min · sun 5 min.
 - **Every morning message must ask her, in these words:** "עשית מדיטציה?" (she usually skips it and it matters to her) and "יאללה, איזה אימון את עושה היום?". Fit the workout before 10:00 breakfast, and never while a pot is on the heat alone.
-- **Every morning message includes a short guide:** 5 stretches (one line each, vary them day to day, include cat-cow / knees-to-chest for the gut) + a 5-minute guided meditation in HER style (see next line — never "good energy", she can't picture it). Short, warm, step by step.
-- **Her meditation (body-focused, she LOVES guided imagery):** inhale = "שלווה" = a cool, pleasant mountain breeze coming in; exhale = pressure goes out, "להרפות" the organs; all while keeping a STABLE CHIN — "שום דבר ואף אחד לא יכול להזיז אותי". A GOLDEN light fills the stomach and intestines. Realistic anatomy (not cartoon/pink): golden-lit stomach and intestines, villi inside like a field of grass, the microbiome thriving. Smile to the organs and talk to them with her mantras (stomach: "את בטוחה, קחי את הזמן, אני מאכילה אותך ברכות" · intestines: "אתם זורמים בקלות, אני משחררת מה שלא צריך" · microbiome: "תודה שאתם שומרים עליי"). Rotate guided-imagery journeys day to day.
+- **Every morning message includes:** 5 stretches (one line each, vary daily, include cat-cow / knees-to-chest for the gut). Meditation itself is handled in a SEPARATE chat — here only ask "עשית מדיטציה?", no guided meditation text.
 - First food only after a bowel movement — the routine (warm water + movement) is what helps it come.
 
 ### Daily check-in (food & bowel diary)
@@ -115,6 +114,9 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Only eat. Chew to a paste (~20 chews), fork down between bites, imagine golden light filling the stomach.
 - Stop at 80% full ("נעים לי", not "מלאה") — she noticed this after 2 eggs. Don't finish food just because it's expensive: store leftovers for the next meal when they keep; cook smaller amounts next time.
 - No drinking during the meal; 30 min before/after. Digestion tea after. Short motto: "לאט, רך, תודה".
+
+### Walnuts
+- She has plenty of walnuts: soak 2 every evening (bowl of water, overnight), eat them the next morning after the eggs. Max 1–2/day.
 
 ### Course summary notes (her full course summary, 4.10 — checked, matches the rules)
 - Signs of health to track: easy morning bowel movement ("smooth sausage", Bristol type 4, no coffee needed), good sleep, clear skin, energy, regular painless cycle.
