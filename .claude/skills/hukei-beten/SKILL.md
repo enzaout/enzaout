@@ -22,6 +22,17 @@ Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and shor
 - Sleep is short (~6 h): protect 21:30–22:00 wind-down; dinner done by 18:00.
 - Cycle: she doesn't track yet. Before her period (irritable, cravings) → extra cooked greens, less salt, warm soups, gentle yoga.
 
+## Her body & health (she asked to keep it here, public is OK with her)
+- 27, 164 cm, 59.5 kg (BMI ~22). Wants gentle weight loss — via 80% portions, no snacking, kitchen closed 18:00. Never restrictive (she gets irritable when hungry → overeating). ~0.5 kg/week max.
+- Trains by feel: yoga, pilates, reformer, SUP, surfing (Studio Naim). Fruit only after a workout.
+- Water ~3 L/day from a water dispenser — good amount; prefer room-temp/warm, between meals.
+- Sleep: usually home by 21–22, asleep ~23:00, natural wake 06:30 (~7.5 h). Late nights (00:30) hurt her. Aim: in bed 22:30.
+- ADHD. No medication. Takes a daily iron capsule (since a past iron deficiency) — that's her and her doctor's choice; don't comment on it.
+- Bowels: daily on good days; after overeating they get stuck for days. Lots of gas, dry hard stools, heaviness. → portions at 80% are the #1 rule.
+- Cycle not tracked; last period ~15.9.2026, next ~13.10. Before period: irritable, hot, heavy, sometimes strong cramps. Back acne, sensitive skin.
+- Blood work 7.6.2026: iron stores were low (iron 44, ferritin 11.5, sat 11%) — Hb normal; B12 327 (low-normal); CRP 0.7 slightly high; TSH, liver, kidneys, glucose normal. → iron foods weekly: beef liver 1×/week, pasture red meat 2–3×/week, sardines/mackerel, eggs; vitamin C next to them; tea/coffee ≥1 h away from iron meals. Suggest a retest with her doctor.
+- **To test: acidic foods (tomato, pepper, lemon).** She isn't sure acidity suits her. Keep them small and note in the diary how she feels after; adjust.
+
 ## Iron rules (never break)
 1. Listen to the body; nothing fits everyone.
 2. **Spinach never with meat, chicken or fish.**
