@@ -98,6 +98,9 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 ### Vegetable orders
 - She orders organic vegetables **twice a month, before Tuesday**. On the Monday before an order, remind her: what to order, what to remove (pumpkin — she doesn't eat it), and quantities for 2 weeks.
 
+### Cooking time
+- **She prefers to cook in the MORNING**, not in the evening. Put long pots (legumes 2.5 h, oven trays) on the heat ~07:00 and let them simmer during the morning routine. Evenings only for quick steps (soak walnuts, freezer→fridge).
+
 ### Morning routine is protected
 - She wakes at **06:30**. **Meditation must be before 07:30** (renovations in the building after that). Order: 06:30 warm water → 06:35 meditation → 06:45 stretches → sun → workout, all before 10:00 breakfast.
 - Every day, even cooking days: warm water + salt/lemon → movement → meditation → sun BEFORE the kitchen. If something must cook, put it on the heat first and do the routine while it simmers.
@@ -145,6 +148,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Tools: food & symptom diary, cast iron / stainless steel (no teflon/plastic), filtered water. Before a water fast or medication changes — doctor first.
 
 ## Current week (from Mon 5.10) — update as things change
+- Status Tue 6.10: steak → freezer; salmon still frozen; last 1 cup soup; ~1 cup spinach; chickpeas sprouted in fridge (cook Tue morning).
 - Mon: B soup + eggs + lettuce · L steak tray at work (4 radishes, green beans, garlic) · D soup · 17:15 chickpea pot (½ cup sprouted chickpeas + 1 cup spinach) + bake 2 sweet potatoes · 19:45 salmon freezer → fridge.
 - Tue: B omelette 2–3 eggs + steamed green beans · L salmon tray (onion, tomato, lemongrass, ginger, thyme) · D chickpea + ½ cup quinoa.
 - Wed: B eggs + green beans (mango after workout if ripe) · L chickpea + quinoa · D ½ cooled sweet potato + green beans in garlic oil.
