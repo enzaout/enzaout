@@ -179,16 +179,15 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Thu 8.10** — Morning surfing. B: shakshuka 2 small tomatoes + eggs · L: chirira + quinoa (planned). Evening: quite a lot of wine, bed 01:00.
 - **Fri 9.10** — 03:30 big bowel movement after days 🎉, more good ones through the night; felt very good and hungry. Ordered the organic box. Bought mung + coconut oil. ~16:00 ate ½ portion chickpea shakshuka (last, 4-day-old chirira) → very heavy, tired.
 
-### Status as of Fri 9.10, 16:00 (ask what changed!)
-- **Fridge:** green beans · sauerkraut · 1 egg · ~1 portion cooked quinoa · burger (moving from freezer? — ask) · old chirira → toss.
+### Status as of Fri 9.10, 17:45 (ask what changed!)
+- **Fridge:** sauerkraut only. NO eggs, NO green beans, NO vegetables, NO cooked chirira/quinoa left (she corrected 9.10).
 - **Freezer:** 2 kebabs + 1 burger (~1 month, badly wrapped → maybe freezer burn: cut dry grey spots, safe) · 2 steaks.
 - **At work:** 2 portions frozen salmon + greens.
-- **Pantry:** ½ cup chickpeas soaking/sprouting (since 8–9.10) · whole mung (new) · a little dry quinoa · coconut oil (new) · walnuts · almonds · garlic · ginger · spices.
-- **Unknown — ask:** olive oil (she had none 9.10), eggs/veg bought for until Tuesday.
+- **Pantry (all dry):** chickpeas (NOT soaked/sprouted) · whole mung (new) · quinoa · coconut oil (new) · walnuts · almonds · garlic · ginger · spices. Olive oil: probably none.
 - **Ordered (pickup Tue 13.10 afternoon — she also said "for Friday", confirm):** small basic box (cucumber, lettuce, green beans, green onion, sweet potato + swaps leek, parsley, chard) · onion 1 kg · carrot 0.5 kg · zucchini 1 kg · Maggie tomatoes 1 kg · lemon 1 kg · fresh thyme · lemongrass · 24 eggs · ghee 800 g · quinoa 1 kg · bone broth 1 L (confirm it's in the order).
 - **Still missing:** olive oil (?) · pears 1 kg · blueberries · beef liver 150 g · pasture beef 400 g.
-- **Open decision:** the sprouting chickpeas — (a) freeze them and cook **mung kitchari** Wed 14.10 (soak mung Mon night), or (b) chirira Wed, lunch only, small portion.
-- **Plan Sat 10 → Wed 14.10 (works Sun–Tue):** Sat L burger + steamed beans, D quinoa + veg · Sun L salmon at work, D omelette + veg · Mon L salmon at work, D 2 kebabs + beans · Tue L steak in a pan at work + zucchini, D after pickup: omelette + chard in ghee · Wed B cooked pear then eggs, L legumes + quinoa. Evenings: Sun kebabs→fridge · Mon steak→fridge (+ soak mung) · Tue soak ½ cup quinoa.
+- **Plan:** mung soaked Fri 9.10 night → sprouted ~Sun → mung kitchari. Chickpeas wait (felt heavy).
+- **Sat 10.10 (home, almost empty kitchen):** B soaked quinoa cooked + coconut oil + walnuts · L burger in coconut oil + sauerkraut · D quinoa + garlic/ginger. Shops mostly closed (Shabbat) until Sun. Sun–Tue at work (salmon ×2 there), box pickup Tue afternoon.
 
 ## Reference
 - Two summaries, use both: this file (binding rules) and `course-summary.md` (her full course summary — natural medicine cabinet, recipes, habits).
