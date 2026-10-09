@@ -184,8 +184,9 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Freezer:** 2 kebabs + 1 burger (~1 month, badly wrapped → maybe freezer burn: cut dry grey spots, safe) · 2 steaks.
 - **At work:** 2 portions frozen salmon + greens.
 - **Pantry (all dry):** chickpeas (NOT soaked/sprouted) · whole mung (new) · quinoa · coconut oil (new) · walnuts · almonds · garlic · ginger · spices. Olive oil: probably none.
-- **Ordered (pickup Tue 13.10 afternoon — she also said "for Friday", confirm):** small basic box (cucumber, lettuce, green beans, green onion, sweet potato + swaps leek, parsley, chard) · onion 1 kg · carrot 0.5 kg · zucchini 1 kg · Maggie tomatoes 1 kg · lemon 1 kg · fresh thyme · lemongrass · 24 eggs · ghee 800 g · quinoa 1 kg · bone broth 1 L (confirm it's in the order).
-- **Still missing:** olive oil (?) · pears 1 kg · blueberries · beef liver 150 g · pasture beef 400 g.
+- **Order 1 — organic veg (pickup Tue 13.10 afternoon):** small basic box (cucumber, lettuce, green beans, green onion, sweet potato + swaps leek, parsley, chard) · onion 1 kg · carrot 0.5 kg · zucchini 1 kg · Maggie tomatoes 1 kg · lemon 1 kg · fresh thyme · lemongrass · 24 eggs · ghee 800 g · quinoa 1 kg · bone broth 1 L (drink & shine).
+- **Order 2 — meat (delivery Wed 14.10, home):** ground beef fat (→ render tallow) · ground pasture beef (large pack) · beef liver 2 × 500 g = 1 kg. On arrival: portion ground beef into 150 g packs and liver into 150 g packs, wrap tightly (lesson: badly wrapped kebabs), freeze; liver 1×/week ≈ 6–7 weeks.
+- **Still missing:** olive oil · pears 1 kg · blueberries.
 - **Plan:** mung soaked Fri 9.10 night → sprouted ~Sun → mung kitchari. Chickpeas wait (felt heavy).
 - **Sat 10.10 (home, almost empty kitchen):** B soaked quinoa cooked + coconut oil + walnuts · L burger in coconut oil + sauerkraut · D quinoa + garlic/ginger. Shops mostly closed (Shabbat) until Sun. Sun–Tue at work (salmon ×2 there), box pickup Tue afternoon.
 
