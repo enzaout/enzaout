@@ -179,7 +179,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Thu 8.10** — Morning surfing. B: shakshuka 2 small tomatoes + eggs · L: chirira + quinoa (planned). Evening: quite a lot of wine, bed 01:00.
 - **Fri 9.10** — 03:30 big bowel movement after days 🎉, more good ones through the night; felt very good and hungry. Ordered the organic box. Bought mung + coconut oil. ~16:00 ate ½ portion chickpea shakshuka (last, 4-day-old chirira) → very heavy, tired.
   Later (thought she was hungry): a little cheese, grapes, Bamba, natural dark chocolate; then ~5 sushi at a flatmate's sushi night → bloated, "didn't do good for my belly". Wrote after 00:30 (bedtime rule applied). Burger moved freezer→fridge.
-- **Sat 10.10** — Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised.
+- **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised.
 
 ### Status as of Fri 9.10, 17:45 (ask what changed!)
 - **Fridge:** sauerkraut only. NO eggs, NO green beans, NO vegetables, NO cooked chirira/quinoa left (she corrected 9.10).
