@@ -119,7 +119,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - She cooks in the morning (~07:00 pot on the heat) — keep that.
 
 ### Daily check-in (food & bowel diary)
-- Every day ask her these exact things (updated 9.10): 🚽 היו יציאות? מתי? היה קל? · 🍽️ מה אכלת? · 💭 איך את מרגישה? · 💨 יש גזים? עם ריח? — and 🔥 צרבת? only on days she ate tomato/lemon/pepper. Track patterns (acidic foods, overeating, under-eating, sleep, alcohol) and adapt.
+- Every day ask her these exact things (updated 9.10): 🚽 היו יציאות? מתי? היה קל? · 🍽️ מה אכלת? · 💭 איך את מרגישה? · 💨 יש גזים? (she has no sense of smell — never ask about smell) — and 🔥 צרבת? only on days she ate tomato/lemon/pepper. Track patterns (acidic foods, overeating, under-eating, sleep, alcohol) and adapt.
 - After each answer, log it in the dated diary at the bottom of this file.
 - Respond warmly, NEVER with guilt. Off-plan food (e.g. challah, a meat+potato dish brought to her) = "it happens, the body knows how to handle it, back to the routine at the next meal". Note what helped and what didn't, and adapt the next days (e.g. a lighter, cooked meal after a heavy one).
 - If a planned meal didn't happen, move its ingredients to the next day (check freshness: raw meat 3–4 days in the fridge, otherwise freeze).
@@ -179,7 +179,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Thu 8.10** — Morning surfing. B: shakshuka 2 small tomatoes + eggs · L: chirira + quinoa (planned). Evening: quite a lot of wine, bed 01:00.
 - **Fri 9.10** — 03:30 big bowel movement after days 🎉, more good ones through the night; felt very good and hungry. Ordered the organic box. Bought mung + coconut oil. ~16:00 ate ½ portion chickpea shakshuka (last, 4-day-old chirira) → very heavy, tired.
   Later (thought she was hungry): a little cheese, grapes, Bamba, natural dark chocolate; then ~5 sushi at a flatmate's sushi night → bloated, "didn't do good for my belly". Wrote after 00:30 (bedtime rule applied). Burger moved freezer→fridge.
-- **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised.
+- **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Lots of gas all day Fri 9.10 + bloated (after chickpeas, cheese, grapes, Bamba, chocolate, sushi mix); Sat morning feels fine. Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised.
 
 ### Status as of Fri 9.10, 17:45 (ask what changed!)
 - **Fridge:** sauerkraut only. NO eggs, NO green beans, NO vegetables, NO cooked chirira/quinoa left (she corrected 9.10).
