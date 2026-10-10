@@ -62,6 +62,17 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - One spoon of fermented veg (sauerkraut / pickled cucumber / carrot) with lunch and dinner.
 - Meat: pasture-raised; organ meats once a week. Fish: wild salmon, sardines, herring, mackerel, trout, halibut, fresh tuna. Eggs: organic, **2–3 in the morning** (she felt 80% full after 2; sunny-side/poached eggs don’t keep, so cook only what she’ll eat).
 
+## Her schedule (from 10.10 — OVERRIDES the times below)
+**Sun–Thu (work days):** 06:30 wake · 06:35–07:30 bike to the sea + sunrise meditation · **07:30–08:15 cook for the day + shower (~45 min → quick recipes, or prep the night before)** · **08:15–08:45 breakfast (opens the eating window)** · 09:00–09:30 drive · 09:30–17:30 work · **12:30–13:15 lunch = the big meal, hot, from the morning pot, packed in a box** · **16:00–16:30 last meal, light, at work (closes the window)** · 17:30–18:30 home · 19:00–20:30 training at Studio Naim · 22:00 in bed, asleep 22:30.
+**Fri–Sat:** 06:35–07:30 sea meditation · 08:00–09:30 training (sea / SUP / studio) · **09:30 breakfast (fruit first, then eggs)** · **12:30 lunch, the big one** · **16:00–16:30 last meal** · 22:00 in bed.
+- **Eating window:** 08:15–16:30 weekdays, 09:30–16:30 weekends (16:8). No food after 16:30.
+- Weekdays both lunch AND the 16:00 meal are eaten at work → pack them from the morning cooking (two containers). Keep the 16:00 meal light — training is at 19:00.
+- Morning cooking must fit 07:30–08:15 together with the shower: pressure-cooker/one-pot recipes, or long pots started the evening before / on weekends. (The old "pot on at 07:00" idea no longer fits weekdays.)
+- After an ice bath: only warm food.
+- Before her period (next ~13.10): warm, comforting, gentle food — the belly is more sensitive.
+- Goal: good digestion, energy, gentle weight loss ≤ ½ kg/week, no diet.
+- Bedtime rule: she is in bed at 22:00 — no conversation after 22:00.
+
 ## Daily timing
 - 16:8: **eat 10:00–18:00**, nothing until 10:00 next day. Sleep by 23:00.
 - Wake: warm water + salt or lemon → meditation → sun → movement. First food only after a bowel movement.
@@ -179,7 +190,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Thu 8.10** — Morning surfing. B: shakshuka 2 small tomatoes + eggs · L: chirira + quinoa (planned). Evening: quite a lot of wine, bed 01:00.
 - **Fri 9.10** — 03:30 big bowel movement after days 🎉, more good ones through the night; felt very good and hungry. Ordered the organic box. Bought mung + coconut oil. ~16:00 ate ½ portion chickpea shakshuka (last, 4-day-old chirira) → very heavy, tired.
   Later (thought she was hungry): a little cheese, grapes, Bamba, natural dark chocolate; then ~5 sushi at a flatmate's sushi night → bloated, "didn't do good for my belly". Wrote after 00:30 (bedtime rule applied). Burger moved freezer→fridge.
-- **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Lots of gas all day Fri 9.10 + bloated (after chickpeas, cheese, grapes, Bamba, chocolate, sushi mix); Sat morning feels fine. Ate: mango, then a LOT of stuffed vine leaves + פרגיות on the trip. Painful day emotionally (separated from her closest person) → chocolate + a little schnitzel. Says she gained weight and doesn't like it — be gentle, no diet talk at night. Bought pears, eggs, blueberries. Mung+quinoa: foam + slightly sour after 13 h soak, then sprouting on top of the fridge all day (warm) — she can't smell → check by touch/taste, toss if sour/slimy. Raw salmon from flatmate's Friday party → advised not to eat. Burger thawing since Fri night → cook Sun morning at the latest. Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised.
+- **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Lots of gas all day Fri 9.10 + bloated (after chickpeas, cheese, grapes, Bamba, chocolate, sushi mix); Sat morning feels fine. Ate: mango, then a LOT of stuffed vine leaves + פרגיות on the trip. Painful day emotionally (separated from her closest person) → chocolate + a little schnitzel. Says she gained weight and doesn't like it — be gentle, no diet talk at night. Bought pears, eggs, blueberries. Mung+quinoa: foam + slightly sour after 13 h soak, then sprouting on top of the fridge all day (warm) — she can't smell → check by touch/taste, toss if sour/slimy. Raw salmon from flatmate's Friday party → advised not to eat. Burger thawing since Fri night → cook Sun morning at the latest. Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised. 22:42 she sent her new weekly schedule (saved above as "Her schedule").
 
 ### Status as of Fri 9.10, 17:45 (ask what changed!)
 - **Fridge:** sauerkraut only. NO eggs, NO green beans, NO vegetables, NO cooked chirira/quinoa left (she corrected 9.10).
