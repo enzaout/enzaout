@@ -197,16 +197,16 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Lots of gas all day Fri 9.10 + bloated (after chickpeas, cheese, grapes, Bamba, chocolate, sushi mix); Sat morning feels fine. Ate: mango, then a LOT of stuffed vine leaves + פרגיות on the trip. Painful day emotionally (separated from her closest person) → chocolate + a little schnitzel. Says she gained weight and doesn't like it — be gentle, no diet talk at night. Bought pears, eggs, blueberries. Mung+quinoa: foam + slightly sour after 13 h soak, then sprouting on top of the fridge all day (warm) — she can't smell → check by touch/taste, toss if sour/slimy. Raw salmon from flatmate's Friday party → advised not to eat. Burger thawing since Fri night → cook Sun morning at the latest. Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised. 22:42 she sent her new weekly schedule (saved above as "Her schedule").
 - **Sun 11.10** — No gas since yesterday; belly ache in the morning, trying to poop; tired (emotional days, period ~13.10). Cooked kitchari (mung+quinoa, sprouts OK), burger, hard-boiled eggs, pear with cinnamon (loved it). Not hungry early → window starts when hungry. Took to work: burger, 3 eggs, pear, sauerkraut; lunch burger + frozen green beans from the oven; salmon stays frozen at work. Kitchari in the fridge (eat at home / take cold).
 
-### Status as of Fri 9.10, 17:45 (ask what changed!)
-- **Fridge:** sauerkraut only. NO eggs, NO green beans, NO vegetables, NO cooked chirira/quinoa left (she corrected 9.10).
-- **Freezer:** 2 kebabs + 1 burger (~1 month, badly wrapped → maybe freezer burn: cut dry grey spots, safe) · 2 steaks.
-- **At work:** 2 portions frozen salmon + greens.
-- **Pantry (all dry):** chickpeas (NOT soaked/sprouted) · whole mung (new) · quinoa · coconut oil (new) · walnuts · almonds · garlic · ginger · spices. Olive oil: probably none.
-- **Order 1 — organic veg (pickup Tue 13.10 afternoon):** small basic box (cucumber, lettuce, green beans, green onion, sweet potato + swaps leek, parsley, chard) · onion 1 kg · carrot 0.5 kg · zucchini 1 kg · Maggie tomatoes 1 kg · lemon 1 kg · fresh thyme · lemongrass · 24 eggs · ghee 800 g · quinoa 1 kg · bone broth 1 L (drink & shine).
-- **Order 2 — meat (delivery Wed 14.10, home):** ground beef fat (→ render tallow) · ground pasture beef (large pack) · beef liver 2 × 500 g = 1 kg. On arrival: portion ground beef into 150 g packs and liver into 150 g packs, wrap tightly (lesson: badly wrapped kebabs), freeze; liver 1×/week ≈ 6–7 weeks.
-- **Still missing:** olive oil · pears 1 kg · blueberries.
-- **Plan:** mung soaked Fri 9.10 night → sprouted ~Sun → mung kitchari. Chickpeas wait (felt heavy).
-- **Sat 10.10 (home, almost empty kitchen):** B soaked quinoa cooked + coconut oil + walnuts · L burger in coconut oil + sauerkraut · D quinoa + garlic/ginger. Shops mostly closed (Shabbat) until Sun. Sun–Tue at work (salmon ×2 there), box pickup Tue afternoon.
+### Status as of Sun 11.10, 09:30 (ask what changed!)
+- **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
+- **Freezer:** 2 kebabs · 2 steaks.
+- **At work:** burger cooked (lunch 11.10) · 2 portions frozen salmon + greens · frozen green beans · olive oil · sauerkraut jar.
+- **Pantry:** dry chickpeas · mung · quinoa · coconut oil · garlic · ginger · spices · cinnamon.
+- **Missing:** olive oil for home (?).
+- **Order 1 (pickup Tue 13.10 afternoon):** small box (cucumber, lettuce, green beans, green onion, sweet potato, leek, parsley, chard) · onion 1 kg · carrot 0.5 · zucchini 1 · tomatoes 1 · lemon 1 · thyme · lemongrass · 24 eggs · ghee 800 g · quinoa 1 kg · bone broth 1 L.
+- **Order 2 (delivery Wed 14.10, home):** ground beef · ground beef fat (tallow) · beef liver 1 kg → portion 150 g, wrap tight, freeze.
+- **Plan:** Sun 11.10: pear + eggs at work · 12:30 burger + oven green beans + sauerkraut · 16:00 1 egg + leftover beans + soaked nuts. Mon 12.10 & Tue 13.10: pear at home, eggs to work · 12:30 salmon + greens · 16:00 kitchari (cold, microwave). Tue afternoon pickup. Wed 14.10: meat arrives → portion & freeze, render tallow, liver meal with lemon.
+- **Suggested additions (11.10):** olive oil for home · pears (keep the breakfast routine going) · coconut oil (always on the list).
 
 ## Reference
 - Two summaries, use both: this file (binding rules) and `course-summary.md` (her full course summary — natural medicine cabinet, recipes, habits).
