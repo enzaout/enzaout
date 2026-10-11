@@ -178,6 +178,10 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Shakshuka with 2 grated tomatoes + 3 eggs, small pan with lid — she loves it.
 - Facts she learned: salt doesn't harden legumes, acid does (tomato/lemon at the end) · lid on = boils faster, then half-open to simmer · ghee in the cupboard, dry spoon only · allspice — skip in delicate dishes.
 
+- **⭐ Weekday breakfast routine (she chose it, 11.10 — keep it):** at home right after waking: **cooked pear with cinnamon** (1 pear in cubes, pan/small pot with lid, 3 tbsp water, pinch cinnamon, 7–10 min) — "perfect". Meanwhile boil 3 eggs 9 min → take the **hard-boiled eggs to work** and eat them there (~15+ min after the pear). Pack them with lunch.
+- Mung+quinoa kitchari (11.10): cooked fine in the 07:30 window. She prefers to eat it at HOME (hot soup is heavy to carry) — or take it cold in a container and microwave at work.
+- Work kitchen has olive oil (no coconut oil); keep a jar of sauerkraut in the work fridge. Frozen green beans at work: straight to a tray, 1 tbsp olive oil + salt, 200° 15–20 min.
+
 ### What didn't work
 - Under-eating (one meal, 6.10) → no BM, then hard "goat pellets" (7.10).
 - Lots of raw salads out (6.10) → watch gas.
@@ -191,6 +195,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Fri 9.10** — 03:30 big bowel movement after days 🎉, more good ones through the night; felt very good and hungry. Ordered the organic box. Bought mung + coconut oil. ~16:00 ate ½ portion chickpea shakshuka (last, 4-day-old chirira) → very heavy, tired.
   Later (thought she was hungry): a little cheese, grapes, Bamba, natural dark chocolate; then ~5 sushi at a flatmate's sushi night → bloated, "didn't do good for my belly". Wrote after 00:30 (bedtime rule applied). Burger moved freezer→fridge.
 - **Sat 10.10** — Morning BM ✅ (a bit hard and round, but happy it came). Lots of gas all day Fri 9.10 + bloated (after chickpeas, cheese, grapes, Bamba, chocolate, sushi mix); Sat morning feels fine. Ate: mango, then a LOT of stuffed vine leaves + פרגיות on the trip. Painful day emotionally (separated from her closest person) → chocolate + a little schnitzel. Says she gained weight and doesn't like it — be gentle, no diet talk at night. Bought pears, eggs, blueberries. Mung+quinoa: foam + slightly sour after 13 h soak, then sprouting on top of the fridge all day (warm) — she can't smell → check by touch/taste, toss if sour/slimy. Raw salmon from flatmate's Friday party → advised not to eat. Burger thawing since Fri night → cook Sun morning at the latest. Day trip ("in the footsteps of vine leaves") with a friend → mostly stuffed vine leaves (rice = starch; no meat with them). Burger thawing in the fridge → use by Sun 11.10 or cook & refreezing not advised. 22:42 she sent her new weekly schedule (saved above as "Her schedule").
+- **Sun 11.10** — No gas since yesterday; belly ache in the morning, trying to poop; tired (emotional days, period ~13.10). Cooked kitchari (mung+quinoa, sprouts OK), burger, hard-boiled eggs, pear with cinnamon (loved it). Not hungry early → window starts when hungry. Took to work: burger, 3 eggs, pear, sauerkraut; lunch burger + frozen green beans from the oven; salmon stays frozen at work. Kitchari in the fridge (eat at home / take cold).
 
 ### Status as of Fri 9.10, 17:45 (ask what changed!)
 - **Fridge:** sauerkraut only. NO eggs, NO green beans, NO vegetables, NO cooked chirira/quinoa left (she corrected 9.10).
