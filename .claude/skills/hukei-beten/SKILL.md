@@ -91,6 +91,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 ## Kitchen logistics (added by Sam)
 
 ### Where she eats
+- **Home kitchen (13.10):** she lives with flatmates → can NOT keep food on the counter; the kitchen is sunny. Counter-stored produce goes to her room (desk, out of the sun) or a closed cupboard. Fridge space is limited. Never on top of the fridge (warm).
 - Default: she eats **AT HOME** (breakfast + dinner, and lunch whenever possible). She doesn't want to carry food around.
 - Only when she must be at work at lunch: the SIMPLEST lunch — raw ingredients she cooks there, or one container. Never a long packing list.
 - Her workplace (inside the CEO's house) has a full kitchen: oven, air fryer, microwave, pans, pots.
@@ -206,6 +207,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Tue 13.10, box arrived** — Lots of lemons, onions, carrots, sweet potatoes (heaps) · Maggie + cherry tomatoes · 2 trays eggs · ghee (?) · lemongrass · zucchini · thyme · lettuce · Chinese long beans · cucumber · 2 greens (one maybe chard, one unknown) · an unknown brown okra-like item. Already had garlic + mango. Gave storage guide (fridge vs counter, ethylene: tomato/mango away from cucumber/greens; onions apart from sweet potatoes). Use order: lettuce, chard, herbs, long beans → zucchini, cucumber, tomatoes → carrots → sweet potato, onion, garlic, lemons.
 - **Tue 13.10, box contents (shop board)** — Basic box: cucumber, butternut(swapped), lettuce, popcorn(swapped), beans (=Chinese long beans), tomatoes (cherry), green onion, sweet potato. Swaps came from the add-on lists: small-box extras = arugula, parsley, eggplant; big-box extras = **okra, chard, leek**. The brown "okra-like" thing = **okra** (she doesn't eat it → give away). Unknown green = probably parsley or green onion. Leek not mentioned. Check ghee, quinoa, bone broth arrived. Next order: write in notes "no okra, no eggplant, no arugula".
 - **Tue 13.10, evening** — Greens identified from photos: chard ✅ + **rocket** (2nd green). Brown pod = **red okra**. Has BOTH Maggie tomatoes (1 kg) AND cherry tomatoes. To give her parents: okra, rocket, most cherry tomatoes, extra sweet potatoes beyond ~4.
+- **Tue 13.10, storing the box** — Arrived ✅: quinoa 1 kg, ghee (cupboard), bone broth 1 L. Freezer: 2 kebabs + 1 steak + lemongrass (whole, in its bag). Raw cacao powder + shea butter moved out of the fridge (cupboard). Maggie tomatoes → bowl in her room. Okra + rocket + extra sweet potatoes (full bag) → give to flatmates/parents.
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
