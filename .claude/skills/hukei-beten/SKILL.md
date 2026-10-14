@@ -232,6 +232,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Wed 14.10** — Bought zip bags (Nofar slider 27×29, freezer-safe, 15/box → 2 boxes). Breakfast at HOME today, gets to the office at 12:00.
 - **Wed 14.10, morning BM ✅** — hard round pellets, GREEN colour, but more than usual (period day 1). Green = likely from greens/fast transit, usually harmless. Pellets = dryness → more fat + warm drinks (ginger tea). Ate pear at home; preparing everything at home before leaving at 12:00 (tray + boxes).
 - **Wed 14.10** — Rocket tasted spicy/peppery like radish, she doesn't like it → gives it away (don't plan rocket). Meat delivery ARRIVED → portioning tonight (ground beef 3 kg → ~20 × 150 g flat bags; liver 1 kg → 6–7; fat → fridge for tallow Thu). Keep in fridge: 1 liver (Thu lunch) + 2 ground-beef portions (meatballs for the trip).
+- **Wed 14.10, meat delivery contents** — 2 packs beef fat · 4 packs LEAN ground beef (check weight on label, ~750 g each → 5 portions/pack) · 1 beef liver FROZEN in one block. Plan: liver → fridge tonight, Thu ~10:00 slice while half-frozen into 6–7 portions, keep 1 for lunch, refreeze the rest right away (fridge-thawed = safe to refreeze). Ground beef: portion now, keep 2 in fridge (Thu meatballs for the trip; lean → add 1 tsp tallow). Fat: 1 pack fridge (tallow Thu), 1 freezer.
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
