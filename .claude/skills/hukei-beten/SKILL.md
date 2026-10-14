@@ -223,6 +223,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Wed 14.10, ~07:40** — North trip: THERE IS a kitchen. Soaks ½ cup mung this morning → drain Wed evening → rinse Thu am+pm → sprouts travel in a jar → cook kitchari up north Sat 12:30 (½ cup mung + ½ cup quinoa soaked Fri night, coconut oil, cumin, coriander, turmeric, pepper, ginger, garlic, 4 cups water, 40 min). Take raw: 6 eggs, coconut oil/ghee jar, spices in small bags.
 - **Wed 14.10, morning — PERIOD STARTED.** Adjusted today: lunch kitchari with lettuce + rocket wilted in (instead of raw salad), ginger tea at work, 16:00 warm sweet potato + bean tray. Thu liver (iron) stays.
 - **Wed 14.10** — Bought zip bags (Nofar slider 27×29, freezer-safe, 15/box → 2 boxes). Breakfast at HOME today, gets to the office at 12:00.
+- **Wed 14.10, morning BM ✅** — hard round pellets, GREEN colour, but more than usual (period day 1). Green = likely from greens/fast transit, usually harmless. Pellets = dryness → more fat + warm drinks (ginger tea). Ate pear at home; preparing everything at home before leaving at 12:00 (tray + boxes).
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
