@@ -231,6 +231,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Wed 14.10, morning — PERIOD STARTED.** Adjusted today: lunch kitchari with lettuce + rocket wilted in (instead of raw salad), ginger tea at work, 16:00 warm sweet potato + bean tray. Thu liver (iron) stays.
 - **Wed 14.10** — Bought zip bags (Nofar slider 27×29, freezer-safe, 15/box → 2 boxes). Breakfast at HOME today, gets to the office at 12:00.
 - **Wed 14.10, morning BM ✅** — hard round pellets, GREEN colour, but more than usual (period day 1). Green = likely from greens/fast transit, usually harmless. Pellets = dryness → more fat + warm drinks (ginger tea). Ate pear at home; preparing everything at home before leaving at 12:00 (tray + boxes).
+- **Wed 14.10** — Rocket tasted spicy/peppery like radish, she doesn't like it → gives it away (don't plan rocket). Meat delivery ARRIVED → portioning tonight (ground beef 3 kg → ~20 × 150 g flat bags; liver 1 kg → 6–7; fat → fridge for tallow Thu). Keep in fridge: 1 liver (Thu lunch) + 2 ground-beef portions (meatballs for the trip).
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
