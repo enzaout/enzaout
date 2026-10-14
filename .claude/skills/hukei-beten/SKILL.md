@@ -119,6 +119,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Always tell her what to do with leftovers/trimmings, e.g. lemongrass leaves → tea (handful in 1 cup boiling water, 10 min), ginger peels → tea, herb stems → into the soup pot.
 
 ### Vegetable orders
+- **Box photo / board check (she asked, 14.10):** whenever she sends a photo of the shop board, the box or an order, go item by item and flag what is hard for her digestion and should NOT come (or should be swapped in the notes): okra, eggplant, raw rocket, corn/popcorn, pumpkin/butternut, cabbage & big crucifers, peppers (acid test), lots of raw salad leaves. The shop sometimes sends whatever it wants — give her the exact text for the order notes field.
 - She orders organic vegetables **twice a month, before Tuesday**. On the Monday before an order, remind her: what to order, what to remove (pumpkin — she doesn't eat it), and quantities for 2 weeks.
 - Her shop: **small basic box (~₪115, 8 veg)** + market add-ons sold in **0.5 kg steps**. She can swap items between box sizes via the order **notes** field. Default swaps: דלורית → כרישה · פופקורן (corn) → פטרוזיליה · דלעת → מנגולד. Don't take: במיה (slimy, soluble), חציל, רוקט. Not from there: כרוב (gas), גמבה (acid test), honey/flours.
 - **Always on the list: coconut oil** (she asked — don't drop it even if ghee is there), olive oil (cold-pressed), ghee, eggs (2 trays × 12 per week).
