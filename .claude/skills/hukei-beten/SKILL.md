@@ -222,6 +222,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Wed 14.10** — Maybe going north Fri–Sat 16–17.10. Trip pack plan (prep Thu at home): meatballs + veg tray, zucchini-carrot soup in a thermos, 4 hard-boiled eggs, cooked pears in a jar, roasted sweet potatoes (spare), cucumber, soaked nuts, digestion-tea seeds, small olive oil + salt + lemon + sauerkraut, cooler bag with frozen bottles. Don't soak mung Wed if she goes. Restaurant rule: grilled meat/fish + cooked/grilled veg, no bread/rice/fries with it. Asked: kitchen there?
 - **Wed 14.10, ~07:40** — North trip: THERE IS a kitchen. Soaks ½ cup mung this morning → drain Wed evening → rinse Thu am+pm → sprouts travel in a jar → cook kitchari up north Sat 12:30 (½ cup mung + ½ cup quinoa soaked Fri night, coconut oil, cumin, coriander, turmeric, pepper, ginger, garlic, 4 cups water, 40 min). Take raw: 6 eggs, coconut oil/ghee jar, spices in small bags.
 - **Wed 14.10, morning — PERIOD STARTED.** Adjusted today: lunch kitchari with lettuce + rocket wilted in (instead of raw salad), ginger tea at work, 16:00 warm sweet potato + bean tray. Thu liver (iron) stays.
+- **Wed 14.10** — Bought zip bags (Nofar slider 27×29, freezer-safe, 15/box → 2 boxes). Breakfast at HOME today, gets to the office at 12:00.
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
