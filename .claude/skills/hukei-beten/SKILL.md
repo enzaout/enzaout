@@ -33,7 +33,7 @@ Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and shor
 - Sleep: usually home by 21–22, asleep ~23:00, natural wake 06:30 (~7.5 h). Late nights (00:30) hurt her. Aim: in bed 22:30.
 - ADHD. No medication. Takes a daily iron capsule (since a past iron deficiency) — that's her and her doctor's choice; don't comment on it.
 - Bowels: daily on good days; after overeating they get stuck for days. Lots of gas, dry hard stools, heaviness. → portions at 80% are the #1 rule.
-- Cycle not tracked; last period ~15.9.2026, next ~13.10. Before period: irritable, hot, heavy, sometimes strong cramps. Back acne, sensitive skin.
+- Cycle not tracked; last period ~15.9.2026; **period started Wed 14.10.2026** (~29-day cycle) → next ~11–12.11. Before period: irritable, hot, heavy, sometimes strong cramps. Back acne, sensitive skin.
 - Blood work 7.6.2026: iron stores were low (iron 44, ferritin 11.5, sat 11%) — Hb normal; B12 327 (low-normal); CRP 0.7 slightly high; TSH, liver, kidneys, glucose normal. → iron foods weekly: beef liver 1×/week, pasture red meat 2–3×/week, sardines/mackerel, eggs; vitamin C next to them; tea/coffee ≥1 h away from iron meals. Suggest a retest with her doctor.
 - **To test: acidic foods (tomato, pepper, lemon).** She isn't sure acidity suits her. Keep them small and note in the diary how she feels after; adjust.
 
@@ -71,6 +71,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Morning cooking must fit 07:30–08:15 together with the shower: pressure-cooker/one-pot recipes, or long pots started the evening before / on weekends. (The old "pot on at 07:00" idea no longer fits weekdays.)
 - After an ice bath: only warm food.
 - Before her period (next ~13.10): warm, comforting, gentle food — the belly is more sensitive.
+- **During her period (days 1–4, e.g. 14–17.10):** only warm/cooked food — no raw salads or iced drinks (wilt lettuce/rocket into hot food; cucumber only in small amounts); extra fat (ghee/coconut oil); iron foods + vitamin C (liver, red meat, eggs, lemon); ginger tea for cramps (2 cm ginger slices, 1 cup boiling water, 10 min); less salt; soups and kitchari; regular meals — don't skip.
 - Goal: good digestion, energy, gentle weight loss ≤ ½ kg/week, no diet.
 - Bedtime rule: she is in bed at 22:00 — no conversation after 22:00.
 
@@ -220,6 +221,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Wed 14.10, 07:20** — No salmon today (ate a lot yesterday → lighter today). Final: pear + 2 eggs with cherry · 12:30 kitchari + rocket + lettuce-cucumber + sauerkraut · 16:00 tray sweet potatoes + Chinese beans (also = spare). Buy zip bags on the way home before the meat arrives. Answered in English AGAIN by mistake — Hebrew only!
 - **Wed 14.10** — Maybe going north Fri–Sat 16–17.10. Trip pack plan (prep Thu at home): meatballs + veg tray, zucchini-carrot soup in a thermos, 4 hard-boiled eggs, cooked pears in a jar, roasted sweet potatoes (spare), cucumber, soaked nuts, digestion-tea seeds, small olive oil + salt + lemon + sauerkraut, cooler bag with frozen bottles. Don't soak mung Wed if she goes. Restaurant rule: grilled meat/fish + cooked/grilled veg, no bread/rice/fries with it. Asked: kitchen there?
 - **Wed 14.10, ~07:40** — North trip: THERE IS a kitchen. Soaks ½ cup mung this morning → drain Wed evening → rinse Thu am+pm → sprouts travel in a jar → cook kitchari up north Sat 12:30 (½ cup mung + ½ cup quinoa soaked Fri night, coconut oil, cumin, coriander, turmeric, pepper, ginger, garlic, 4 cups water, 40 min). Take raw: 6 eggs, coconut oil/ghee jar, spices in small bags.
+- **Wed 14.10, morning — PERIOD STARTED.** Adjusted today: lunch kitchari with lettuce + rocket wilted in (instead of raw salad), ginger tea at work, 16:00 warm sweet potato + bean tray. Thu liver (iron) stays.
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
