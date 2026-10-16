@@ -249,16 +249,13 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Fri 16.10, afternoon** — BM: hard balls, difficult. Asked for a week review → gave the pattern above.
 - **Fri 16.10, addition** — Also ate today: eggs + a few blueberries + a little lettuce + tomatoes (good protein base).
 
-### Status as of Sun 11.10, 09:30 (ask what changed!)
-- **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
-- **Freezer:** 2 kebabs · 2 steaks.
-- **At work:** burger cooked (lunch 11.10) · 2 portions frozen salmon + greens · frozen green beans · olive oil · sauerkraut jar.
-- **Pantry:** dry chickpeas · mung · quinoa · coconut oil · garlic · ginger · spices · cinnamon.
-- **Missing:** olive oil for home (?).
-- **Order 1 (pickup Tue 13.10 afternoon):** small box (cucumber, lettuce, green beans, green onion, sweet potato, leek, parsley, chard) · onion 1 kg · carrot 0.5 · zucchini 1 · tomatoes 1 · lemon 1 · thyme · lemongrass · 24 eggs · ghee 800 g · quinoa 1 kg · bone broth 1 L.
-- **Order 2 (delivery Wed 14.10, home):** ground beef · ground beef fat (tallow) · beef liver 1 kg → portion 150 g, wrap tight, freeze.
-- **Plan:** Sun 11.10: pear + eggs at work · 12:30 burger + oven green beans + sauerkraut · 16:00 1 egg + leftover beans + soaked nuts. Mon 12.10 & Tue 13.10: pear at home, eggs to work · 12:30 salmon + greens · 16:00 kitchari (cold, microwave). Tue afternoon pickup. Wed 14.10: meat arrives → portion & freeze, render tallow, liver meal with lemon.
-- **Suggested additions (11.10):** olive oil for home · pears (keep the breakfast routine going) · coconut oil (always on the list).
+### Status as of Fri 16.10, 22:00 (ask what changed!)
+- **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
+- **Counter/room:** Maggie + cherry tomatoes · mango · sweet potatoes · onions · garlic · ginger.
+- **Pantry:** mung · quinoa (2) · dry chickpeas · ghee · coconut oil · cacao · spices · zip bags (2 sizes).
+- **Freezer:** ground beef ~16 bags × ~165 g · liver ~7 slices (1/bag) · 2 kebabs · 1 steak · 1 fat pack · lemongrass.
+- **Work:** 2 salmon + greens (frozen) · frozen green beans · olive oil · sauerkraut.
+- **Period:** started 14.10 → next ~11–12.11.
 
 ## Reference
 - Two summaries, use both: this file (binding rules) and `course-summary.md` (her full course summary — natural medicine cabinet, recipes, habits).
