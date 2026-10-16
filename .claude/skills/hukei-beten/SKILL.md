@@ -145,6 +145,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - She cooks in the morning (~07:00 pot on the heat) — keep that.
 
 ### Daily check-in (food & bowel diary)
+- **Also ask every day (17.10):** 🍽️ אכלת את כל 3 הארוחות? · 🍪 נשנשת בין לבין? (what, when)
 - Every day ask her these exact things (updated 9.10): 🚽 היו יציאות? מתי? היה קל? · 🍽️ מה אכלת? · 💭 איך את מרגישה? · 💨 יש גזים? (she has no sense of smell — never ask about smell) — and 🔥 צרבת? only on days she ate tomato/lemon/pepper. Track patterns (acidic foods, overeating, under-eating, sleep, alcohol) and adapt.
 - After each answer, log it in the dated diary at the bottom of this file.
 - Respond warmly, NEVER with guilt. Off-plan food (e.g. challah, a meat+potato dish brought to her) = "it happens, the body knows how to handle it, back to the routine at the next meal". Note what helped and what didn't, and adapt the next days (e.g. a lighter, cooked meal after a heavy one).
@@ -248,6 +249,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Fri 16.10** — Thu: liver lunch "perfect, very tasty" ✅. Did NOT go on the trip. Slept at a friend's; Fri morning at a goat farm: lots of goat cheese, almost no veg, pomegranate-orange juice, some bread, a little veg, oat ice cream, malabi → "not nourishing", trying to poop, still hungry. At home ready: meatballs + broth-zucchini soup (Thu) + sweet-potato box (Wed → eat today or toss), eggs, pears. Suggested: hot bowl of broth soup + 2–3 meatballs now, ginger/digestion tea, feet on a stool.
 - **Fri 16.10, afternoon** — BM: hard balls, difficult. Asked for a week review → gave the pattern above.
 - **Fri 16.10, addition** — Also ate today: eggs + a few blueberries + a little lettuce + tomatoes (good protein base).
+- **Sat 17.10, morning** — Left: 2 portions broth soup + yesterday's meatballs & zucchini (use FIRST). 1 ground-beef bag thawing in fridge (→ cook juicy meatballs Sat afternoon for Sun work). She wants the eating window changed "to 14 h instead of 18" — asked to confirm meaning (likely 14 h fast / 10 h eating). She mentioned chef recipes she "sent" — not found in any repo branch → asked her to resend.
 
 ### Status as of Fri 16.10, 22:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
