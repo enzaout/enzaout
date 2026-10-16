@@ -198,6 +198,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Work kitchen has olive oil (no coconut oil); keep a jar of sauerkraut in the work fridge. Frozen green beans at work: straight to a tray, 1 tbsp olive oil + salt, 200° 15–20 min.
 
 ### What didn't work
+- **Meatballs from LEAN ground beef baked uncovered 25 min (15.10) → very dry, not tasty.** Next time: 1 tbsp tallow/ghee + ½ grated zucchini (food processor) in the mix, sealed tray 15 min covered + 5 uncovered, or simmer them in broth / 2 grated tomatoes (Zohar style). Leftover dry meatballs → simmer 5 min in the soup.
+- Broth-zucchini soup + 1 tsp ghee (16.10): "tasty" ✅
 - **Week 11–16.10 pattern (KEY INSIGHT):** 4 off-plan days (Mon parents, Tue office pizza/matzah/gum, Wed office bun/ice cream, Fri goat farm cheese/bread/malabi) — ALL away from home, ALL after under-eating or not eating her own food first. Every one → no BM next day or hard round pellets. The one fully-on-plan day (Thu: pear, green shakshuka, liver, broth soup) felt great. Fix = her own food eaten FIRST + spare portion always in the bag + "one plate" rule at social meals.
 - Under-eating (one meal, 6.10) → no BM, then hard "goat pellets" (7.10).
 - Lots of raw salads out (6.10) → watch gas.
