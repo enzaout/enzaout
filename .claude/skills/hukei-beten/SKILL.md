@@ -72,7 +72,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 **Work days = Sun, Tue, Wed only. Mon and Thu she is HOME — plan home meals, nothing to pack.** (she said 12.10)
 **Work days:** 06:30 wake · 06:35–07:30 bike to the sea + sunrise meditation · **07:30–08:15 cook for the day + shower (~45 min → quick recipes, or prep the night before)** · **08:15–08:45 breakfast (opens the eating window)** · 09:00–09:30 drive · 09:30–17:30 work · **12:30–13:15 lunch = the big meal, hot, from the morning pot, packed in a box** · **16:00–16:30 last meal, light, at work (closes the window)** · 17:30–18:30 home · 19:00–20:30 training at Studio Naim · 22:00 in bed, asleep 22:30.
 **Fri–Sat:** 06:35–07:30 sea meditation · 08:00–09:30 training (sea / SUP / studio) · **09:30 breakfast (fruit first, then eggs)** · **12:30 lunch, the big one** · **16:00–16:30 last meal** · 22:00 in bed.
-- **Eating window:** 08:15–16:30 weekdays, 09:30–16:30 weekends (16:8). No food after 16:30.
+- **Eating window (changed 17.10 — 14:10):** 14 h fast, 10 h eating → weekdays 08:15–18:15, weekends 09:30–19:30. On training days (19:00) the last meal is light and done by ~17:30–18:00.
 - Weekdays both lunch AND the 16:00 meal are eaten at work → pack them from the morning cooking (two containers). Keep the 16:00 meal light — training is at 19:00.
 - Morning cooking must fit 07:30–08:15 together with the shower: pressure-cooker/one-pot recipes, or long pots started the evening before / on weekends. (The old "pot on at 07:00" idea no longer fits weekdays.)
 - After an ice bath: only warm food.
@@ -250,6 +250,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Fri 16.10, afternoon** — BM: hard balls, difficult. Asked for a week review → gave the pattern above.
 - **Fri 16.10, addition** — Also ate today: eggs + a few blueberries + a little lettuce + tomatoes (good protein base).
 - **Sat 17.10, morning** — Left: 2 portions broth soup + yesterday's meatballs & zucchini (use FIRST). 1 ground-beef bag thawing in fridge (→ cook juicy meatballs Sat afternoon for Sun work). She wants the eating window changed "to 14 h instead of 18" — asked to confirm meaning (likely 14 h fast / 10 h eating). She mentioned chef recipes she "sent" — not found in any repo branch → asked her to resend.
+- **Sat 17.10** — Confirmed 14 h fast / 10 h eating. Chef recipes are LOCAL on her computer (added the same day as the Essy Roz / Omer Miller styles) — not in the repo; asked her to paste/upload them. No blueberries (has mango). Nothing thawed or sprouted. Sat: mango → eggs; lunch old meatballs + zucchini in soup + grated tomato; 16:00/18:00 soup. Sun (work): frozen salmon tray at work (Essy Roz) + frozen green beans. Tonight: soak ½ cup mung.
 
 ### Status as of Fri 16.10, 22:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
