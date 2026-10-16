@@ -198,6 +198,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - Work kitchen has olive oil (no coconut oil); keep a jar of sauerkraut in the work fridge. Frozen green beans at work: straight to a tray, 1 tbsp olive oil + salt, 200° 15–20 min.
 
 ### What didn't work
+- **Week 11–16.10 pattern (KEY INSIGHT):** 4 off-plan days (Mon parents, Tue office pizza/matzah/gum, Wed office bun/ice cream, Fri goat farm cheese/bread/malabi) — ALL away from home, ALL after under-eating or not eating her own food first. Every one → no BM next day or hard round pellets. The one fully-on-plan day (Thu: pear, green shakshuka, liver, broth soup) felt great. Fix = her own food eaten FIRST + spare portion always in the bag + "one plate" rule at social meals.
 - Under-eating (one meal, 6.10) → no BM, then hard "goat pellets" (7.10).
 - Lots of raw salads out (6.10) → watch gas.
 - Wine + bed at 01:00 (8.10) → tired.
@@ -243,6 +244,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Thu 15.10** — Kitchari finished (none left). Bone broth (thawed, arrived 13.10) → into today's zucchini soup (1 L broth + 2 cups water, 3 garlic). Soup blended half → creamy. Garlic: 3 soup, 1 meatballs (food processor), 1 liver. Prep-ahead: jammy onion for the liver cooked in the morning.
 - **Thu 15.10, 11:50** — Ate breakfast (green shakshuka) + pear ✅. Cooked meatballs (→ trip, Fri lunch) + broth soup (→ 16:00 today + trip thermos). Decided to GO TO WORK today → takes raw liver slice + jammy onion + garlic + 4 lettuce leaves + carrot sticks, cooks liver at work 12:30; soup jar for 16:00; sweet-potato box as spare.
 - **Fri 16.10** — Thu: liver lunch "perfect, very tasty" ✅. Did NOT go on the trip. Slept at a friend's; Fri morning at a goat farm: lots of goat cheese, almost no veg, pomegranate-orange juice, some bread, a little veg, oat ice cream, malabi → "not nourishing", trying to poop, still hungry. At home ready: meatballs + broth-zucchini soup (Thu) + sweet-potato box (Wed → eat today or toss), eggs, pears. Suggested: hot bowl of broth soup + 2–3 meatballs now, ginger/digestion tea, feet on a stool.
+- **Fri 16.10, afternoon** — BM: hard balls, difficult. Asked for a week review → gave the pattern above.
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
