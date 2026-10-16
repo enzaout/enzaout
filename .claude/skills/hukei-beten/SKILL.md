@@ -145,7 +145,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - She cooks in the morning (~07:00 pot on the heat) — keep that.
 
 ### Daily check-in (food & bowel diary)
-- **Also ask every day (17.10):** 🍽️ אכלת את כל 3 הארוחות? · 🍪 נשנשת בין לבין? (what, when)
+- **Also ask every day (17.10):** 🍽️ אכלת את כל 3 הארוחות? · 🍪 נשנשת בין לבין? (what, when) · 🙏 על מה את מודה היום? (gratitude — she asked; keep her answer in the diary)
 - Every day ask her these exact things (updated 9.10): 🚽 היו יציאות? מתי? היה קל? · 🍽️ מה אכלת? · 💭 איך את מרגישה? · 💨 יש גזים? (she has no sense of smell — never ask about smell) — and 🔥 צרבת? only on days she ate tomato/lemon/pepper. Track patterns (acidic foods, overeating, under-eating, sleep, alcohol) and adapt.
 - After each answer, log it in the dated diary at the bottom of this file.
 - Respond warmly, NEVER with guilt. Off-plan food (e.g. challah, a meat+potato dish brought to her) = "it happens, the body knows how to handle it, back to the routine at the next meal". Note what helped and what didn't, and adapt the next days (e.g. a lighter, cooked meal after a heavy one).
