@@ -245,6 +245,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Thu 15.10, 11:50** — Ate breakfast (green shakshuka) + pear ✅. Cooked meatballs (→ trip, Fri lunch) + broth soup (→ 16:00 today + trip thermos). Decided to GO TO WORK today → takes raw liver slice + jammy onion + garlic + 4 lettuce leaves + carrot sticks, cooks liver at work 12:30; soup jar for 16:00; sweet-potato box as spare.
 - **Fri 16.10** — Thu: liver lunch "perfect, very tasty" ✅. Did NOT go on the trip. Slept at a friend's; Fri morning at a goat farm: lots of goat cheese, almost no veg, pomegranate-orange juice, some bread, a little veg, oat ice cream, malabi → "not nourishing", trying to poop, still hungry. At home ready: meatballs + broth-zucchini soup (Thu) + sweet-potato box (Wed → eat today or toss), eggs, pears. Suggested: hot bowl of broth soup + 2–3 meatballs now, ginger/digestion tea, feet on a stool.
 - **Fri 16.10, afternoon** — BM: hard balls, difficult. Asked for a week review → gave the pattern above.
+- **Fri 16.10, addition** — Also ate today: eggs + a few blueberries + a little lettuce + tomatoes (good protein base).
 
 ### Status as of Sun 11.10, 09:30 (ask what changed!)
 - **Fridge (home):** kitchari ~2 portions (until 14.10) · eggs · pears · blueberries · soaked walnuts & almonds. Raw party salmon: do NOT eat.
