@@ -276,11 +276,11 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 | Mon 19 home | eggs baked on cherry tomatoes (Assi) | kitchari 5 portions (2 chard leaves + 1 cup lettuce at the end); FREEZE 2 flat | 3 meatballs wrapped in lettuce, covered pan 2 min (+ 2 hard-boiled eggs if hungry) | liver slice + 2 beef bags → fridge |
 | Tue 20 work (trampoline 18:30) | pear + 2 eggs | kitchari box | kitchari #5 by 17:00 | — |
 | Wed 21 work | eggs + cherry tomatoes | Omer liver-kebab tray (330 g beef + 1 liver slice + ½ tsp thyme) + lemon/onion | same tray | 2 beef bags → fridge; 1 frozen kitchari → fridge |
-| Thu 22 home | eggs | liver-kebab leftovers | Assi baked meatballs (2 bags + grated zucchini + ghee, 180° 10+10) | steak → fridge; 2nd frozen kitchari → fridge |
+| Thu 22 home | eggs | liver-kebab leftovers | Assi baked meatballs (2 bags + 1 grated carrot + ghee, 180° 10+10) | steak → fridge; 2nd frozen kitchari → fridge |
 | Fri 23 | fruit then eggs | Omer seared steak + garlic + cooked carrots | frozen kitchari #1 | 2 kebabs → fridge |
 | Sat 24 | fruit then eggs | kebabs + cooked carrots | frozen kitchari #2 | — |
 Salmon ×2: stays frozen at work = emergency meal (can go straight from frozen into a sealed tray, 180° ~25–30 min). Sweet potatoes keep in a dark cupboard — next week.
-Shopping: olive oil · sauerkraut for home · 24 eggs · pears + fruit · zucchini ×2 · lettuce · chard.
+Shopping: only pears + fruit for breakfast. HAS at home (17.10): coconut oil, olive oil, sauerkraut, 24 eggs, 1 zucchini (½ tonight, ½ Sun salmon), lettuce, chard. Thu meatballs → grated carrot instead of zucchini.
 
 - **שבת 17.10, ~17:55** — עברנו על תפריט 18–24.10: הצעתי לתקן (חסה/קישוא/מנגולד בפנים, עדשים ירוקות במקום חומוס בחמישי, להקפיא 2 קיצ'רי כמנות גיבוי, מש למקרר כשיש זנב, קניות: שמן קוקוס/זית, כרוב כבוש, 24 ביצים) — מחכה לאישור. עדכונים שלה: הסלמון קפוא, לא דחוף · המנגו נמעך/רך · אין מרק מחמישי (נגמר) → ארוחה 3 הערב: קציצות ישנות + חסה + קישוא + גהי עד 18:15.
 - **שבת 17.10, ~18:05** — שלחה שוב את סקיל השפים + "המתכונים שלי" — זהים למה שכבר שמור ב-hamitbach-sheli (שם כבר מתוקן `hukei-beten` + שורת my-recipes). הצעתי לחמישי: מרק עדשים ירוקות של זהר (#14) מותאם — ⅓ כמות, קינואה במקום דוחן, בלי פפריקה, ירקות מאודים, חצי טחון בבלנדר. מחכה לאישור.
