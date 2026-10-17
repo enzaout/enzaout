@@ -279,6 +279,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, לילה** — ✅ אכלה מרק (ארוחה 3) ✅ הכינה קציצות ברוטב (טריק עומר במעבד מזון). אחרי מקלחת, יוצאת לישון בעבודה. 3 ארוחות היום ✅.
 
+- **שבת 17.10, לילה (צ'ק-אין)** — 🍪 נשנשה אסאי · 💭 עייפה · 💨 אין גזים · 🙏 מודה על יסמין, חברה טובה ומושלמת. קישוא נגמר → מתחת לסלמון גזר בעיגולים דקים + אפונה סינית. יש ביצים אורגניות בעבודה (לא צריך להביא).
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
