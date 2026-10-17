@@ -267,11 +267,13 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, לילה** — שלחה ביקורת על התפריט (חסה בפעם ה-3, חומוס כבד, קיצ'רי 5 מנות בלי שימוש, מש 3 ימים, קניות חסרות). צדקה ברובה → תפריט v2. LESSON: before sending ANY menu, tick every perishable from the status list against a cell in the table, and check the diary for foods that felt heavy (chickpeas!).
 
-### Week plan 18–24.10 (v3 — Sat 17.10 night: salmon stays frozen at work as backup, mango finished, NO Thu legume pot)
+- **שבת 17.10, לילה** — הבנתי לא נכון: 'מנגו נגמק' = רך מאוד, 'אין לי סיר מחמישי' = המרק של חמישי נגמר. ארוחה 3 הערב: קציצות ישנות + ½ קישוא + חסה במחבת מכוסה. Kitchari: freeze 2 (approved by plan); no lentils needed.
+
+### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
-| Sun 18 work (pilates 08:30) | pear jar + 2 eggs fried at work | 3 meatballs in sauce + work tray: frozen green beans + 1 zucchini rounds, 1 cup lettuce wilted on top last 2 min | 2 hard-boiled eggs + ½ cucumber + sauerkraut | rinse mung; tails ½ cm → closed box in fridge |
-| Mon 19 home | eggs baked on cherry tomatoes (Assi) | kitchari 5 portions (2 chard leaves + 1 cup lettuce at the end); FREEZE 2 flat | 3 meatballs wrapped in lettuce, covered pan 2 min | liver slice + 2 beef bags → fridge |
+| Sun 18 work (pilates 08:30) | mango cubes (jar) after pilates, then 2 eggs at work; pear → Tue | salmon from frozen, sealed tray on ½ zucchini rounds + green beans, lettuce wilted last 2 min | 3 meatballs in sauce + ½ cucumber | rinse mung; tails ½ cm → closed box in fridge |
+| Mon 19 home | eggs baked on cherry tomatoes (Assi) | kitchari 5 portions (2 chard leaves + 1 cup lettuce at the end); FREEZE 2 flat | 3 meatballs wrapped in lettuce, covered pan 2 min (+ 2 hard-boiled eggs if hungry) | liver slice + 2 beef bags → fridge |
 | Tue 20 work (trampoline 18:30) | pear + 2 eggs | kitchari box | kitchari #5 by 17:00 | — |
 | Wed 21 work | eggs + cherry tomatoes | Omer liver-kebab tray (330 g beef + 1 liver slice + ½ tsp thyme) + lemon/onion | same tray | 2 beef bags → fridge; 1 frozen kitchari → fridge |
 | Thu 22 home | eggs | liver-kebab leftovers | Assi baked meatballs (2 bags + grated zucchini + ghee, 180° 10+10) | steak → fridge; 2nd frozen kitchari → fridge |
