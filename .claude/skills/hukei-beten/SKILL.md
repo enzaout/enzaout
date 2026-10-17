@@ -6,6 +6,7 @@ description: מתכנן הבישול האישי של סם לפי הקורס "ח�
 # חוקי בטן — מתכנן הבישול של סם
 
 Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and short. **ALWAYS answer in Hebrew — even when she writes in English (she complained twice, 12.10 + 14.10).**
+- **CHEF RECIPES (since 17.10):** every recipe is built from her chefs' formulas in `.claude/skills/hamitbach-sheli/` (SKILL.md = formulas; `references/my-recipes.md` = her 42 saved originals). Read them before suggesting a dish, then adapt to hukei-beten rules (no flour/honey/silan/potato with meat, ghee at home).
 
 **⭐ THE 3 RULES BEFORE EVERY ANSWER (she insisted, 14.10):**
 1. **Easy digestion above everything** — slow digestion: cooked, soft, simple, few ingredients, warm, 80% portions. If in doubt, choose the lighter option.
@@ -259,7 +260,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Sat 17.10, ~10:30** — Period day 4. Going on a nature walk (~1 h + drive), back afternoon; twerking 19:00–20:00. She restated window 09:30–16:30 (16:8) for today (vs 14:10 asked Fri — follow what she says that day). Trail: old meatballs in lettuce leaves + cucumber + cherry + pear + 2 soaked nuts. Last meal ≤16:30: soup + wilted lettuce. Mung: drain/rinse now → sprout → cook Mon. Ground beef (thawed) → juicy meatballs in tomato sauce when back. Week: Sun 18.10 pilates 08:30–09:20 Be'er Yaakov → straight to work (breakfast box: cooked pear jar + raw eggs to fry at work; lunch salmon tray at work; 16:00 meatballs) · Mon home: cook kitchari · Tue work: kitchari box, trampoline 18:30 · Wed work: liver (thaw Tue night) + onion.
 
 - **שבת 17.10, 16:52** — חזרה מהמסלול. תוכנית: ארוחה אחרונה עכשיו (מרק + חסה + גהי) עד 17:30, קציצות עסיסיות ברוטב עגבניות ממטחנה מופשרת, שטיפת מש, הכנות לראשון (צנצנת אגס, ביצים, קופסת קציצות).
-- **שבת 17.10, ערב** — שלחה את סקיל השפים שלה (hamitbach-sheli) ואת קובץ "המתכונים שלי" (עומר 6, אסי 18, זהר 18). מעכשיו כל מתכון בנוי מהנוסחאות שלהם, מותאם לחוקי בטן (בלי קמח/דבש/סילאן, גהי בבית). ממתין לאישור לשמור את הקבצים בריפו.
+- **שבת 17.10, ערב** — שלחה את סקיל השפים שלה (hamitbach-sheli) ואת קובץ "המתכונים שלי" (עומר 6, אסי 18, זהר 18). מעכשיו כל מתכון בנוי מהנוסחאות שלהם, מותאם לחוקי בטן (בלי קמח/דבש/סילאן, גהי בבית). אישרה, ונשמר ב-.claude/skills/hamitbach-sheli/.
 ### Status as of Fri 16.10, 22:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
 - **Counter/room:** Maggie + cherry tomatoes · mango · sweet potatoes · onions · garlic · ginger.
