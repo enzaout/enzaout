@@ -71,7 +71,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 ## Her schedule (from 10.10 — OVERRIDES the times below)
 **Work days = Sun, Tue, Wed only. Mon and Thu she is HOME — plan home meals, nothing to pack.** (she said 12.10)
-**Work days:** 06:30 wake · 06:35–07:30 bike to the sea + sunrise meditation · **07:30–08:15 cook for the day + shower (~45 min → quick recipes, or prep the night before)** · **08:15–08:45 breakfast (opens the eating window)** · 09:00–09:30 drive · 09:30–17:30 work · **12:30–13:15 lunch = the big meal, hot, from the morning pot, packed in a box** · **16:00–16:30 last meal, light, at work (closes the window)** · 17:30–18:30 home · 19:00–20:30 training at Studio Naim · 22:00 in bed, asleep 22:30.
+**Work days:** 06:30 wake · 06:35–07:30 bike to the sea + sunrise meditation · **07:30–08:15 cook for the day + shower (~45 min → quick recipes, or prep the night before)** · **08:15–08:45 breakfast (opens the eating window)** · 09:00–09:30 drive · 09:30–17:30 work · **12:30–13:15 lunch = the big meal, hot, from the morning pot, packed in a box** · **16:00–17:30 last meal, light, at work (window closes 18:15)** · 17:30–18:30 home · 19:00–20:30 training at Studio Naim · 22:00 in bed, asleep 22:30.
 **Fri–Sat:** 06:35–07:30 sea meditation · 08:00–09:30 training (sea / SUP / studio) · **09:30 breakfast (fruit first, then eggs)** · **12:30 lunch, the big one** · **16:00–16:30 last meal** · 22:00 in bed.
 - **Eating window (changed 17.10 — 14:10):** 14 h fast, 10 h eating → weekdays 08:15–18:15, weekends 09:30–19:30. On training days (19:00) the last meal is light and done by ~17:30–18:00.
 - Weekdays both lunch AND the 16:00 meal are eaten at work → pack them from the morning cooking (two containers). Keep the 16:00 meal light — training is at 19:00.
@@ -262,6 +262,19 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **שבת 17.10, 16:52** — חזרה מהמסלול. תוכנית: ארוחה אחרונה עכשיו (מרק + חסה + גהי) עד 17:30, קציצות עסיסיות ברוטב עגבניות ממטחנה מופשרת, שטיפת מש, הכנות לראשון (צנצנת אגס, ביצים, קופסת קציצות).
 - **שבת 17.10, ערב** — שלחה את סקיל השפים שלה (hamitbach-sheli) ואת קובץ "המתכונים שלי" (עומר 6, אסי 18, זהר 18). מעכשיו כל מתכון בנוי מהנוסחאות שלהם, מותאם לחוקי בטן (בלי קמח/דבש/סילאן, גהי בבית). אישרה, ונשמר ב-.claude/skills/hamitbach-sheli/.
 - **שבת 17.10, 17:38** — יציאה בבוקר ✅. ארוחת בוקר ✅, צהריים קישוא+קציצות ✅. עוד לא בישלה. תוכנית: ארוחה 3 = מרק+חסה עד 18:15 (לפני טוורקינג 19:00); קציצות ברוטב עגבניות בסיר (זהר+טריק המים הקרים של עומר) ל-ראשון; שטיפת מש; אריזה לראשון.
+- **שבת 17.10, ערב** — ביקשה תפריט לשבוע + סדר יום חדש. נשלחו (טבלה למטה: Week plan 18–24.10). סדר יום עודכן לחלון 14:10.
+
+### Week plan 18–24.10 (given Sat 17.10 evening)
+| Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
+|---|---|---|---|---|
+| Sun 18 work (pilates 08:30) | pear jar + 2 eggs fried at work | salmon sealed tray (Assi) + green beans | 3 meatballs in sauce + ½ cucumber | rinse mung |
+| Mon 19 home | Assi baked eggs on cherry tomatoes | kitchari pot (Zohar), 5 portions | 3 meatballs in sauce | 1 liver slice + 2 beef bags → fridge |
+| Tue 20 work (trampoline 18:30) | pear + 2 eggs | kitchari box | salmon #2 at work (by 17:00) | soak chickpeas |
+| Wed 21 work | eggs + cherry tomatoes | Omer liver-kebab tray (330 g beef + 1 liver slice), lemon+onion | same tray | rinse chickpeas |
+| Thu 22 home | eggs | Zohar chickpea pot w/ sweet potato, tomato, greens+lemon at end | liver-kebab leftovers | steak → fridge |
+| Fri 23 | fruit then eggs | Omer seared steak + garlic + cooked carrots | chickpea pot | 2 kebabs → fridge |
+| Sat 24 | fruit then eggs | kebabs + cooked carrots/zucchini | chickpea pot | — |
+
 ### Status as of Fri 16.10, 22:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
 - **Counter/room:** Maggie + cherry tomatoes · mango · sweet potatoes · onions · garlic · ginger.
