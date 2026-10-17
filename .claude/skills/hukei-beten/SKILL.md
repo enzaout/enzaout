@@ -114,7 +114,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 ### How to answer her
 - **Perishables check — EVERY plan (17.10, after lettuce was forgotten):** end every daily plan with a line "🥬 מה מתקלקל ואיפה הוא היום" listing EVERY perishable she has (lettuce, greens, cherry, cucumber, zucchini…) and the meal it goes into. Never drop an item because of a rule (period/raw) — adapt it instead: lettuce can be wilted into soup, cooked like spinach, or used as warm wraps for meatballs.
-- **Tomatoes (17.10):** she doesn't like Maggie tomatoes — prefers cherry. Use cherry; Maggie only grated into cooked sauces; don't order Maggie again.
+- **Tomatoes (17.10, corrected):** she LOVES all tomatoes (Maggie and cherry). On 17.10 she simply used cherry instead of Maggie. Keep using both, small amounts (nightshade rule).
 - **Her tools (15.10):** food processor + blender at home. She dislikes hand-grating → use the food processor (onion/garlic for meatballs, slicing) and the blender (cream soups — easier to digest).
 - **Make sure she EATS (15.10):** she asked — always check she ate 3 meals; send a short reminder before 12:30 and 16:00 when possible, and ask what she ate.
 - **Prep ahead — ALWAYS (14.10):** she wants to prepare as much as possible in advance. In every plan, say what can be cooked/cut/packed NOW or the evening before (trays, eggs, cut veg, portioned boxes, spare portion), so at work she only reheats.
