@@ -281,6 +281,7 @@ Salmon ×2: stays frozen at work = emergency meal (can go straight from frozen i
 Shopping: coconut oil · olive oil · sauerkraut for home · 24 eggs · pears + fruit · zucchini ×2 · lettuce · chard.
 
 - **שבת 17.10, ~17:55** — עברנו על תפריט 18–24.10: הצעתי לתקן (חסה/קישוא/מנגולד בפנים, עדשים ירוקות במקום חומוס בחמישי, להקפיא 2 קיצ'רי כמנות גיבוי, מש למקרר כשיש זנב, קניות: שמן קוקוס/זית, כרוב כבוש, 24 ביצים) — מחכה לאישור. עדכונים שלה: הסלמון קפוא, לא דחוף · המנגו נמעך/רך · אין מרק מחמישי (נגמר) → ארוחה 3 הערב: קציצות ישנות + חסה + קישוא + גהי עד 18:15.
+- **שבת 17.10, ~18:05** — שלחה שוב את סקיל השפים + "המתכונים שלי" — זהים למה שכבר שמור ב-hamitbach-sheli (שם כבר מתוקן `hukei-beten` + שורת my-recipes). הצעתי לחמישי: מרק עדשים ירוקות של זהר (#14) מותאם — ⅓ כמות, קינואה במקום דוחן, בלי פפריקה, ירקות מאודים, חצי טחון בבלנדר. מחכה לאישור.
 ### Status as of Sat 17.10, ~17:00 (ask what changed!)
 - **Fridge:** (broth soup FINISHED, 17.10) · mango very soft (use/freeze now) · a few old meatballs from Thu (today, last) · thawed ground-beef bag ~165 g (→ juicy meatballs in tomato sauce today) · mung sprouting (soaked Fri night → rinse am+pm, kitchari Mon) · eggs · pears · carrots · a little zucchini · cucumber · lettuce (!) · maybe chard leftovers · lemons · thyme · beef fat pack (tallow not made yet?).
 - **Room/closed cupboard:** Maggie + cherry tomatoes · mango (?) · sweet potatoes · onions · garlic · ginger.
