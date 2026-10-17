@@ -261,6 +261,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, 16:52** — חזרה מהמסלול. תוכנית: ארוחה אחרונה עכשיו (מרק + חסה + גהי) עד 17:30, קציצות עסיסיות ברוטב עגבניות ממטחנה מופשרת, שטיפת מש, הכנות לראשון (צנצנת אגס, ביצים, קופסת קציצות).
 - **שבת 17.10, ערב** — שלחה את סקיל השפים שלה (hamitbach-sheli) ואת קובץ "המתכונים שלי" (עומר 6, אסי 18, זהר 18). מעכשיו כל מתכון בנוי מהנוסחאות שלהם, מותאם לחוקי בטן (בלי קמח/דבש/סילאן, גהי בבית). אישרה, ונשמר ב-.claude/skills/hamitbach-sheli/.
+- **שבת 17.10, 17:38** — יציאה בבוקר ✅. ארוחת בוקר ✅, צהריים קישוא+קציצות ✅. עוד לא בישלה. תוכנית: ארוחה 3 = מרק+חסה עד 18:15 (לפני טוורקינג 19:00); קציצות ברוטב עגבניות בסיר (זהר+טריק המים הקרים של עומר) ל-ראשון; שטיפת מש; אריזה לראשון.
 ### Status as of Fri 16.10, 22:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
 - **Counter/room:** Maggie + cherry tomatoes · mango · sweet potatoes · onions · garlic · ginger.
