@@ -280,7 +280,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 | Fri 23 | fruit then eggs | Omer seared steak + garlic + cooked carrots | frozen kitchari #1 | 2 kebabs → fridge |
 | Sat 24 | fruit then eggs | kebabs + cooked carrots | frozen kitchari #2 | — |
 Salmon ×2: stays frozen at work = emergency meal (can go straight from frozen into a sealed tray, 180° ~25–30 min). Sweet potatoes keep in a dark cupboard — next week.
-Shopping: coconut oil · olive oil · sauerkraut for home · 24 eggs · pears + fruit · zucchini ×2 · lettuce · chard.
+Shopping: olive oil · sauerkraut for home · 24 eggs · pears + fruit · zucchini ×2 · lettuce · chard.
 
 - **שבת 17.10, ~17:55** — עברנו על תפריט 18–24.10: הצעתי לתקן (חסה/קישוא/מנגולד בפנים, עדשים ירוקות במקום חומוס בחמישי, להקפיא 2 קיצ'רי כמנות גיבוי, מש למקרר כשיש זנב, קניות: שמן קוקוס/זית, כרוב כבוש, 24 ביצים) — מחכה לאישור. עדכונים שלה: הסלמון קפוא, לא דחוף · המנגו נמעך/רך · אין מרק מחמישי (נגמר) → ארוחה 3 הערב: קציצות ישנות + חסה + קישוא + גהי עד 18:15.
 - **שבת 17.10, ~18:05** — שלחה שוב את סקיל השפים + "המתכונים שלי" — זהים למה שכבר שמור ב-hamitbach-sheli (שם כבר מתוקן `hukei-beten` + שורת my-recipes). הצעתי לחמישי: מרק עדשים ירוקות של זהר (#14) מותאם — ⅓ כמות, קינואה במקום דוחן, בלי פפריקה, ירקות מאודים, חצי טחון בבלנדר. מחכה לאישור.
