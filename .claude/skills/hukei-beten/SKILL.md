@@ -280,8 +280,9 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 Salmon ×2: stays frozen at work = emergency meal (can go straight from frozen into a sealed tray, 180° ~25–30 min). Sweet potatoes keep in a dark cupboard — next week.
 Shopping: coconut oil · olive oil · sauerkraut for home · 24 eggs · pears + fruit · zucchini ×2 · lettuce · chard.
 
+- **שבת 17.10, ~17:55** — עברנו על תפריט 18–24.10: הצעתי לתקן (חסה/קישוא/מנגולד בפנים, עדשים ירוקות במקום חומוס בחמישי, להקפיא 2 קיצ'רי כמנות גיבוי, מש למקרר כשיש זנב, קניות: שמן קוקוס/זית, כרוב כבוש, 24 ביצים) — מחכה לאישור. עדכונים שלה: הסלמון קפוא, לא דחוף · המנגו נמעך/רך · אין מרק מחמישי (נגמר) → ארוחה 3 הערב: קציצות ישנות + חסה + קישוא + גהי עד 18:15.
 ### Status as of Sat 17.10, ~17:00 (ask what changed!)
-- **Fridge:** broth-zucchini soup ~2 portions (until Sun 18.10) · a few old meatballs from Thu (today, last) · thawed ground-beef bag ~165 g (→ juicy meatballs in tomato sauce today) · mung sprouting (soaked Fri night → rinse am+pm, kitchari Mon) · eggs · pears · carrots · a little zucchini · cucumber · lettuce (!) · maybe chard leftovers · lemons · thyme · beef fat pack (tallow not made yet?).
+- **Fridge:** (broth soup FINISHED, 17.10) · mango very soft (use/freeze now) · a few old meatballs from Thu (today, last) · thawed ground-beef bag ~165 g (→ juicy meatballs in tomato sauce today) · mung sprouting (soaked Fri night → rinse am+pm, kitchari Mon) · eggs · pears · carrots · a little zucchini · cucumber · lettuce (!) · maybe chard leftovers · lemons · thyme · beef fat pack (tallow not made yet?).
 - **Room/closed cupboard:** Maggie + cherry tomatoes · mango (?) · sweet potatoes · onions · garlic · ginger.
 - **Pantry:** mung · quinoa · dry chickpeas · ghee · coconut oil · cacao · spices · zip bags.
 - **Freezer:** ~15 ground-beef bags (~165 g) · ~7 liver slices (1/bag) · 2 kebabs · 1 steak · 1 fat pack · lemongrass.
