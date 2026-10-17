@@ -273,6 +273,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, ערב — מלאי מלא שהיא שלחה (THIS IS THE TRUTH, use it):** Freezer: ground beef fat, beef liver, ground beef (lots), steak, lemongrass, 2 meatballs/kebabs. Fridge: thawed ground beef bag, the Thu 15.10 broth-veg SOUP ~1 L (not plain broth; eat tonight + Sun, or freeze tonight), sauerkraut, lemons, Maggie tomatoes (basket), 8 tiny cherry, thyme, chard, lettuce, cucumbers (lots), 1 zucchini, 2 carrots, snow peas (lots — spoil first!), garlic (lots), 4 onions. Pantry: mung (sprouting), quinoa, chickpeas, walnuts, almonds, cacao, sweet potatoes (lots), coconut oil, ghee(?), eggs(?). NO pears/mango/ginger/olive oil at home. Omer trick tonight: 3 tbsp cold strained liquid from the soup. Spices she has: coriander seeds, sumac, fennel seeds, cumin seeds, ground cumin (lots), turmeric. Map: meatballs cumin+crushed coriander; salmon sumac+garlic; kitchari cumin/coriander seeds+turmeric in ghee; CCF tea (cumin+coriander+fennel seeds ½ tsp each) evenings for gas.
 
+- **שבת 17.10, ~19:15** — באימון עד 20:30, עוד לא אכלה ארוחה 3 ולא בישלה. נשלח צעד-אחר-צעד: מרק+אפונה סינית בזמן שהקציצות מתבשלות (~21:00, מאוחר מהחלון אבל לא מדלגים על ארוחה), אריזה לראשון, הקפאת שאר המרק.
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
