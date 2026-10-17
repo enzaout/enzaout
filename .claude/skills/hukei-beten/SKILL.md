@@ -180,7 +180,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 ### Walnuts
 - She has plenty of walnuts: soak 2 every evening (bowl of water, overnight), eat them the next morning after the eggs. Max 1–2/day.
 
-### Course summary notes (her full course summary, 4.10 — checked, matches the rules)
+### Course summary notes (her full course summary — updated 17.10 in `course-summary.md`; old 4.10 recipes kept as appendix)
 - Signs of health to track: easy morning bowel movement ("smooth sausage", Bristol type 4, no coffee needed), good sleep, clear skin, energy, regular painless cycle.
 - First three to drop: flour, processed dairy, seed oils. Whatever spikes blood sugar harms most long-term.
 - Insoluble-fibre foods to add to orders: pear (cooked, at breakfast), soaked walnuts (1–2/day), quinoa, millet, peas, blueberries.
@@ -263,6 +263,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **שבת 17.10, ערב** — שלחה את סקיל השפים שלה (hamitbach-sheli) ואת קובץ "המתכונים שלי" (עומר 6, אסי 18, זהר 18). מעכשיו כל מתכון בנוי מהנוסחאות שלהם, מותאם לחוקי בטן (בלי קמח/דבש/סילאן, גהי בבית). אישרה, ונשמר ב-.claude/skills/hamitbach-sheli/.
 - **שבת 17.10, 17:38** — יציאה בבוקר ✅. ארוחת בוקר ✅, צהריים קישוא+קציצות ✅. עוד לא בישלה. תוכנית: ארוחה 3 = מרק+חסה עד 18:15 (לפני טוורקינג 19:00); קציצות ברוטב עגבניות בסיר (זהר+טריק המים הקרים של עומר) ל-ראשון; שטיפת מש; אריזה לראשון.
 - **שבת 17.10, ערב** — ביקשה תפריט לשבוע + סדר יום חדש. נשלחו (טבלה למטה: Week plan 18–24.10). סדר יום עודכן לחלון 14:10.
+- **שבת 17.10, 17:49** — שלחה גרסה מעודכנת ומלאה של סיכום הקורס (כולל בונוס ומתקדמים) ואישרה לשמור. נשמרה ב-`course-summary.md` במקום גרסת 4.10; מתכוני מוצרי הבית ומרק הבשר הישנים נשמרו כנספח בסוף. בלוק הסטטוס עודכן לשבת 17.10 ~17:00.
 
 ### Week plan 18–24.10 (given Sat 17.10 evening)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
@@ -275,12 +276,13 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 | Fri 23 | fruit then eggs | Omer seared steak + garlic + cooked carrots | chickpea pot | 2 kebabs → fridge |
 | Sat 24 | fruit then eggs | kebabs + cooked carrots/zucchini | chickpea pot | — |
 
-### Status as of Fri 16.10, 22:00 (ask what changed!)
-- **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
-- **Counter/room:** Maggie + cherry tomatoes · mango · sweet potatoes · onions · garlic · ginger.
-- **Pantry:** mung · quinoa (2) · dry chickpeas · ghee · coconut oil · cacao · spices · zip bags (2 sizes).
-- **Freezer:** ground beef ~16 bags × ~165 g · liver ~7 slices (1/bag) · 2 kebabs · 1 steak · 1 fat pack · lemongrass.
+### Status as of Sat 17.10, ~17:00 (ask what changed!)
+- **Fridge:** broth-zucchini soup ~2 portions (until Sun 18.10) · a few old meatballs from Thu (today, last) · thawed ground-beef bag ~165 g (→ juicy meatballs in tomato sauce today) · mung sprouting (soaked Fri night → rinse am+pm, kitchari Mon) · eggs · pears · carrots · a little zucchini · cucumber · lettuce (!) · maybe chard leftovers · lemons · thyme · beef fat pack (tallow not made yet?).
+- **Room/closed cupboard:** Maggie + cherry tomatoes · mango (?) · sweet potatoes · onions · garlic · ginger.
+- **Pantry:** mung · quinoa · dry chickpeas · ghee · coconut oil · cacao · spices · zip bags.
+- **Freezer:** ~15 ground-beef bags (~165 g) · ~7 liver slices (1/bag) · 2 kebabs · 1 steak · 1 fat pack · lemongrass.
 - **Work:** 2 salmon + greens (frozen) · frozen green beans · olive oil · sauerkraut.
+- **Missing at home:** olive oil, sauerkraut.
 - **Period:** started 14.10 → next ~11–12.11.
 
 ## Reference
