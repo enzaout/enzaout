@@ -113,6 +113,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 4. **Quantities ALWAYS** — every recipe, every time, even a quick answer or a one-line suggestion.
 
 ### How to answer her
+- **Perishables check — EVERY plan (17.10, after lettuce was forgotten):** end every daily plan with a line "🥬 מה מתקלקל ואיפה הוא היום" listing EVERY perishable she has (lettuce, greens, cherry, cucumber, zucchini…) and the meal it goes into. Never drop an item because of a rule (period/raw) — adapt it instead: lettuce can be wilted into soup, cooked like spinach, or used as warm wraps for meatballs.
+- **Tomatoes (17.10):** she doesn't like Maggie tomatoes — prefers cherry. Use cherry; Maggie only grated into cooked sauces; don't order Maggie again.
 - **Her tools (15.10):** food processor + blender at home. She dislikes hand-grating → use the food processor (onion/garlic for meatballs, slicing) and the blender (cream soups — easier to digest).
 - **Make sure she EATS (15.10):** she asked — always check she ate 3 meals; send a short reminder before 12:30 and 16:00 when possible, and ask what she ate.
 - **Prep ahead — ALWAYS (14.10):** she wants to prepare as much as possible in advance. In every plan, say what can be cooked/cut/packed NOW or the evening before (trays, eggs, cut veg, portioned boxes, spare portion), so at work she only reheats.
@@ -253,6 +255,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Sat 17.10** — Confirmed 14 h fast / 10 h eating. Chef recipes are LOCAL on her computer (added the same day as the Essy Roz / Omer Miller styles) — not in the repo; asked her to paste/upload them. No blueberries (has mango). Nothing thawed or sprouted. Sat: mango → eggs; lunch old meatballs + zucchini in soup + grated tomato; 16:00/18:00 soup. Sun (work): frozen salmon tray at work (Essy Roz) + frozen green beans. Tonight: soak ½ cup mung.
 - **Sat 17.10, morning** — BM ✅ EASY (after Fri evening broth soup + ghee). Fri also: Bisli, 2 glasses of wine, "all kinds" of snacks (late). Breakfast: a WHOLE mango. No gas. 🙏 Grateful: "that it's pleasant outside and not hot".
 - **Sat 17.10** — Ground-beef bag WAS moved to the fridge Fri night ✅ → juicy meatballs in tomato sauce this afternoon (for Sun 16:00 at work / Mon).
+- **Sat 17.10, late morning** — Used only cherry tomatoes. Few old meatballs left. Ground beef thawed + ½ cup mung soaked since Fri night → drain & sprout now (kitchari Mon). She's upset: lettuce barely used ("because of you") — my fault: dropped it from plans after the period rule. Today: lettuce into lunch soup + warm meatball wraps.
 
 ### Status as of Fri 16.10, 22:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup (Thu, until ~Sun) · a few dry meatballs (→ simmer in soup) · sweet-potato box (Wed → toss if not eaten) · eggs · pears · blueberries · carrots · some zucchini · cucumber · lettuce/chard leftovers (?) · lemons · thyme · beef fat pack (tallow not made yet?).
