@@ -267,17 +267,18 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, לילה** — שלחה ביקורת על התפריט (חסה בפעם ה-3, חומוס כבד, קיצ'רי 5 מנות בלי שימוש, מש 3 ימים, קניות חסרות). צדקה ברובה → תפריט v2. LESSON: before sending ANY menu, tick every perishable from the status list against a cell in the table, and check the diary for foods that felt heavy (chickpeas!).
 
-### Week plan 18–24.10 (v2 — corrected Sat 17.10 night after her review)
+### Week plan 18–24.10 (v3 — Sat 17.10 night: salmon stays frozen at work as backup, mango finished, NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
-| Sun 18 work (pilates 08:30) | pear jar + 2 eggs fried at work | salmon sealed tray (Assi) on 1 zucchini in 1 cm rounds + green beans; 1 cup lettuce wilted on the hot fish last 2 min, lemon | 3 meatballs in sauce + ½ cucumber | rinse mung; if tails ½ cm → closed box in fridge |
-| Mon 19 home | ½ mango (if left) then eggs on cherry tomatoes (Assi) | kitchari (Zohar), 5 portions: 2 chard leaves last 5 min + 1 cup lettuce last 1 min. FREEZE 2 portions flat in zip bags (backup) | 3 meatballs wrapped in 3 lettuce leaves, 2 min covered pan + 2 tbsp water | liver slice + 2 beef bags → fridge |
-| Tue 20 work (trampoline 18:30) | pear + 2 eggs | kitchari box | salmon #2 (or 5th kitchari portion) by 17:00 | soak ½ cup mung (or ¾ cup green lentils if bought) |
-| Wed 21 work | eggs + cherry tomatoes | Omer liver-kebab tray (330 g beef + 1 liver slice + ½ tsp thyme), lemon+onion | same tray | rinse legumes am+pm |
-| Thu 22 home | eggs | Zohar pot: sprouted mung/lentils + onion + 1 medium sweet potato + 2 Maggie grated, greens + lemon at end → 3 portions | liver-kebab leftovers | steak → fridge |
-| Fri 23 | fruit then eggs | Omer seared steak + garlic + cooked carrots | legume pot | 2 kebabs → fridge |
-| Sat 24 | fruit then eggs | kebabs + cooked carrots/zucchini | legume pot | — |
-Shopping: coconut oil · olive oil · sauerkraut for home · 24 eggs · pears · zucchini · lettuce · chard · (¾ cup green lentils optional).
+| Sun 18 work (pilates 08:30) | pear jar + 2 eggs fried at work | 3 meatballs in sauce + work tray: frozen green beans + 1 zucchini rounds, 1 cup lettuce wilted on top last 2 min | 2 hard-boiled eggs + ½ cucumber + sauerkraut | rinse mung; tails ½ cm → closed box in fridge |
+| Mon 19 home | eggs baked on cherry tomatoes (Assi) | kitchari 5 portions (2 chard leaves + 1 cup lettuce at the end); FREEZE 2 flat | 3 meatballs wrapped in lettuce, covered pan 2 min | liver slice + 2 beef bags → fridge |
+| Tue 20 work (trampoline 18:30) | pear + 2 eggs | kitchari box | kitchari #5 by 17:00 | — |
+| Wed 21 work | eggs + cherry tomatoes | Omer liver-kebab tray (330 g beef + 1 liver slice + ½ tsp thyme) + lemon/onion | same tray | 2 beef bags → fridge; 1 frozen kitchari → fridge |
+| Thu 22 home | eggs | liver-kebab leftovers | Assi baked meatballs (2 bags + grated zucchini + ghee, 180° 10+10) | steak → fridge; 2nd frozen kitchari → fridge |
+| Fri 23 | fruit then eggs | Omer seared steak + garlic + cooked carrots | frozen kitchari #1 | 2 kebabs → fridge |
+| Sat 24 | fruit then eggs | kebabs + cooked carrots | frozen kitchari #2 | — |
+Salmon ×2: stays frozen at work = emergency meal (can go straight from frozen into a sealed tray, 180° ~25–30 min). Sweet potatoes keep in a dark cupboard — next week.
+Shopping: coconut oil · olive oil · sauerkraut for home · 24 eggs · pears + fruit · zucchini ×2 · lettuce · chard.
 
 ### Status as of Sat 17.10, ~17:00 (ask what changed!)
 - **Fridge:** broth-zucchini soup ~2 portions (until Sun 18.10) · a few old meatballs from Thu (today, last) · thawed ground-beef bag ~165 g (→ juicy meatballs in tomato sauce today) · mung sprouting (soaked Fri night → rinse am+pm, kitchari Mon) · eggs · pears · carrots · a little zucchini · cucumber · lettuce (!) · maybe chard leftovers · lemons · thyme · beef fat pack (tallow not made yet?).
