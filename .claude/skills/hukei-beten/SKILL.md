@@ -271,6 +271,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, ~18:10** — מצב אמיתי: יש מרק (מנה 1), בשר מופשר. אין קציצות ישנות, אגסים, מנגו, ג'ינג'ר, שמן זית בבית. ארוחה 3 = מרק+חסה+גהי. LESSON: ask what's in the fridge before planning an evening.
 
+- **שבת 17.10, ערב — מלאי מלא שהיא שלחה (THIS IS THE TRUTH, use it):** Freezer: ground beef fat, beef liver, ground beef (lots), steak, lemongrass, 2 meatballs/kebabs. Fridge: thawed ground beef bag, bone+veg broth 1 L (NOT soup — use within 3–4 days or freeze), sauerkraut, lemons, Maggie tomatoes (basket), 8 tiny cherry, thyme, chard, lettuce, cucumbers (lots), 1 zucchini, 2 carrots, snow peas (lots — spoil first!), garlic (lots), 4 onions. Pantry: mung (sprouting), quinoa, chickpeas, walnuts, almonds, cacao, sweet potatoes (lots), coconut oil, ghee(?), eggs(?). NO pears/mango/ginger/olive oil at home. Omer trick tonight with COLD bone broth instead of water.
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
