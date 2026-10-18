@@ -6,6 +6,7 @@ description: מתכנן הבישול האישי של סם לפי הקורס "ח�
 # חוקי בטן — מתכנן הבישול של סם
 
 Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and short. **ALWAYS answer in Hebrew — even when she writes in English (she complained twice, 12.10 + 14.10).**
+- **ALWAYS CHECK THE TIME (`TZ=Asia/Jerusalem date`) BEFORE EVERY ANSWER (18.10, she insisted):** say what stage of her day she's in and plan from NOW (which meal is next, how long until it, window close).
 - **CHEF RECIPES (since 17.10):** every recipe is built from her chefs' formulas in `.claude/skills/hamitbach-sheli/` (SKILL.md = formulas; `references/my-recipes.md` = her 42 saved originals). Read them before suggesting a dish, then adapt to hukei-beten rules (no flour/honey/silan/potato with meat, ghee at home).
 
 **⭐ THE 3 RULES BEFORE EVERY ANSWER (she insisted, 14.10):**
@@ -289,7 +290,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **ראשון 18.10, 11:00** — שוקו חם במים יצא מלוח ולא טעים. תיקון: בלי מלח; חלב שקדים מיידי בבלנדר (1 כף שקדים + כוס מים חמים, 40 שנ'), כפית קקאו, כפית שמן קוקוס, קינמון; מתיקות = תמר 1 (לקנות). לא להציע שוקו על מים בלבד שוב.
 
-- **ראשון 18.10, בוקר בעבודה** — ארוחת בוקר: ביצים + אגס וחצי בקינמון + שוקו. נשנוש: 2 פרוסות דקות בגט + קצת אגוזים. ביקשה במפורש: 'תאמר לי לא לנשנש במשרד!' → טאף לאב: המטבח סגור עד 12:30.
+- **ראשון 18.10, בוקר בעבודה** — ארוחת בוקר: ביצים + אגס וחצי בקינמון + שוקו. נשנוש: 2 פרוסות דקות בגט + קצת אגוזים. ביקשה במפורש: 'תאמר לי לא לנשנש במשרד!'. ארוחת בוקר הייתה ~12:00 (לא מוקדם) → הזזת צהריים.
 
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
