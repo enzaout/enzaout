@@ -283,6 +283,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **שבת 17.10, לילה** — ⭐ הקציצות ברוטב עגבניות-גזר: "מדהים, תשמור את המתכון לנצח, מושלם". לא התאפקה ואכלה 2 מ-3 הקציצות הארוזות. המתכון נשמר ב-hamitbach-sheli/references/fusion-recipes.md #8 — זו ברירת המחדל לבשר טחון. ראשון 16:00 → קציצה 1 + 2 ביצים מהעבודה.
 
+- **ראשון 18.10, 08:07** — ישנה בעבודה. לקחה את כל הקציצות לעבודה (6 בושלו, אכלה 2 → ~4 בעבודה: היום 16:00 שתיים, שלישי שתיים). מש על מסננת עם מגבת בבית עד הערב → לבקש משותפת להעביר לקופסה סגורה במקרר. ביקשה הודעת בוקר יומית 'מה אוכלים ומה מבשלים' → נוצרה משימה מתוזמנת 06:52 כל יום.
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
