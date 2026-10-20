@@ -306,6 +306,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 
 - **ג' 20.10 (התוכנית שלה):** ישנה בעבודה → מדיטציה → ביצים+אגס → צהריים קיצ'רי → קונה עדשים ירוקות → יוצאת 16:15 → 16:45 קציצות בבית (ארוחה אחרונה) → 17:00 קבוצה 47 (מעבירה) → 18:30 טרמפולינה → 19:30–21:00 האקתון → 21:30 השריית ½ כוס עדשים (מרק חמישי).
 
+- **ג' 20.10, 06:52 (הודעת בוקר)** — יום עבודה, ישנה בעבודה. לו"ז ביומן גוגל עודכן אתמול בלילה (יציאה 16:15, קציצות 16:45, עדשים 13:15 + השרייה 21:30). אין בישול היום. ערב: לארוז 6 קציצות לרביעי.
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
