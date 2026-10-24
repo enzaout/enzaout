@@ -10,6 +10,7 @@ Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and shor
 - **COOK EVERYTHING EARLY MORNING (she said 21.10, ASSUME ALWAYS):** all of the day's cooking in ONE early-morning session (~06:45), pots in parallel, then boxes into the fridge so everything is ready when she leaves. Never schedule cooking for the afternoon/evening. When asked 'what am I cooking' → write only the cooking steps with times.
 - **CHECK THE CALENDAR BEFORE NAMING ANY ACTIVITY (21.10):** don't mention a workout/meeting unless it is a real timed event that day. Recurring all-day template descriptions (e.g. 'אימון בוקר ב־08:00' inside the café-work event) are NOT real plans.
 - **'נשרף היום' TRAP (she named it 22.10):** after one slip she feels the day is ruined and keeps going. Counter it right away, kindly: one slip = one snack, not a ruined day; the NEXT planned meal resets everything. Never guilt, never 'compensate' by skipping a meal.
+- **COOK SMALLER (she said 24.10):** she ate only 1 portion of the Thu soup and 1 of the meatballs; the rest went to waste. Before a batch, count her REAL home meals until the food expires (minus family Friday, outings, Omer, office food). Default: soup 2 portions max, meatballs 1 bag per real meal.
 - **FRIDAYS = FAMILY MEAL (she said 21.10, ALWAYS account for it):** Friday dinner she eats with her family → don't plan a cooked meal of hers for Friday evening; plan fewer meat bags for the Thu batch. Grandma often sends food home (e.g. livers, pastrami chicken) → count it as protein for Sat/Sun. Family-meal rule: one plate, protein + cooked veg, no bread with meat, stop at 80%.
 - **BATCH COOKING (her proposal 18.10):** cook only 2 days a week, on her HOME days (Mon + Thu). Each session: START WITH 3 bags (she chose 18.10) = 3 meat meals = one meat meal per day for 3 days (other meals: eggs, kitchari, salmon, liver). Rotate the dish: 'perfect meatballs' (fusion #8 ×3 → 18 balls, 6 per meal) or bolognese (no pasta; over cooked zucchini/green beans). 1 bag (~165 g raw ≈ 30 g protein) = ONE meal, never split a bag across meals. Cooked ground meat keeps 3–4 days → Mon batch covers Mon–Thu lunch, Thu batch covers Thu–Sun; freeze anything for day 4+. Thaw 3 bags in the fridge the night before.
 - **ALWAYS CHECK THE TIME (`TZ=Asia/Jerusalem date`) BEFORE EVERY ANSWER (18.10, she insisted):** say what stage of her day she's in and plan from NOW (which meal is next, how long until it, window close).
@@ -336,6 +337,42 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **ו' 23.10, בוקר מאוחר** — אתמול בירושלים: 2 כוסות יין (בלי נפיחות) · 2 מרקים של 'עלמא' (חמוסטה + חצי חרירה ב-23:00, לא רעבה, 'סתם כי אוהבת', הרגישה רע כשאכלה למרות שבעה). 🚽 אין יציאה. הגיעה הביתה מאוחר בלי ארוחת בוקר. אין עגבניות. ערב: סושי עם המשפחה.
 - **ו' 23.10, 12:26** — חזרה הביתה אחרי ערסלים. המלצה: עכשיו 6 קציצות + 2 קישואים בגהי ושום. הקיצ'רי מהמשרד (בושל 19.10) → לזרוק, לא לאכול.
 - **ו' 23.10 ערב + ש' 24.10** — ו': 2 ארוחות (קציצות + הרבה סושי), יציאה קלה בערב, אין גזים, 🙏 משפחה. ש': קמה כבדה, אין יציאה בבוקר · בוקר קצת גבינה + 4 ביצים + קפה קר · צהריים 2 סושי, סלמון, שרי+מוצרלה (לא רעבה) · אצל עומר ברוקולי בצ'ילי מתוק + אסאדו → בחילה, מפוצצת. קציצות+מרק (בושלו ה' בבוקר) → ראשון יום אחרון: קציצות לצהריים בעבודה, מרק ל-16:00, מה שנשאר אחרי ראשון → לזרוק.
+
+## 🫃 יומן בטן (מה אכלתי · יציאות · איך הבטן) — עדכון חובה בכל צ'ק-אין
+> מטרה: למצוא מה מכאיב לה ומה עושה לה טוב. אחרי כל דיווח מוסיפים שורה לטבלה, ומעדכנים את רשימות "🚫 לעולם לא" / "✅ עושה לי טוב". לפני כל תכנון – לקרוא את הרשימות.
+
+### 🚫 לעולם לא (היא קבעה)
+- **ברוקולי** (24.10, בצ'ילי מתוק אצל עומר → בחילה, "לעולם לא!")
+
+### ⚠️ חשודים (חזר יותר מפעם אחת / תחושה רעה)
+- אוכל כשהיא **לא רעבה** / "סתם כי אוהבת" (חרירה 23:00 22.10, סושי+מוצרלה 24.10) → כבדות, בחילה, אין יציאה למחרת
+- אוכל **מאוחר בערב** (סטייק 21.10, מרקים 23:00 22.10)
+- **חמאת שקדים בכמות** + מאצ'ה עם חלב שקדים + עוגיות (22.10) → נפיחות
+- אוכל משרד/חוץ: לחמניה, גלידה, פיצה, מצות (11–14.10) → כאב בטן, אין יציאה/עיגולים קשים
+- הרבה גבינה (חוות עיזים 16.10, גבינה+מוצרלה 24.10) → "לא מזין", כבדות
+- הרבה אורז+דג (סושי 23.10) → כבדות בבוקר, אין יציאה
+- חומוס (17.10 – "כבד")
+- רוקט (חריף, לא אוהבת)
+
+### ✅ עושה לי טוב
+- **3 ארוחות ביתיות** ביום → למחרת יציאה טובה (22.10: "מאוד קלה, מאוד גדולה")
+- מרק עדשים מונבטות + בטטה (22.10 "וואו")
+- הקציצות המושלמות ברוטב עגבניות-גזר (17.10 "מושלם", 22.10 טעים; רק פחות מלח)
+- כבד עם בצל ולימון (15.10 "מושלם, טעים מאוד")
+- שקשוקה ירוקה, מרק ציר+קישוא, קיצ'רי מש טרי
+- 2 כוסות יין (22.10) – בלי נפיחות
+
+### 📅 טבלה לפי תאריך
+| תאריך | מה אכלה | יציאה | בטן | חשוד / לקח |
+|---|---|---|---|---|
+| ב' 19.10 | אגס, קיצ'רי, קציצות, כבד | עיגולים לא קשים | – | – |
+| ג' 20.10 | אגסים+ביצים, קיצ'רי+פרגיות, קציצות 22:00 | – | – | חלבון+קינואה; אכילה מאוחרת |
+| ד' 21.10 | 3–4 קציצות, סטייק שרוף בערב | עיגולים לא קשים (בוקר) | קצת גזים בלילה | סטייק אחרי סגירת החלון |
+| ה' 22.10 | 3 ביצים, קציצות, (דילגה על 16:00) + חמאת שקדים, 2 עוגיות, מאצ'ה חלב שקדים; בערב חמוסטה + ½ חרירה 23:00, 2 כוסות יין | ✅ מעולה (קלה, גדולה) | נפוחה צהריים; בלילה הרגישה רע כשאכלה | נשנושים + אכילה בלי רעב + מאוחר |
+| ו' 23.10 | (בלי בוקר עד 10:00), קציצות + קישוא, הרבה סושי עם המשפחה | ❌ בבוקר; קלה בערב | – | אכילה מאוחרת אתמול |
+| ש' 24.10 | קצת גבינה + 4 ביצים + קפה קר; 2 סושי, סלמון, שרי+מוצרלה (לא רעבה); ברוקולי בצ'ילי מתוק + אסאדו אצל עומר | ❌ בבוקר | כבדות בבוקר; בחילה + מפוצצת | 🚫 ברוקולי; אכילה בלי רעב; גבינה |
+
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
