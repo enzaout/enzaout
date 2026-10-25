@@ -394,6 +394,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 | ש' 24.10 | קצת גבינה + 4 ביצים + קפה קר; 2 סושי, סלמון, שרי+מוצרלה (לא רעבה); ברוקולי בצ'ילי מתוק + אסאדו אצל עומר | ❌ בבוקר | כבדות בבוקר; בחילה + מפוצצת | 🚫 ברוקולי; אכילה בלי רעב; גבינה |
 
 
+- **א' 25.10, בוקר (יום עבודה)** — בוקר 2–3 ביצים + מלפפון · 12:30 קציצות (יום אחרון) · 16:00 מרק עדשים (יום אחרון) · מה שלא נאכל היום → לזרוק. שאלה פתוחה: האם לקחה מסבתא כבדים+עוף פסטרמה. שני = יום בית/בישול.
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
