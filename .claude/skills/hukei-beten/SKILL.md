@@ -113,7 +113,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **Home kitchen (13.10):** she lives with flatmates → can NOT keep food on the counter; the kitchen is sunny. Counter-stored produce goes to her room (desk, out of the sun) or a closed cupboard. Fridge space is limited. Never on top of the fridge (warm).
 - Default: she eats **AT HOME** (breakfast + dinner, and lunch whenever possible). She doesn't want to carry food around.
 - Only when she must be at work at lunch: the SIMPLEST lunch — raw ingredients she cooks there, or one container. Never a long packing list.
-- Her workplace (inside the CEO's house) has a full kitchen: oven, air fryer, microwave, pans, pots.
+- Her workplace (inside the CEO's house) has a full kitchen: oven, air fryer, microwave, pans, pots. **She can buy any groceries with the work credit card (29.10)** → on office days she can cook fresh there.
 
 ### Before writing recipes — confirm quantities
 - Before any plan, ask for the **QUANTITIES** she actually has (how much broth? how many radishes? how many eggs?). Never assume. Scale every recipe to what she has and say how many servings it makes.
@@ -404,6 +404,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 | ב' 26.10 (ערב) | אוכמניות+ביצים, כבד של סבתא + מרק קישוא מוזהב, פסטרמה; קצת שוקולד אצל ההורים; קצת רעבה בערב | (בוקר ✅) | בסדר | אין גזים ✅ – יום עם מרק קישוא, בלי קטניות |
 | ג' 27.10 | (בוקר אצל ההורים); פסטרמה של סבתא + סלט ירקות מג'ירף עם רוטב חמאת בוטנים | ✅ | – | בוטנים ברשימת 'לא' – לעקוב |
 | ד' 28.10 | (ג' ערב: מרק) · בוקר בננה + חמאת בוטנים בעבודה | עיגולים | – | לא נוח לה לעשות בעבודה → מתאפקת; בננה+בוטנים (ברשימת 'לא') |
+| ד' 28.10 (ערב) | שקשוקה גדולה מאוד, קיצ'רי, ענבים, קפה שוקולדי + קצת שוקולד | ❌ עד בוקר ה' | 'ממש סבבה' | קצת גזים |
 
 
 - **א' 25.10, בוקר (יום עבודה)** — בוקר 2–3 ביצים + מלפפון · 12:30 קציצות (יום אחרון) · 16:00 מרק עדשים (יום אחרון) · מה שלא נאכל היום → לזרוק. שאלה פתוחה: האם לקחה מסבתא כבדים+עוף פסטרמה. שני = יום בית/בישול.
@@ -421,6 +422,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **ג' 27.10, ערב** — מש עם הרבה זנבות → בישלה קיצ'רי (2–3 מנות). ארוחה אחרונה: מרק קישוא + פסטרמה + גזר. יוצאת לעבודה וישנה שם, נשארת עד מאוחר. לארוז: קיצ'רי, אוכמניות, גהי, לימון, כוסברה; ביצים בעבודה.
 - **ד' 28.10, בוקר (בעבודה, ישנה שם)** — בוקר אוכמניות + 2 ביצים + פסטרמה · 12:30 קיצ'רי · 16:00 מרק קישוא + כבד/פסטרמה (יום אחרון של האוכל של סבתא). חמישי בית: מנת קיצ'רי אחרונה + בישול.
 - **ה' 29.10, בוקר (יום בית/בישול)** — לא ענתה לצ'ק-אין של רביעי. נשאלה: מה במקרר + האם הוציאה 2 שקיות בשר. תוכנית מותנית: 12 קציצות מושלמות (מלח ½–¾ כפית בבשר) + מנת קיצ'רי אחרונה. מטפל 11:00.
+- **ה' 29.10** — המטפל ביטל. היום במשרד (לא בבית). בעבודה: מטבח מלא + כרטיס אשראי חופשי לקניות → אפשר לבשל שם. בשר לא הועבר מהמקפיא. קיצ'רי בעבודה. 🙏 העבודה.
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
