@@ -13,6 +13,7 @@ Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and shor
 - **COOK SMALLER (she said 24.10):** she ate only 1 portion of the Thu soup and 1 of the meatballs; the rest went to waste. Before a batch, count her REAL home meals until the food expires (minus family Friday, outings, Omer, office food). Default: soup 2 portions max, meatballs 1 bag per real meal.
 - **HEAT AS A NUMBER 1–10 (she said 26.10):** every cooking/reheating step says the burner level, e.g. 'אש 7 עד רתיחה → אש 3 מבעבע'. Her stove: 3 = gentle simmer. Never leave the stove on when she goes out — always tell her to turn it off first.
 - **ALWAYS THE CHEFS' TECHNIQUES (she said 26.10, after I improvised a zucchini soup):** before writing ANY recipe, open .claude/skills/hamitbach-sheli/references (omer-miller, assi-roz, zohar-lustiger, fusion-recipes, my-recipes). Build every dish on a named chef technique and say which (e.g. 'הבצל המוזהב של זהר', 'החלל לתבלינים של אסי', 'צריבה בשומן של עומר'). If no chef recipe fits, say so honestly and adapt the closest one — never invent a recipe silently.
+- **SOUP = ONE DAY ONLY (she said 1.11):** soup tastes good to her only on the day it's cooked — she never eats day-2 soup. Cook soup as 1 portion for the same day; never plan soup leftovers.
 - **NEVER ASSUME SHE EATS OUT (she said 26.10):** she does not eat at cafés — a café in the calendar = a place to WORK, not to eat (and she mostly stopped working from cafés). Every meal is HER food, from home: plan it and pack it. Ignore calendar text like 'ארוחת בוקר בבית קפה'.
 - **FRIDAYS = FAMILY MEAL (she said 21.10, ALWAYS account for it):** Friday dinner she eats with her family → don't plan a cooked meal of hers for Friday evening; plan fewer meat bags for the Thu batch. Grandma often sends food home (e.g. livers, pastrami chicken) → count it as protein for Sat/Sun. Family-meal rule: one plate, protein + cooked veg, no bread with meat, stop at 80%.
 - **BATCH COOKING (her proposal 18.10):** cook only 2 days a week, on her HOME days (Mon + Thu). Each session: START WITH 3 bags (she chose 18.10) = 3 meat meals = one meat meal per day for 3 days (other meals: eggs, kitchari, salmon, liver). Rotate the dish: 'perfect meatballs' (fusion #8 ×3 → 18 balls, 6 per meal) or bolognese (no pasta; over cooked zucchini/green beans). 1 bag (~165 g raw ≈ 30 g protein) = ONE meal, never split a bag across meals. Cooked ground meat keeps 3–4 days → Mon batch covers Mon–Thu lunch, Thu batch covers Thu–Sun; freeze anything for day 4+. Thaw 3 bags in the fridge the night before.
@@ -378,7 +379,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - אוכל משרד/חוץ: לחמניה, גלידה, פיצה, מצות (11–14.10) → כאב בטן, אין יציאה/עיגולים קשים
 - הרבה גבינה (חוות עיזים 16.10, גבינה+מוצרלה 24.10) → "לא מזין", כבדות
 - הרבה אורז+דג (סושי 23.10) → כבדות בבוקר, אין יציאה
-- חומוס (17.10 – "כבד")
+- חומוס (17.10 – "כבד"; 31.10 → גזים כל היום למחרת)
 - רוקט (חריף, לא אוהבת)
 
 ### ✅ עושה לי טוב
@@ -409,6 +410,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 | ד' 28.10 (ערב) | שקשוקה גדולה מאוד, קיצ'רי, ענבים, קפה שוקולדי + קצת שוקולד | ❌ עד בוקר ה' | 'ממש סבבה' | קצת גזים |
 | ה' 29.10 | שקשוקה, פרגיות בצהריים, בלי ערב (רעבה) | ✅ | – | – |
 | ש' 31.10 | קציצות מושלמות עם כבד ('טעים'), הרבה מח עצם, חומוס | ✅ | 'בטוב' | חומוס הפעם בסדר; מח עצם ✅ |
+| א' 1.11 | אגס; מנגולד+2 ביצים+עגבנייה; 5 קציצות ברוטב; ⅓ בננה-ברד (בלי סוכר לבן) + קפה עם מיני טוויקס; ערב תפוח + מרק במיה עם קובה | קטן ולחוץ בבוקר; ✅ ממש טוב בערב | – | גזים כל שבת (חומוס!) |
 
 
 - **א' 25.10, בוקר (יום עבודה)** — בוקר 2–3 ביצים + מלפפון · 12:30 קציצות (יום אחרון) · 16:00 מרק עדשים (יום אחרון) · מה שלא נאכל היום → לזרוק. שאלה פתוחה: האם לקחה מסבתא כבדים+עוף פסטרמה. שני = יום בית/בישול.
@@ -429,6 +431,7 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **ה' 29.10** — המטפל ביטל. היום במשרד (לא בבית). בעבודה: מטבח מלא + כרטיס אשראי חופשי לקניות → אפשר לבשל שם. בשר לא הועבר מהמקפיא. קיצ'רי בעבודה. 🙏 העבודה.
 - **ה' 29.10, ערב** — יציאה ✅. שקשוקה, פרגיות, לא אכלה ערב (רעבה). הוציאה 2 בשר טחון + 1 כבד → קציצות מושלמות עם כבד טחון בפנים (טריק של עומר: 'כבד טחון בתוך קציצה'). המקרר כמעט ריק → רשימת קניות.
 - **ש' 31.10, ערב** — קציצות עם כבד 'טעים', נשארו למחר (בושלו ו' בבוקר → א' יום אחרון ✅). מח עצם + חומוס, בטן בטוב, יציאה ✅. נשאר: קיצ'רי (אם מ-27.10 → לזרוק) + מרק קישוא (ו' → א' יום אחרון).
+- **א' 1.11, ערב** — יציאה קטנה בבוקר, ממש טובה בערב ✅. בננה-ברד + טוויקס מדניאלה. ערב: מרק במיה + קובה. לא נגעה במרק הקישוא ובקיצ'רי → לזרוק. כלל: מרק רק ליום אחד. גזים כל שבת (חומוס).
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
