@@ -441,6 +441,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - **ג' 3.11 / ד' 4.11 בוקר** — יום כבד (שקשוקה+מחמצת ענקית, הרבה יין, מוקפץ ב-01:00) → קשה ביום, ובלילה/בוקר רך ומרובה + המון גזים. יש עוף גריל גדול (נקנה ג') במקרר.
 - ה' 5.11 בוקר: נשלחה הודעת בוקר (יום בית/בישול) — שאלנו מה יש במקרר, מה שלום אמא, ויציאה. ממתינים לתשובה.
 
+- ה' 5.11: יציאה ✅. בוקר: עגבניות ומנגולד. אכלה מרק. בטן בסדר. תודה: עומר.
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
