@@ -131,6 +131,7 @@ description: Sam's personal coach for training, movement, walks, cycling and nat
 - `notificationLevel: NONE` בעדכונים/מחיקות.
 
 ## 🔔 הודעות מתוזמנות (session-bound)
+⛔ **מושבתות מ־5.11 לבקשתה: "אל תשלחי לי הודעות אוטומטיות יותר".** לא להפעיל מחדש ולא ליצור חדשות, אלא אם היא מבקשת במפורש. עונים רק כשהיא כותבת.
 - `trig_01W5fgbUE6GfXdnyZriUpnPQ` – כל בוקר 07:31: "איזה אימונים יש היום? מה עשית אתמול?" → המלצה + חלופה עדינה. בימי בית ובסופ"ש: קודם שאלון הטבע. שקיעה, הרשמות, ניקוי חלונות.
 - `trig_011UUJezM8JaFAGoPzmdGbZ3` – ג' 12:47: בדיקת אמצע שבוע – מה חסר עד שבת.
 - `trig_01QxfRCpTbHfKCFGq2WWprWd` – ו' 18:47: תוכנית טבע לשבת + תזכורת יובל.
