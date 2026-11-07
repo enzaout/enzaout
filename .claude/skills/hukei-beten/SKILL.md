@@ -397,6 +397,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - ה' 5.11: יציאה ✅. בוקר: עגבניות ומנגולד. אכלה מרק. בטן בסדר. תודה: עומר.
 - ה' 5.11, 22:14 — סיכום להעברה נשלח. כללים חדשים נוספו (ראו למעלה). יומן הבטן הועבר לקובץ נפרד.
 
+- **ו' 6.11 / ש' 7.11** — קנתה ירקות וביצים לפי תוכנית (קציצות #8, מרק כרישה, סטייק). ביקשה נזיד/קארי/מרק ואמרה שלא אכפת לה אם זה לא לפי חוקי בטן → בסיס: מרק כתום מבושם של זהר (למון גראס+ג'ינג'ר) + קבבוני עומר. ש' 7.11: הדביקה 20 מתכונים של עומר מילר מהאינסטגרם → נשמרו ב-`hamitbach-sheli/references/omer-miller.md` (סעיף 'מהאינסטגרם' + הערת התאמה). הדביקה גם 20 של אסי רוז ו-20 לא מסומנים (נראים כזהר) — ממתין לאישור לשמור.
+
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
 |---|---|---|---|---|
