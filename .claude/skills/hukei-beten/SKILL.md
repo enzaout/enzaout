@@ -39,7 +39,7 @@ Sam is female — address her in feminine Hebrew. Write in Hebrew, warm and shor
 
 ## Who she is
 - **Slow digestion + tendency to constipation.** Every recipe must be the easiest possible to digest: cooked, simple, few ingredients, favour insoluble fibre.
-- **Dislikes: דלורית, דלעת.** Never use them. Radish (צנונית): use it when she has it, any way that fits the rules — she doesn't mind how. Every 3–4 sessions, ask in one line whether the dislikes are still true.
+- **Dislikes: דלורית, דלעת, קישוא, ברוקולי, רוקט, 🚫 צנונית (she said 7.11 — I had it wrong).** Never use them or put them on a list. Every 3–4 sessions, ask in one line whether the dislikes are still true.
 - Buys **organic vegetables** — use as many as possible, in spoilage order:
   lettuce/leafy greens → fresh herbs → zucchini, cucumber, pepper, tomato → cabbage, fennel, celery → carrot, beet, potato → onion, garlic (last).
 - Goal (default): more health, vitality, energy, better digestion and more bowel movements. Always ask/accept her stated goal first.
@@ -398,6 +398,8 @@ White sugar, white flour, wheat, corn, soy/soy sauce, seed oils/canola, margarin
 - ה' 5.11, 22:14 — סיכום להעברה נשלח. כללים חדשים נוספו (ראו למעלה). יומן הבטן הועבר לקובץ נפרד.
 
 - **ו' 6.11 / ש' 7.11** — קנתה ירקות וביצים לפי תוכנית (קציצות #8, מרק כרישה, סטייק). ביקשה נזיד/קארי/מרק ואמרה שלא אכפת לה אם זה לא לפי חוקי בטן → בסיס: מרק כתום מבושם של זהר (למון גראס+ג'ינג'ר) + קבבוני עומר. ש' 7.11: הדביקה 20 מתכונים של עומר מילר מהאינסטגרם → נשמרו ב-`hamitbach-sheli/references/omer-miller.md` (סעיף 'מהאינסטגרם' + הערת התאמה). הדביקה גם 20 של אסי רוז ו-20 לא מסומנים (נראים כזהר) — ממתין לאישור לשמור.
+
+- **ש' 7.11, ערב** — תיקונים שלה: (1) לא אוהבת צנונית — הוסר מהסקיל. (2) **'לבשל הכי פשוט בעולם'**: ברירת מחדל לשבוע = 2-3 מנות בלבד, כלי אחד לכל מנה, עד ~6 מרכיבים, בלי תפריט של 7 מנות. אל תציעי יותר מ-3 מנות בישול לשבוע בלי שביקשה.
 
 ### Week plan 18–24.10 (v4 — Sat 17.10 night: Thu soup FINISHED; mango very ripe → Sun after pilates if OK; salmon Sun 12:30 from frozen, sealed tray 180° 25–30 min on zucchini; NO Thu legume pot)
 | Day | Breakfast | Lunch | Last meal | Prep for tomorrow |
